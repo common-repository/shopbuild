@@ -1,0 +1,1 @@
+sass --watch D:\laragon\www\storebuild\wp-content\plugins\shopbuild\public\sass\main.scss:D:\laragon\www\storebuild\wp-content\plugins\shopbuild\public\css\sb-main.css

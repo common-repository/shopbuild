@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .invoice-wrapper{
+            width: 100%;
+            border: 1px solid #ddd;
+        }
+        .invoice-head{
+            padding: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: start;
+        }
+        /* .invoice-head .logo{
+            float: left;
+        }
+        .invoice-title{
+            float: right;
+        } */
+        .invoice-head .logo{
+            max-width: 200px;
+        }
+        .invoice-head .logo img{
+            width: 100%;
+            height: auto;
+        }
+        .invoice-table{
+            padding: 20px;
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .invoice-table table th, .invoice-table table td{
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: left;
+        }
+        .invoice-table table th{
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <div class="invoice-wrapper">
+        <table>
+            <tr>
+                <td class="invoice-head">
+                    <div class="logo">
+                        <img src="https://themepure.net/wp-content/themes/marketplace/assets/img/logo/logo.png" alt="">
+                    </div>
+                </td>
+                <td>
+                    <div class="invoice-title">
+                        <h2>INVOICE</h2>
+                        <p>Order number: #080</p>
+                        <p>Order date: 24 June, 2024</p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="invoice-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Product 1</td>
+                        <td>1</td>
+                        <td>$10</td>
+                    </tr>
+                    <tr>
+                        <td>Product 2</td>
+                        <td>2</td>
+                        <td>$20</td>
+                    </tr>
+                    <tr>
+                        <td>Product 3</td>
+                        <td>3</td>
+                        <td>$30</td>
+                    </tr>
+                    <tr>
+                        <td>Product 4</td>
+                        <td>4</td>
+                        <td>$40</td>
+                    </tr>
+                    <tr>
+                        <td>Product 5</td>
+                        <td>5</td>
+                        <td>$50</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>SubTotal</td>
+                        <td>$300</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Tax</td>
+                        <td>$10</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Total</td>
+                        <td>$310</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    
+</body>
+</html>

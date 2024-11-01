@@ -1,0 +1,20 @@
+@use '../../utils/' as *;
+
+@use '../../utils/' as *;
+
+.#{$theme-prefix}-product{
+    $self: &;
+    &-title{
+        font-weight: 400;
+        font-size: 20px;
+        margin-bottom: 8px;
+        margin-top: 0;
+        & a{
+            color: var(--sbp-heading-primary);
+            @extend %transition;
+            &:hover{
+                color: var(--sbp-theme-primary);
+            }
+        }
+    }
+}

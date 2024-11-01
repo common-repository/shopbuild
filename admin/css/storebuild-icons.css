@@ -1,0 +1,16 @@
+.dashicons-storebuild{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background-image: url("../img/logo.svg");
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.wp-menu-open .dashicons-storebuild{
+    background-image: url("../img/logo_w.svg");
+}
+
+.opensub .dashicons-storebuild{
+    background-image: url("../img/logo_b.svg");
+}

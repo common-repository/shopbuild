@@ -1,0 +1,421 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+body.single-product .tpwvs-attr-button{
+   line-height: 1;
+}
+body.single-product table.variations tr{
+   display: block;
+}
+
+.tp-shop-area .container {
+   max-width: 1320px;
+   width: 90%;
+   margin: 0 auto;
+}
+
+.elementor-column{
+   flex-wrap: wrap;
+}
+
+#elementor-panel-category-shopbuild .elementor-widget-locked .elementor-element {
+   cursor: pointer;
+}
+
+.tooltip.show .tooltip-inner {
+   animation: bounce 0.5s;
+   animation-timing-function: cubic-bezier(0.2, 0.7, 0.5, 1.4);
+}
+
+.position-fixed{
+   z-index: 999;
+}
+
+#pure-wc-wislist-modal .card-body .card-title,
+#pure-wc-wislist-modal .card-body .card-text{
+   
+   line-height: 1rem;
+}
+
+#pure-wc-wislist-modal .card-body .card-title{
+   font-size: 17px;
+}
+
+#pure-wc-wislist-modal .card-body .card-text{
+   font-size: 15px;
+   margin-bottom: 5px!important;
+}
+
+.pure-wc-wishlist-table .product-thumb {
+   margin-bottom: 15px;
+}
+
+.admin-bar .top-0{
+   top: 25px!important;;
+}
+ 
+@keyframes bounce {
+   0% { transform: scale(0.5); }
+   70% { transform: scale(1.1); }
+   100% { transform: scale(1); }
+}
+ 
+/* woocommerce css start */
+.woocommerce ul.order_details li {
+   flex-basis: 100%;
+   flex-grow: 1;
+   margin-bottom: 20px;
+}
+
+.woocommerce ul.order_details li:last-child {
+   margin-bottom: 0;
+}
+
+.woocommerce ul.order_details {
+   list-style: none;
+   margin: 0;
+   padding: 35px 30px;
+   display: flex;
+   flex-wrap: wrap;
+   border: 0.1rem solid #e2e8f0;
+}
+
+.woocommerce-form-coupon-toggle .woocommerce-info{
+   margin-bottom: 0;
+}
+
+/* .woocommerce-checkout-review-order-table td {
+   border: 0.1rem solid #dcd7ca!important;
+} */
+
+#payment * {
+   margin-left: 0;
+}
+
+.woocommerce-checkout-review-order-table thead {
+   display: table-header-group!important;
+}
+
+.woocommerce-page .product .pure-wc-shopbuild-template-builder .images{
+   width: 100%!important;
+}
+
+.woocommerce-ordering select, .dropdown_product_cat {
+   width: 100%;
+   height: 40px;
+   border-color: #ccc;
+   outline: none;
+   padding: 5px 15px;
+}
+
+.pure-wc-shopbuild-template-builder .product-thumbnails {
+   padding: 0;
+   margin-top: 15px;
+}
+
+.pure-sidebar-widget ul,
+.pure-sidebar-widget ul li,
+.woocommerce .product{
+   margin: 0;
+   list-style: none;
+}
+
+.woocommerce .product {
+   position: relative;
+}
+
+.woocommerce .product td{
+   border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.pure-wc-cart.coupon-none .coupon{
+   display: none;
+}
+
+.woocommerce-tabs,
+.related.products {
+   width: 100%;
+}
+
+.woocommerce-product-gallery .flex-control-nav {
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+   padding: 0;
+   margin-top: 10px;
+}
+
+.product-categories {
+   list-style: none;
+   padding: 0;
+   margin-left: 0;
+}
+
+.product-categories li{
+   margin: 0;
+}
+
+ul.woocommerce-widget-layered-nav-list {
+   margin: 0;
+   padding: 0;
+}
+
+.product {
+   margin-bottom: 25px;
+   list-style: none;
+}
+
+.products-tags-cloud a {
+   border: 1px solid #ccc;
+   padding: 5px 10px;
+   font-size: 16px;
+   display: inline-block;
+   margin-bottom: 5px;
+}
+
+.products-tags-cloud a:hover{
+   background: #ccc;
+   transition: 0.3s;
+}
+
+.woocommerce-widget-layered-nav-list li{
+   display: flex;
+   align-items: center;
+   margin: 0;
+}
+
+.ui-widget-content{
+   position: relative;
+   height: 4px;
+   background-color: #ECECEC;
+   margin-bottom: 1.5625rem;
+}
+
+.ui-widget-content .ui-slider-range {
+   position: absolute;
+   display: block;
+   width: 100%;
+   height: 4px;
+   border: 0;
+   background-color: #000;
+   border-radius: 8px;
+   z-index: 1;
+}
+
+.ui-widget-content .ui-slider-handle {
+   left: 0%;
+   position: absolute;
+   z-index: 2;
+   outline: 0;
+   cursor: pointer;
+   background-color: #000;
+   border-radius: 100%;
+   border: 0;
+   height: 14px;
+   top: -5px;
+   width: 14px;
+   margin: 0;
+   -webkit-box-shadow: none;
+   box-shadow: none;
+   -webkit-transform: translateX(0px);
+   transform: translateX(0px);
+}
+
+
+#product-loader-overlay{	
+   position: absolute;
+   top: 0;
+   z-index: 100;
+   width: 100%;
+   height:100%;
+   display: none;
+   background: rgba(0,0,0,0.3);
+}
+.product-cv-spinner {
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;  
+}
+.product-spinner {
+   width: 40px;
+   height: 40px;
+   border: 4px #ddd solid;
+   border-top: 4px #2e93e6 solid;
+   border-radius: 50%;
+   animation: sp-anime 0.8s infinite linear;
+}
+@keyframes sp-anime {
+   100% { 
+      transform: rotate(360deg); 
+   }
+}
+.is-hide{
+   display:none;
+}
+.woocommerce-loop-product__title {
+   font-size: 22px;
+}
+
+button.button.added::after{
+   display: none;
+}
+
+/* Theme Fix */
+.products .sb-product-action-item button {
+   background: #fff!important;
+   color: #000!important;
+   border-radius: 100%;
+   padding: 12px 0px!important;
+   margin-top: 5px!important;
+}
+.products .sb-product-action-item button:hover{
+   background: #000!important;
+   color: #fff!important;
+   transition: 0.3s;
+}
+
+.storefront-sorting{
+   display: none;
+}
+
+.products-grid-wrapper.storefront .product{
+   position: relative;
+}
+
+.products-grid-wrapper.storefront .product span.onsale {
+   position: absolute;
+   top: 10px;
+   background: #fff;
+}
+
+
+.slick-slide img{
+   max-width: 100%;
+   height: auto;
+}
+
+
+.woocommerce .woocommerce-product-gallery__trigger {
+   position: absolute;
+   top: 20px;
+   right: 20px;
+   font-size: 2em;
+   z-index: 9;
+   width: 36px;
+   height: 36px;
+   background: #fff;
+   text-indent: -9999px;
+   border-radius: 100%;
+   box-sizing: content-box;
+}
+
+.woocommerce div.product div.images .woocommerce-product-gallery__trigger::before {
+   content: "";
+   display: block;
+   width: 10px;
+   height: 10px;
+   border: 2px solid #000;
+   border-radius: 100%;
+   position: absolute;
+   top: 9px;
+   left: 9px;
+   box-sizing: content-box;
+}
+
+.woocommerce div.product div.images .woocommerce-product-gallery__trigger::after {
+   content: "";
+   display: block;
+   width: 2px;
+   height: 8px;
+   background: #000;
+   border-radius: 6px;
+   position: absolute;
+   top: 19px;
+   left: 22px;
+   transform: rotate(-45deg);
+   box-sizing: content-box;
+}
+
+.slick-track {
+   display: flex;
+}
+
+
+.slick-slide>div:not(.sb-product-compare-modal .slick-slide > div, .purewcmfp-content .slick-slide > div) {
+   display: inline-block;
+}
+
+form.checkout.woocommerce-checkout .col2-set:not(.pure-wc-shopbuild-template-builder form.checkout.woocommerce-checkout .col2-set) {
+   width: 100%!important;
+}
+
+.wp-block-post.product{
+   text-align: center;
+}
+
+.sb-wishlist-table{
+   width: 90%;
+   max-width: 100% !important;
+   margin: 0 auto;
+}
+
+th.sb-wishlist-table-th-product {
+   text-align: left;
+}
+
+#pure-wc-compare-popup .quantity input {
+   height: 40px;
+   padding: 0;
+}
+
+#pure-wc-compare-popup .quantity {
+   margin-right: 10px;
+}
+
+body.elementor-editor-active .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){
+   max-width: 1140px!important;
+}
+
+.pure-currency-switcher{
+   margin-bottom: 15px;
+}
+
+
+.product-quickview-wrapper .elementor-widget-container .sb-product-details-add-to-cart .quantity:not(.sb-product-quantity),
+.woocommerce div.product form.cart div.quantity:not(.sb-product-quantity, .sb-product-compare-modal .quantity) {
+   margin-bottom: 20px!important;
+   margin-right: 12px!important;
+}
+
+.product-quickview-wrapper .elementor-widget-container .sb-product-details-social {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
+.product-quickview-wrapper .elementor-widget-container .sb-product-details-social a svg {
+   width: 20px;
+   height: 20px;
+}
+
+.product-quickview-wrapper .elementor-widget-container .sb-product-details-social a {
+   padding: 4px;
+}
+
+.product-quickview-wrapper .elementor-widget-container .sb-product-details-social a:hover svg{
+   fill: #fff;
+}
+
+.woocommerce ul.products li.product .button {
+   display: inline-block;
+   margin-top: 1em;
+   margin-right: 10px;
+}
+
+.sb-product-single-default .summary .sb-quick-checkout-btn{
+   margin-bottom: 20px;
+   margin-left: 0!important;
+}

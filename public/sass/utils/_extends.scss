@@ -1,0 +1,39 @@
+@use './mixins' as *;
+
+%transition{
+    @include transition();
+}
+
+%ff-jost{
+    font-family: var(--sbp-ff-jost);
+}
+
+%tp_woo_select2{
+    .select2-container .select2-selection--single {
+        height: auto;
+        line-height: 1.1;
+    }
+    .select2-container--default .select2-selection--single .select2-selection__rendered {
+        color: var(--sbp-common-black);
+        line-height: 1.1;
+    }
+    .select2-container .select2-selection--single .select2-selection__rendered {
+        padding: 19px 26px;
+        text-align: left;
+        white-space: initial;
+    }
+    .select2-container--default .select2-selection--single .select2-selection__arrow {
+        top: 50%;
+        right: 11px;
+        @include transform(translateY(-50%));
+    }
+    .select2-container--default .select2-selection--single {
+        background-color: #fff;
+        border: 1px solid #E0E2E3;
+        border-radius: 0;
+    }
+    .select2-selection .select2-selection--single[aria-expanded="true"]{
+        border-color: var(--sbp-common-black);
+    }
+
+}

@@ -1,0 +1,118 @@
+@use '../utils/' as *;
+/*----------------------------------------*/
+/*  7.13 Counter CSS
+/*----------------------------------------*/
+
+.#{$theme-prefix}-icon{
+    $self: &;
+    &-item{
+        border: 1px solid rgba($color: $black, $alpha: .1);
+        padding: 50px 40px 50px;
+        @extend %transition;
+        position: relative;
+
+        @media #{$xl}{
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        @media #{$lg}{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        @media #{$sm}{
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        @media #{$xs}{
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        &:hover{
+            border-color: var(--sbp-theme-primary);
+
+            #{$self}{
+                &-icon{
+                    & span{
+                        color: var(--sbp-theme-primary);
+                    }
+                }
+            }
+        }
+    }
+    &-subtitle{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1.2;
+        @extend %ff-jost;
+        margin-bottom: 8px;
+    }
+    &-title{
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 1.2;
+        @extend %ff-jost;
+        margin-bottom: 12px;
+
+        & a{
+            color: currentColor;
+            
+            &:hover{
+                color: var(--sbp-theme-primary);
+            }
+        }
+    }
+    &-desc{
+        @extend %ff-jost;
+        font-size: 16px;
+        line-height: 1.2;
+    }
+    &-icon{
+        margin-bottom: 25px;
+        height: 40px;
+        justify-content: center;
+        & span{
+            font-size: 44px;
+            @extend %transition;
+        }
+    }
+    &-btn{
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 500;
+        @extend %ff-jost;
+        color: var(--sbp-common-black);
+        position: relative;
+        line-height: 1.1;
+
+        &::after{
+            content: '';
+            position: absolute;
+            bottom: -1px;
+            left: auto;
+            right: 0;
+            width: 0%;
+            height: 1px;
+            background-color: var(--sbp-theme-primary);
+            @extend %transition;
+        }
+        &:hover{
+            background-color: transparent;
+            color: var(--sbp-theme-primary);
+
+            &::after{
+                width: 100%;
+                left: 0;
+                right: auto;
+            }
+        }
+    }
+    &-step{
+        font-size: 70px;
+        color: #f5f5f5;
+        position: absolute;
+        top: 15px;
+        right: 0px;
+        font-weight: 900;
+    
+    }
+}

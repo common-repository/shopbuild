@@ -1,0 +1,35 @@
+@use '../../utils/' as *;
+
+.#{$theme-prefix}-product{
+    $self: &;
+
+    &-out-of-stock{
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        z-index: 24;
+
+        & span{
+            font-size: 14px;
+            font-weight: 500;
+            color: #fff;
+            background: #ff3b3b;
+            padding: 7px 10px 8px;
+            & svg{
+                width: 22px;
+                height: 22px;
+                padding-right: 5px;
+                display: none;
+            }
+        }
+        &-overlay{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0,0,0,.5);
+            z-index: 1;
+        }
+    }
+}

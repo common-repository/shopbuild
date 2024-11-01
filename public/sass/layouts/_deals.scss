@@ -1,0 +1,191 @@
+@use '../utils/' as *;
+
+/*----------------------------------------*/
+/*  8.26 Coupon CSS
+/*----------------------------------------*/
+
+.#{$theme-prefix}-deals {
+    &-title{
+        font-size: 44px;
+        line-height: 1.1;
+        margin-bottom: 20px;
+        @extend %ff-jost;
+        & a{
+            color: currentColor;
+
+            &:hover{
+                color: var(--sbp-theme-primary);
+            }
+        }
+    }
+    &-price{
+        margin-bottom: 20px;
+        & span{
+            @extend %ff-jost;
+            font-weight: 500;
+            font-size: 20px;
+            letter-spacing: -0.02em;
+            color: var(--sbp-common-black);
+            text-decoration: none;
+            display: inline-block;
+           
+        }
+        & > span{
+            @include flexbox();
+            justify-content: start;
+            flex-direction: row-reverse;
+        }
+
+        & ins{
+            text-decoration: none;
+            margin-right: 6px;
+            & span{
+                font-weight: 600;
+            }
+        }
+
+        & del{
+            text-decoration: none;
+            & span{
+                font-weight: 400;
+                font-size: 16px;
+                color: var(--sbp-text-1);
+                text-decoration: line-through;
+            }
+        }
+    }
+    &-content{
+        & p{
+            @extend %ff-jost;
+            font-size: 16px;
+            font-weight: 500;
+            color: var(--sbp-text-1);
+        }
+    }
+    &-countdown{
+        margin-bottom: 40px;
+        & ul {
+            margin: 0;
+            padding: 0;
+            & li {
+              list-style: none;
+              font-size: 12px;
+              line-height: 1.333;
+              font-weight: 500;
+              text-transform: uppercase;
+              margin-top: 8px;
+              color: var(--sbp-common-black);
+              display: inline-block;
+              padding: 0 12px;
+              position: relative;
+              text-transform: uppercase;
+              @extend %ff-jost;
+              text-align: center;
+              min-width: 95px;
+              &:first-child {
+                padding-left: 0;
+              }
+              & span {
+                display: block;
+                line-height: 1;
+                font-size: 60px;
+                @extend %ff-jost;
+              }
+      
+              &:not(:last-child) {
+                &::after {
+                  position: absolute;
+                  right: 0;
+                  top: 50%;
+                  transform: translateY(-50%);
+                  width: 1px;
+                  height: 35px;
+                  content: "";
+                  background-color: #ebebeb;
+                }
+              }
+            }
+          }
+    }
+    &-btn{
+        display: inline-block;
+        font-size: 14px;
+        color: var(--sbp-common-white);
+        background-color: var(--sbp-common-black);
+        border: 1px solid var(--sbp-common-black);
+        padding: 7px 26px;
+        border-radius: 6px;
+        @extend %ff-jost;
+        font-weight: 500;
+
+        &:hover{
+            background-color: var(--sbp-common-white);
+            border-color: var(--sbp-common-black);
+            color: var(--sbp-common-black);
+        }
+
+        &.#{$theme-prefix}-btn-primary{
+            background-color: var(--sbp-theme-primary);
+            border-color: var(--sbp-theme-primary);
+            color: var(--sbp-common-white);
+
+            &:hover{
+                background-color: var(--sbp-common-black);
+                border-color: var(--sbp-common-black);
+                color: var(--sbp-common-white);
+            }
+        }
+
+        &.#{$theme-prefix}-btn-white{
+            background-color: var(--sbp-common-white);
+            border-color: var(--sbp-common-white);
+            color: var(--sbp-common-black);
+
+            &:hover{
+                background-color: var(--sbp-common-black);
+                border-color: var(--sbp-common-black);
+                color: var(--sbp-common-white);
+            }
+        }
+    }
+
+    &-full{
+        &-title{
+            font-size: 44px;
+            line-height: 1.1;
+            margin-bottom: 20px;
+            @extend %ff-jost;
+            color: var(--sbp-common-white);
+            & a{
+                color: currentColor;
+    
+                &:hover{
+                    color: var(--sbp-theme-primary);
+                }
+            }
+        }
+        &-content{
+            & p{
+                color: var(--sbp-common-white);
+            }
+        }
+        &-countdown{
+            & ul {
+                & li {
+                    color: var(--sbp-common-white);
+                }
+              }
+        }
+        &-btn{
+            color: var(--sbp-common-black);
+            background-color: var(--sbp-common-white);
+            border: 1px solid var(--sbp-common-white);
+    
+            &:hover{
+                background-color: var(--sbp-common-black);
+                border-color: var(--sbp-common-black);
+                color: var(--sbp-common-white);
+            }
+        }
+    }
+}

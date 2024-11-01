@@ -1,0 +1,31 @@
+.white-popup {
+    position: relative;
+    background: #FFF;
+    width: auto;
+    max-width: 90%;
+}
+
+.product-compare-wrapper{
+    padding-top: 40px;
+    overflow: hidden;
+    height: calc(100% - 5rem);
+}
+
+.product-compare-wrapper .thumbnails {
+    width: 300px;
+    margin: 0 auto;
+}
+.product-compare-wrapper .slick-dots{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.product-compare-wrapper .action-bar {
+    width: 95%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+}

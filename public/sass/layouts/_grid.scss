@@ -1,0 +1,1396 @@
+@use '../utils/' as *;
+.#{$theme-prefix}-container,
+.#{$theme-prefix}-container-fluid,
+.#{$theme-prefix}-container-xxl,
+.#{$theme-prefix}-container-xl,
+.#{$theme-prefix}-container-lg,
+.#{$theme-prefix}-container-md,
+.#{$theme-prefix}-container-sm {
+  --#{$theme-prefix}-gutter-x: 30px;
+  --#{$theme-prefix}-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--#{$theme-prefix}-gutter-x) * 0.5);
+  padding-left: calc(var(--#{$theme-prefix}-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+@media (min-width: 576px) {
+  .#{$theme-prefix}-container-sm, .#{$theme-prefix}-container {
+    max-width: 500px;
+  }
+}
+@media (min-width: 768px) {
+  .#{$theme-prefix}-container-md, .#{$theme-prefix}-container-sm, .#{$theme-prefix}-container {
+    max-width: 620px;
+  }
+}
+@media (min-width: 992px) {
+  .#{$theme-prefix}-container-lg, .#{$theme-prefix}-container-md, .#{$theme-prefix}-container-sm, .#{$theme-prefix}-container {
+    max-width: 860px;
+  }
+}
+@media (min-width: 1200px) {
+  .#{$theme-prefix}-container-xl, .#{$theme-prefix}-container-lg, .#{$theme-prefix}-container-md, .#{$theme-prefix}-container-sm, .#{$theme-prefix}-container {
+    max-width: 1094px;
+  }
+}
+@media (min-width: 1400px) {
+  .#{$theme-prefix}-container-xxl, .#{$theme-prefix}-container-xl, .#{$theme-prefix}-container-lg, .#{$theme-prefix}-container-md, .#{$theme-prefix}-container-sm, .#{$theme-prefix}-container {
+    max-width: 1094px;
+  }
+}
+.#{$theme-prefix}-row {
+  --#{$theme-prefix}-gutter-x: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: calc(-0.5 * var(--#{$theme-prefix}-gutter-x));
+  margin-left: calc(-0.5 * var(--#{$theme-prefix}-gutter-x));
+  margin-top: calc(-1 * var(--#{$theme-prefix}-gutter-y));
+}
+.#{$theme-prefix}-row > * {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: calc(var(--#{$theme-prefix}-gutter-x) * 0.5);
+  padding-left: calc(var(--#{$theme-prefix}-gutter-x) * 0.5);
+  margin-top: var(--#{$theme-prefix}-gutter-y);
+}
+
+.#{$theme-prefix}-col {
+  flex: 1 0 0%;
+}
+
+.#{$theme-prefix}-row-cols-auto > * {
+  flex: 0 0 auto;
+  width: auto;
+}
+
+.#{$theme-prefix}-row-cols-1 > * {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.#{$theme-prefix}-row-cols-2 > * {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.#{$theme-prefix}-row-cols-3 > * {
+  flex: 0 0 auto;
+  width: 33.3333333333%;
+}
+
+.#{$theme-prefix}-row-cols-4 > * {
+  flex: 0 0 auto;
+  width: 25%;
+}
+
+.#{$theme-prefix}-row-cols-5 > * {
+  flex: 0 0 auto;
+  width: 20%;
+}
+
+.#{$theme-prefix}-row-cols-6 > * {
+  flex: 0 0 auto;
+  width: 16.6666666667%;
+}
+
+.#{$theme-prefix}-col-auto {
+  flex: 0 0 auto;
+  width: auto;
+}
+
+.#{$theme-prefix}-col-1 {
+  flex: 0 0 auto;
+  width: 8.33333333%;
+}
+
+.#{$theme-prefix}-col-2 {
+  flex: 0 0 auto;
+  width: 16.66666667%;
+}
+
+.#{$theme-prefix}-col-3 {
+  flex: 0 0 auto;
+  width: 25%;
+}
+
+.#{$theme-prefix}-col-4 {
+  flex: 0 0 auto;
+  width: 33.33333333%;
+}
+
+.#{$theme-prefix}-col-5 {
+  flex: 0 0 auto;
+  width: 41.66666667%;
+}
+
+.#{$theme-prefix}-col-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.#{$theme-prefix}-col-7 {
+  flex: 0 0 auto;
+  width: 58.33333333%;
+}
+
+.#{$theme-prefix}-col-8 {
+  flex: 0 0 auto;
+  width: 66.66666667%;
+}
+
+.#{$theme-prefix}-col-9 {
+  flex: 0 0 auto;
+  width: 75%;
+}
+
+.#{$theme-prefix}-col-10 {
+  flex: 0 0 auto;
+  width: 83.33333333%;
+}
+
+.#{$theme-prefix}-col-11 {
+  flex: 0 0 auto;
+  width: 91.66666667%;
+}
+
+.#{$theme-prefix}-col-12 {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.#{$theme-prefix}-offset-1 {
+  margin-left: 8.33333333%;
+}
+
+.#{$theme-prefix}-offset-2 {
+  margin-left: 16.66666667%;
+}
+
+.#{$theme-prefix}-offset-3 {
+  margin-left: 25%;
+}
+
+.#{$theme-prefix}-offset-4 {
+  margin-left: 33.33333333%;
+}
+
+.#{$theme-prefix}-offset-5 {
+  margin-left: 41.66666667%;
+}
+
+.#{$theme-prefix}-offset-6 {
+  margin-left: 50%;
+}
+
+.#{$theme-prefix}-offset-7 {
+  margin-left: 58.33333333%;
+}
+
+.#{$theme-prefix}-offset-8 {
+  margin-left: 66.66666667%;
+}
+
+.#{$theme-prefix}-offset-9 {
+  margin-left: 75%;
+}
+
+.#{$theme-prefix}-offset-10 {
+  margin-left: 83.33333333%;
+}
+
+.#{$theme-prefix}-offset-11 {
+  margin-left: 91.66666667%;
+}
+
+.#{$theme-prefix}-g-0,
+.#{$theme-prefix}-gx-0 {
+  --#{$theme-prefix}-gutter-x: 0;
+}
+
+.#{$theme-prefix}-g-1,
+.#{$theme-prefix}-gx-1 {
+  --#{$theme-prefix}-gutter-x: 0.25rem;
+}
+
+
+.#{$theme-prefix}-g-2,
+.#{$theme-prefix}-gx-2 {
+  --#{$theme-prefix}-gutter-x: 0.5rem;
+}
+
+
+.#{$theme-prefix}-g-3,
+.#{$theme-prefix}-gx-3 {
+  --#{$theme-prefix}-gutter-x: 1rem;
+}
+
+
+.#{$theme-prefix}-g-4,
+.#{$theme-prefix}-gx-4 {
+  --#{$theme-prefix}-gutter-x: 1.5rem;
+}
+
+.#{$theme-prefix}-g-5,
+.#{$theme-prefix}-gx-5 {
+  --#{$theme-prefix}-gutter-x: 3rem;
+}
+
+@media (min-width: 576px) {
+  .#{$theme-prefix}-col-sm {
+    flex: 1 0 0%;
+  }
+  .#{$theme-prefix}-row-cols-sm-auto > * {
+    flex: 0 0 auto;
+    width: auto;
+  }
+  .#{$theme-prefix}-row-cols-sm-1 > * {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .#{$theme-prefix}-row-cols-sm-2 > * {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .#{$theme-prefix}-row-cols-sm-3 > * {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+  }
+  .#{$theme-prefix}-row-cols-sm-4 > * {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+  .#{$theme-prefix}-row-cols-sm-5 > * {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+  .#{$theme-prefix}-row-cols-sm-6 > * {
+    flex: 0 0 auto;
+    width: 16.6666666667%;
+  }
+  .#{$theme-prefix}-col-sm-auto {
+    flex: 0 0 auto;
+    width: auto;
+  }
+  .#{$theme-prefix}-col-sm-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+  }
+  .#{$theme-prefix}-col-sm-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+  }
+  .#{$theme-prefix}-col-sm-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+  .#{$theme-prefix}-col-sm-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+  .#{$theme-prefix}-col-sm-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
+  .#{$theme-prefix}-col-sm-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .#{$theme-prefix}-col-sm-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+  }
+  .#{$theme-prefix}-col-sm-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+  }
+  .#{$theme-prefix}-col-sm-9 {
+    flex: 0 0 auto;
+    width: 75%;
+  }
+  .#{$theme-prefix}-col-sm-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+  }
+  .#{$theme-prefix}-col-sm-11 {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+  }
+  .#{$theme-prefix}-col-sm-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .#{$theme-prefix}-offset-sm-0 {
+    margin-left: 0;
+  }
+  .#{$theme-prefix}-offset-sm-1 {
+    margin-left: 8.33333333%;
+  }
+  .#{$theme-prefix}-offset-sm-2 {
+    margin-left: 16.66666667%;
+  }
+  .#{$theme-prefix}-offset-sm-3 {
+    margin-left: 25%;
+  }
+  .#{$theme-prefix}-offset-sm-4 {
+    margin-left: 33.33333333%;
+  }
+  .#{$theme-prefix}-offset-sm-5 {
+    margin-left: 41.66666667%;
+  }
+  .#{$theme-prefix}-offset-sm-6 {
+    margin-left: 50%;
+  }
+  .#{$theme-prefix}-offset-sm-7 {
+    margin-left: 58.33333333%;
+  }
+  .#{$theme-prefix}-offset-sm-8 {
+    margin-left: 66.66666667%;
+  }
+  .#{$theme-prefix}-offset-sm-9 {
+    margin-left: 75%;
+  }
+  .#{$theme-prefix}-offset-sm-10 {
+    margin-left: 83.33333333%;
+  }
+  .#{$theme-prefix}-offset-sm-11 {
+    margin-left: 91.66666667%;
+  }
+  .#{$theme-prefix}-g-sm-0,
+.#{$theme-prefix}-gx-sm-0 {
+    --#{$theme-prefix}-gutter-x: 0;
+  }
+  .#{$theme-prefix}-g-sm-1,
+.#{$theme-prefix}-gx-sm-1 {
+    --#{$theme-prefix}-gutter-x: 0.25rem;
+  }
+
+  .#{$theme-prefix}-g-sm-2,
+.#{$theme-prefix}-gx-sm-2 {
+    --#{$theme-prefix}-gutter-x: 0.5rem;
+  }
+
+  .#{$theme-prefix}-g-sm-3,
+.#{$theme-prefix}-gx-sm-3 {
+    --#{$theme-prefix}-gutter-x: 1rem;
+  }
+
+  .#{$theme-prefix}-g-sm-4,
+.#{$theme-prefix}-gx-sm-4 {
+    --#{$theme-prefix}-gutter-x: 1.5rem;
+  }
+
+  .#{$theme-prefix}-g-sm-5,
+.#{$theme-prefix}-gx-sm-5 {
+    --#{$theme-prefix}-gutter-x: 3rem;
+  }
+
+}
+@media (min-width: 768px) {
+  .#{$theme-prefix}-col-md {
+    flex: 1 0 0%;
+  }
+  .#{$theme-prefix}-row-cols-md-auto > * {
+    flex: 0 0 auto;
+    width: auto;
+  }
+  .#{$theme-prefix}-row-cols-md-1 > * {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .#{$theme-prefix}-row-cols-md-2 > * {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .#{$theme-prefix}-row-cols-md-3 > * {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+  }
+  .#{$theme-prefix}-row-cols-md-4 > * {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+  .#{$theme-prefix}-row-cols-md-5 > * {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+  .#{$theme-prefix}-row-cols-md-6 > * {
+    flex: 0 0 auto;
+    width: 16.6666666667%;
+  }
+  .#{$theme-prefix}-col-md-auto {
+    flex: 0 0 auto;
+    width: auto;
+  }
+  .#{$theme-prefix}-col-md-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+  }
+  .#{$theme-prefix}-col-md-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+  }
+  .#{$theme-prefix}-col-md-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+  .#{$theme-prefix}-col-md-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+  .#{$theme-prefix}-col-md-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
+  .#{$theme-prefix}-col-md-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .#{$theme-prefix}-col-md-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+  }
+  .#{$theme-prefix}-col-md-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+  }
+  .#{$theme-prefix}-col-md-9 {
+    flex: 0 0 auto;
+    width: 75%;
+  }
+  .#{$theme-prefix}-col-md-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+  }
+  .#{$theme-prefix}-col-md-11 {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+  }
+  .#{$theme-prefix}-col-md-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .#{$theme-prefix}-offset-md-0 {
+    margin-left: 0;
+  }
+  .#{$theme-prefix}-offset-md-1 {
+    margin-left: 8.33333333%;
+  }
+  .#{$theme-prefix}-offset-md-2 {
+    margin-left: 16.66666667%;
+  }
+  .#{$theme-prefix}-offset-md-3 {
+    margin-left: 25%;
+  }
+  .#{$theme-prefix}-offset-md-4 {
+    margin-left: 33.33333333%;
+  }
+  .#{$theme-prefix}-offset-md-5 {
+    margin-left: 41.66666667%;
+  }
+  .#{$theme-prefix}-offset-md-6 {
+    margin-left: 50%;
+  }
+  .#{$theme-prefix}-offset-md-7 {
+    margin-left: 58.33333333%;
+  }
+  .#{$theme-prefix}-offset-md-8 {
+    margin-left: 66.66666667%;
+  }
+  .#{$theme-prefix}-offset-md-9 {
+    margin-left: 75%;
+  }
+  .#{$theme-prefix}-offset-md-10 {
+    margin-left: 83.33333333%;
+  }
+  .#{$theme-prefix}-offset-md-11 {
+    margin-left: 91.66666667%;
+  }
+  .#{$theme-prefix}-g-md-0,
+.#{$theme-prefix}-gx-md-0 {
+    --#{$theme-prefix}-gutter-x: 0;
+  }
+
+  .#{$theme-prefix}-g-md-1,
+.#{$theme-prefix}-gx-md-1 {
+    --#{$theme-prefix}-gutter-x: 0.25rem;
+  }
+
+  .#{$theme-prefix}-g-md-2,
+.#{$theme-prefix}-gx-md-2 {
+    --#{$theme-prefix}-gutter-x: 0.5rem;
+  }
+
+  .#{$theme-prefix}-g-md-3,
+.#{$theme-prefix}-gx-md-3 {
+    --#{$theme-prefix}-gutter-x: 1rem;
+  }
+
+  .#{$theme-prefix}-g-md-4,
+.#{$theme-prefix}-gx-md-4 {
+    --#{$theme-prefix}-gutter-x: 1.5rem;
+  }
+
+  .#{$theme-prefix}-g-md-5,
+.#{$theme-prefix}-gx-md-5 {
+    --#{$theme-prefix}-gutter-x: 3rem;
+  }
+
+}
+@media (min-width: 992px) {
+  .#{$theme-prefix}-col-lg {
+    flex: 1 0 0%;
+  }
+  .#{$theme-prefix}-row-cols-lg-auto > * {
+    flex: 0 0 auto;
+    width: auto;
+  }
+  .#{$theme-prefix}-row-cols-lg-1 > * {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .#{$theme-prefix}-row-cols-lg-2 > * {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .#{$theme-prefix}-row-cols-lg-3 > * {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+  }
+  .#{$theme-prefix}-row-cols-lg-4 > * {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+  .#{$theme-prefix}-row-cols-lg-5 > * {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+  .#{$theme-prefix}-row-cols-lg-6 > * {
+    flex: 0 0 auto;
+    width: 16.6666666667%;
+  }
+  .#{$theme-prefix}-col-lg-auto {
+    flex: 0 0 auto;
+    width: auto;
+  }
+  .#{$theme-prefix}-col-lg-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+  }
+  .#{$theme-prefix}-col-lg-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+  }
+  .#{$theme-prefix}-col-lg-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+  .#{$theme-prefix}-col-lg-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+  .#{$theme-prefix}-col-lg-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
+  .#{$theme-prefix}-col-lg-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .#{$theme-prefix}-col-lg-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+  }
+  .#{$theme-prefix}-col-lg-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+  }
+  .#{$theme-prefix}-col-lg-9 {
+    flex: 0 0 auto;
+    width: 75%;
+  }
+  .#{$theme-prefix}-col-lg-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+  }
+  .#{$theme-prefix}-col-lg-11 {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+  }
+  .#{$theme-prefix}-col-lg-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .#{$theme-prefix}-offset-lg-0 {
+    margin-left: 0;
+  }
+  .#{$theme-prefix}-offset-lg-1 {
+    margin-left: 8.33333333%;
+  }
+  .#{$theme-prefix}-offset-lg-2 {
+    margin-left: 16.66666667%;
+  }
+  .#{$theme-prefix}-offset-lg-3 {
+    margin-left: 25%;
+  }
+  .#{$theme-prefix}-offset-lg-4 {
+    margin-left: 33.33333333%;
+  }
+  .#{$theme-prefix}-offset-lg-5 {
+    margin-left: 41.66666667%;
+  }
+  .#{$theme-prefix}-offset-lg-6 {
+    margin-left: 50%;
+  }
+  .#{$theme-prefix}-offset-lg-7 {
+    margin-left: 58.33333333%;
+  }
+  .#{$theme-prefix}-offset-lg-8 {
+    margin-left: 66.66666667%;
+  }
+  .#{$theme-prefix}-offset-lg-9 {
+    margin-left: 75%;
+  }
+  .#{$theme-prefix}-offset-lg-10 {
+    margin-left: 83.33333333%;
+  }
+  .#{$theme-prefix}-offset-lg-11 {
+    margin-left: 91.66666667%;
+  }
+  .#{$theme-prefix}-g-lg-0,
+.#{$theme-prefix}-gx-lg-0 {
+    --#{$theme-prefix}-gutter-x: 0;
+  }
+
+  .#{$theme-prefix}-g-lg-1,
+.#{$theme-prefix}-gx-lg-1 {
+    --#{$theme-prefix}-gutter-x: 0.25rem;
+  }
+
+  .#{$theme-prefix}-g-lg-2,
+.#{$theme-prefix}-gx-lg-2 {
+    --#{$theme-prefix}-gutter-x: 0.5rem;
+  }
+
+  .#{$theme-prefix}-g-lg-3,
+.#{$theme-prefix}-gx-lg-3 {
+    --#{$theme-prefix}-gutter-x: 1rem;
+  }
+
+  .#{$theme-prefix}-g-lg-4,
+.#{$theme-prefix}-gx-lg-4 {
+    --#{$theme-prefix}-gutter-x: 1.5rem;
+  }
+
+  .#{$theme-prefix}-g-lg-5,
+.#{$theme-prefix}-gx-lg-5 {
+    --#{$theme-prefix}-gutter-x: 3rem;
+  }
+
+}
+@media (min-width: 1200px) {
+  .#{$theme-prefix}-col-xl {
+    flex: 1 0 0%;
+  }
+  .#{$theme-prefix}-row-cols-xl-auto > * {
+    flex: 0 0 auto;
+    width: auto;
+  }
+  .#{$theme-prefix}-row-cols-xl-1 > * {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .#{$theme-prefix}-row-cols-xl-2 > * {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .#{$theme-prefix}-row-cols-xl-3 > * {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+  }
+  .#{$theme-prefix}-row-cols-xl-4 > * {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+  .#{$theme-prefix}-row-cols-xl-5 > * {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+  .#{$theme-prefix}-row-cols-xl-6 > * {
+    flex: 0 0 auto;
+    width: 16.6666666667%;
+  }
+  .#{$theme-prefix}-col-xl-auto {
+    flex: 0 0 auto;
+    width: auto;
+  }
+  .#{$theme-prefix}-col-xl-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+  }
+  .#{$theme-prefix}-col-xl-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+  }
+  .#{$theme-prefix}-col-xl-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+  .#{$theme-prefix}-col-xl-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+  .#{$theme-prefix}-col-xl-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
+  .#{$theme-prefix}-col-xl-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .#{$theme-prefix}-col-xl-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+  }
+  .#{$theme-prefix}-col-xl-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+  }
+  .#{$theme-prefix}-col-xl-9 {
+    flex: 0 0 auto;
+    width: 75%;
+  }
+  .#{$theme-prefix}-col-xl-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+  }
+  .#{$theme-prefix}-col-xl-11 {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+  }
+  .#{$theme-prefix}-col-xl-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .#{$theme-prefix}-offset-xl-0 {
+    margin-left: 0;
+  }
+  .#{$theme-prefix}-offset-xl-1 {
+    margin-left: 8.33333333%;
+  }
+  .#{$theme-prefix}-offset-xl-2 {
+    margin-left: 16.66666667%;
+  }
+  .#{$theme-prefix}-offset-xl-3 {
+    margin-left: 25%;
+  }
+  .#{$theme-prefix}-offset-xl-4 {
+    margin-left: 33.33333333%;
+  }
+  .#{$theme-prefix}-offset-xl-5 {
+    margin-left: 41.66666667%;
+  }
+  .#{$theme-prefix}-offset-xl-6 {
+    margin-left: 50%;
+  }
+  .#{$theme-prefix}-offset-xl-7 {
+    margin-left: 58.33333333%;
+  }
+  .#{$theme-prefix}-offset-xl-8 {
+    margin-left: 66.66666667%;
+  }
+  .#{$theme-prefix}-offset-xl-9 {
+    margin-left: 75%;
+  }
+  .#{$theme-prefix}-offset-xl-10 {
+    margin-left: 83.33333333%;
+  }
+  .#{$theme-prefix}-offset-xl-11 {
+    margin-left: 91.66666667%;
+  }
+  .#{$theme-prefix}-g-xl-0,
+.#{$theme-prefix}-gx-xl-0 {
+    --#{$theme-prefix}-gutter-x: 0;
+  }
+
+  .#{$theme-prefix}-g-xl-1,
+.#{$theme-prefix}-gx-xl-1 {
+    --#{$theme-prefix}-gutter-x: 0.25rem;
+  }
+
+  .#{$theme-prefix}-g-xl-2,
+.#{$theme-prefix}-gx-xl-2 {
+    --#{$theme-prefix}-gutter-x: 0.5rem;
+  }
+
+  .#{$theme-prefix}-g-xl-3,
+.#{$theme-prefix}-gx-xl-3 {
+    --#{$theme-prefix}-gutter-x: 1rem;
+  }
+
+  .#{$theme-prefix}-g-xl-4,
+.#{$theme-prefix}-gx-xl-4 {
+    --#{$theme-prefix}-gutter-x: 1.5rem;
+  }
+
+  .#{$theme-prefix}-g-xl-5,
+.#{$theme-prefix}-gx-xl-5 {
+    --#{$theme-prefix}-gutter-x: 3rem;
+  }
+
+}
+@media (min-width: 1400px) {
+  .#{$theme-prefix}-col-xxl {
+    flex: 1 0 0%;
+  }
+  .#{$theme-prefix}-row-cols-xxl-auto > * {
+    flex: 0 0 auto;
+    width: auto;
+  }
+  .#{$theme-prefix}-row-cols-xxl-1 > * {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .#{$theme-prefix}-row-cols-xxl-2 > * {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .#{$theme-prefix}-row-cols-xxl-3 > * {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+  }
+  .#{$theme-prefix}-row-cols-xxl-4 > * {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+  .#{$theme-prefix}-row-cols-xxl-5 > * {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+  .#{$theme-prefix}-row-cols-xxl-6 > * {
+    flex: 0 0 auto;
+    width: 16.6666666667%;
+  }
+  .#{$theme-prefix}-col-xxl-auto {
+    flex: 0 0 auto;
+    width: auto;
+  }
+  .#{$theme-prefix}-col-xxl-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+  }
+  .#{$theme-prefix}-col-xxl-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+  }
+  .#{$theme-prefix}-col-xxl-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+  .#{$theme-prefix}-col-xxl-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+  .#{$theme-prefix}-col-xxl-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
+  .#{$theme-prefix}-col-xxl-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .#{$theme-prefix}-col-xxl-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+  }
+  .#{$theme-prefix}-col-xxl-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+  }
+  .#{$theme-prefix}-col-xxl-9 {
+    flex: 0 0 auto;
+    width: 75%;
+  }
+  .#{$theme-prefix}-col-xxl-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+  }
+  .#{$theme-prefix}-col-xxl-11 {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+  }
+  .#{$theme-prefix}-col-xxl-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .#{$theme-prefix}-offset-xxl-0 {
+    margin-left: 0;
+  }
+  .#{$theme-prefix}-offset-xxl-1 {
+    margin-left: 8.33333333%;
+  }
+  .#{$theme-prefix}-offset-xxl-2 {
+    margin-left: 16.66666667%;
+  }
+  .#{$theme-prefix}-offset-xxl-3 {
+    margin-left: 25%;
+  }
+  .#{$theme-prefix}-offset-xxl-4 {
+    margin-left: 33.33333333%;
+  }
+  .#{$theme-prefix}-offset-xxl-5 {
+    margin-left: 41.66666667%;
+  }
+  .#{$theme-prefix}-offset-xxl-6 {
+    margin-left: 50%;
+  }
+  .#{$theme-prefix}-offset-xxl-7 {
+    margin-left: 58.33333333%;
+  }
+  .#{$theme-prefix}-offset-xxl-8 {
+    margin-left: 66.66666667%;
+  }
+  .#{$theme-prefix}-offset-xxl-9 {
+    margin-left: 75%;
+  }
+  .#{$theme-prefix}-offset-xxl-10 {
+    margin-left: 83.33333333%;
+  }
+  .#{$theme-prefix}-offset-xxl-11 {
+    margin-left: 91.66666667%;
+  }
+  .#{$theme-prefix}-g-xxl-0,
+.#{$theme-prefix}-gx-xxl-0 {
+    --#{$theme-prefix}-gutter-x: 0;
+  }
+
+  .#{$theme-prefix}-g-xxl-1,
+.#{$theme-prefix}-gx-xxl-1 {
+    --#{$theme-prefix}-gutter-x: 0.25rem;
+  }
+
+  .#{$theme-prefix}-g-xxl-2,
+.#{$theme-prefix}-gx-xxl-2 {
+    --#{$theme-prefix}-gutter-x: 0.5rem;
+  }
+
+  .#{$theme-prefix}-g-xxl-3,
+.#{$theme-prefix}-gx-xxl-3 {
+    --#{$theme-prefix}-gutter-x: 1rem;
+  }
+
+  .#{$theme-prefix}-g-xxl-4,
+.#{$theme-prefix}-gx-xxl-4 {
+    --#{$theme-prefix}-gutter-x: 1.5rem;
+  }
+
+  .#{$theme-prefix}-g-xxl-5,
+.#{$theme-prefix}-gx-xxl-5 {
+    --#{$theme-prefix}-gutter-x: 3rem;
+  }
+
+}
+.#{$theme-prefix}-d-inline {
+  display: inline !important;
+}
+
+.#{$theme-prefix}-d-inline-block {
+  display: inline-block !important;
+}
+
+.#{$theme-prefix}-d-block {
+  display: block !important;
+}
+
+
+.#{$theme-prefix}-d-flex {
+  display: flex !important;
+}
+
+.#{$theme-prefix}-d-inline-flex {
+  display: inline-flex !important;
+}
+
+.#{$theme-prefix}-d-none {
+  display: none !important;
+}
+
+.#{$theme-prefix}-flex-row {
+  flex-direction: row !important;
+}
+
+.#{$theme-prefix}-flex-column {
+  flex-direction: column !important;
+}
+
+.#{$theme-prefix}-flex-row-reverse {
+  flex-direction: row-reverse !important;
+}
+
+.#{$theme-prefix}-flex-column-reverse {
+  flex-direction: column-reverse !important;
+}
+
+.#{$theme-prefix}-flex-wrap {
+  flex-wrap: wrap !important;
+}
+
+.#{$theme-prefix}-flex-nowrap {
+  flex-wrap: nowrap !important;
+}
+
+.#{$theme-prefix}-flex-wrap-reverse {
+  flex-wrap: wrap-reverse !important;
+}
+
+.#{$theme-prefix}-justify-content-start {
+  justify-content: flex-start !important;
+}
+
+.#{$theme-prefix}-justify-content-end {
+  justify-content: flex-end !important;
+}
+
+.#{$theme-prefix}-justify-content-center {
+  justify-content: center !important;
+}
+
+.#{$theme-prefix}-justify-content-between {
+  justify-content: space-between !important;
+}
+
+.#{$theme-prefix}-align-items-start {
+  align-items: flex-start !important;
+}
+
+.#{$theme-prefix}-align-items-end {
+  align-items: flex-end !important;
+}
+
+.#{$theme-prefix}-align-items-center {
+  align-items: center !important;
+}
+
+@media (min-width: 576px) {
+  .#{$theme-prefix}-d-sm-inline {
+    display: inline !important;
+  }
+  .#{$theme-prefix}-d-sm-inline-block {
+    display: inline-block !important;
+  }
+  .#{$theme-prefix}-d-sm-block {
+    display: block !important;
+  }
+
+  .#{$theme-prefix}-d-sm-flex {
+    display: flex !important;
+  }
+  .#{$theme-prefix}-d-sm-inline-flex {
+    display: inline-flex !important;
+  }
+  .#{$theme-prefix}-d-sm-none {
+    display: none !important;
+  }
+
+  .#{$theme-prefix}-flex-sm-row {
+    flex-direction: row !important;
+  }
+  .#{$theme-prefix}-flex-sm-column {
+    flex-direction: column !important;
+  }
+  .#{$theme-prefix}-flex-sm-row-reverse {
+    flex-direction: row-reverse !important;
+  }
+  .#{$theme-prefix}-flex-sm-column-reverse {
+    flex-direction: column-reverse !important;
+  }
+  .#{$theme-prefix}-flex-sm-wrap {
+    flex-wrap: wrap !important;
+  }
+  .#{$theme-prefix}-flex-sm-nowrap {
+    flex-wrap: nowrap !important;
+  }
+  .#{$theme-prefix}-flex-sm-wrap-reverse {
+    flex-wrap: wrap-reverse !important;
+  }
+  .#{$theme-prefix}-justify-content-sm-start {
+    justify-content: flex-start !important;
+  }
+  .#{$theme-prefix}-justify-content-sm-end {
+    justify-content: flex-end !important;
+  }
+  .#{$theme-prefix}-justify-content-sm-center {
+    justify-content: center !important;
+  }
+  .#{$theme-prefix}-justify-content-sm-between {
+    justify-content: space-between !important;
+  }
+
+  .#{$theme-prefix}-align-items-sm-start {
+    align-items: flex-start !important;
+  }
+  .#{$theme-prefix}-align-items-sm-end {
+    align-items: flex-end !important;
+  }
+  .#{$theme-prefix}-align-items-sm-center {
+    align-items: center !important;
+  }
+}
+@media (min-width: 768px) {
+  .#{$theme-prefix}-d-md-inline {
+    display: inline !important;
+  }
+  .#{$theme-prefix}-d-md-inline-block {
+    display: inline-block !important;
+  }
+  .#{$theme-prefix}-d-md-block {
+    display: block !important;
+  }
+
+  .#{$theme-prefix}-d-md-flex {
+    display: flex !important;
+  }
+  .#{$theme-prefix}-d-md-inline-flex {
+    display: inline-flex !important;
+  }
+  .#{$theme-prefix}-d-md-none {
+    display: none !important;
+  }
+
+  .#{$theme-prefix}-flex-md-row {
+    flex-direction: row !important;
+  }
+  .#{$theme-prefix}-flex-md-column {
+    flex-direction: column !important;
+  }
+  .#{$theme-prefix}-flex-md-row-reverse {
+    flex-direction: row-reverse !important;
+  }
+  .#{$theme-prefix}-flex-md-column-reverse {
+    flex-direction: column-reverse !important;
+  }
+  .#{$theme-prefix}-flex-md-wrap {
+    flex-wrap: wrap !important;
+  }
+  .#{$theme-prefix}-flex-md-nowrap {
+    flex-wrap: nowrap !important;
+  }
+  .#{$theme-prefix}-flex-md-wrap-reverse {
+    flex-wrap: wrap-reverse !important;
+  }
+  .#{$theme-prefix}-justify-content-md-start {
+    justify-content: flex-start !important;
+  }
+  .#{$theme-prefix}-justify-content-md-end {
+    justify-content: flex-end !important;
+  }
+  .#{$theme-prefix}-justify-content-md-center {
+    justify-content: center !important;
+  }
+  .#{$theme-prefix}-justify-content-md-between {
+    justify-content: space-between !important;
+  }
+
+  .#{$theme-prefix}-align-items-md-start {
+    align-items: flex-start !important;
+  }
+  .#{$theme-prefix}-align-items-md-end {
+    align-items: flex-end !important;
+  }
+  .#{$theme-prefix}-align-items-md-center {
+    align-items: center !important;
+  }
+
+}
+@media (min-width: 992px) {
+  .#{$theme-prefix}-d-lg-inline {
+    display: inline !important;
+  }
+  .#{$theme-prefix}-d-lg-inline-block {
+    display: inline-block !important;
+  }
+  .#{$theme-prefix}-d-lg-block {
+    display: block !important;
+  }
+
+  .#{$theme-prefix}-d-lg-flex {
+    display: flex !important;
+  }
+  .#{$theme-prefix}-d-lg-inline-flex {
+    display: inline-flex !important;
+  }
+  .#{$theme-prefix}-d-lg-none {
+    display: none !important;
+  }
+  .#{$theme-prefix}-flex-lg-row {
+    flex-direction: row !important;
+  }
+  .#{$theme-prefix}-flex-lg-column {
+    flex-direction: column !important;
+  }
+  .#{$theme-prefix}-flex-lg-row-reverse {
+    flex-direction: row-reverse !important;
+  }
+  .#{$theme-prefix}-flex-lg-column-reverse {
+    flex-direction: column-reverse !important;
+  }
+  .#{$theme-prefix}-flex-lg-wrap {
+    flex-wrap: wrap !important;
+  }
+  .#{$theme-prefix}-flex-lg-nowrap {
+    flex-wrap: nowrap !important;
+  }
+  .#{$theme-prefix}-flex-lg-wrap-reverse {
+    flex-wrap: wrap-reverse !important;
+  }
+  .#{$theme-prefix}-justify-content-lg-start {
+    justify-content: flex-start !important;
+  }
+  .#{$theme-prefix}-justify-content-lg-end {
+    justify-content: flex-end !important;
+  }
+  .#{$theme-prefix}-justify-content-lg-center {
+    justify-content: center !important;
+  }
+  .#{$theme-prefix}-justify-content-lg-between {
+    justify-content: space-between !important;
+  }
+
+  .#{$theme-prefix}-align-items-lg-start {
+    align-items: flex-start !important;
+  }
+  .#{$theme-prefix}-align-items-lg-end {
+    align-items: flex-end !important;
+  }
+  .#{$theme-prefix}-align-items-lg-center {
+    align-items: center !important;
+  }
+}
+@media (min-width: 1200px) {
+  .#{$theme-prefix}-d-xl-inline {
+    display: inline !important;
+  }
+  .#{$theme-prefix}-d-xl-inline-block {
+    display: inline-block !important;
+  }
+  .#{$theme-prefix}-d-xl-block {
+    display: block !important;
+  }
+  .#{$theme-prefix}-d-xl-flex {
+    display: flex !important;
+  }
+  .#{$theme-prefix}-d-xl-inline-flex {
+    display: inline-flex !important;
+  }
+  .#{$theme-prefix}-d-xl-none {
+    display: none !important;
+  }
+  .#{$theme-prefix}-flex-xl-row {
+    flex-direction: row !important;
+  }
+  .#{$theme-prefix}-flex-xl-column {
+    flex-direction: column !important;
+  }
+  .#{$theme-prefix}-flex-xl-row-reverse {
+    flex-direction: row-reverse !important;
+  }
+  .#{$theme-prefix}-flex-xl-column-reverse {
+    flex-direction: column-reverse !important;
+  }
+  .#{$theme-prefix}-flex-xl-wrap {
+    flex-wrap: wrap !important;
+  }
+  .#{$theme-prefix}-flex-xl-nowrap {
+    flex-wrap: nowrap !important;
+  }
+  .#{$theme-prefix}-flex-xl-wrap-reverse {
+    flex-wrap: wrap-reverse !important;
+  }
+  .#{$theme-prefix}-justify-content-xl-start {
+    justify-content: flex-start !important;
+  }
+  .#{$theme-prefix}-justify-content-xl-end {
+    justify-content: flex-end !important;
+  }
+  .#{$theme-prefix}-justify-content-xl-center {
+    justify-content: center !important;
+  }
+  .#{$theme-prefix}-justify-content-xl-between {
+    justify-content: space-between !important;
+  }
+  .#{$theme-prefix}-align-items-xl-start {
+    align-items: flex-start !important;
+  }
+  .#{$theme-prefix}-align-items-xl-end {
+    align-items: flex-end !important;
+  }
+  .#{$theme-prefix}-align-items-xl-center {
+    align-items: center !important;
+  }
+}
+@media (min-width: 1400px) {
+  .#{$theme-prefix}-d-xxl-inline {
+    display: inline !important;
+  }
+  .#{$theme-prefix}-d-xxl-inline-block {
+    display: inline-block !important;
+  }
+  .#{$theme-prefix}-d-xxl-block {
+    display: block !important;
+  }
+  .#{$theme-prefix}-d-xxl-flex {
+    display: flex !important;
+  }
+  .#{$theme-prefix}-d-xxl-inline-flex {
+    display: inline-flex !important;
+  }
+  .#{$theme-prefix}-d-xxl-none {
+    display: none !important;
+  }
+  .#{$theme-prefix}-flex-xxl-row {
+    flex-direction: row !important;
+  }
+  .#{$theme-prefix}-flex-xxl-column {
+    flex-direction: column !important;
+  }
+  .#{$theme-prefix}-flex-xxl-row-reverse {
+    flex-direction: row-reverse !important;
+  }
+  .#{$theme-prefix}-flex-xxl-column-reverse {
+    flex-direction: column-reverse !important;
+  }
+  .#{$theme-prefix}-flex-xxl-wrap {
+    flex-wrap: wrap !important;
+  }
+  .#{$theme-prefix}-flex-xxl-nowrap {
+    flex-wrap: nowrap !important;
+  }
+  .#{$theme-prefix}-flex-xxl-wrap-reverse {
+    flex-wrap: wrap-reverse !important;
+  }
+  .#{$theme-prefix}-justify-content-xxl-start {
+    justify-content: flex-start !important;
+  }
+  .#{$theme-prefix}-justify-content-xxl-end {
+    justify-content: flex-end !important;
+  }
+  .#{$theme-prefix}-justify-content-xxl-center {
+    justify-content: center !important;
+  }
+  .#{$theme-prefix}-justify-content-xxl-between {
+    justify-content: space-between !important;
+  }
+  .#{$theme-prefix}-align-items-xxl-start {
+    align-items: flex-start !important;
+  }
+  .#{$theme-prefix}-align-items-xxl-end {
+    align-items: flex-end !important;
+  }
+  .#{$theme-prefix}-align-items-xxl-center {
+    align-items: center !important;
+  }
+}

@@ -1,0 +1,2851 @@
+# Copyright (C) 2024 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/pure-wc-shopbuild\n"
+"POT-Creation-Date: 2024-03-11 14:03:06+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: admin/class-pure-wc-shopbuild-admin.php:116
+msgid "Please activate <strong>WooCommerce</strong> plugin as the dependency for this plugin to run."
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:120
+msgid "Please install <strong>WooCommerce</strong> plugin as the dependency for this plugin to run."
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:127
+msgid "Activate WooCommerce"
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:136
+msgid "Please activate <strong>Elementor</strong> plugin as the dependency for this plugin to run."
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:140
+msgid "Please install <strong>Elementor</strong> plugin as the dependency for this plugin to run."
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:149
+msgid "Activate Elementor"
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:325
+#: admin/class-pure-wc-shopbuild-admin.php:429
+msgid "Nonce Varification Faild !"
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:457
+msgid "Type"
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:458
+msgid "Set as"
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:471
+msgid "Not data fond!"
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:546
+#: admin/class-pure-wc-shopbuild-admin.php:547
+msgid "Pure Shopbuild"
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:557
+#: admin/class-pure-wc-shopbuild-admin.php:558
+msgid "Shopbuild Templates"
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:633
+msgid "No valid setting keys found."
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:644
+msgid "Settings saved successfully."
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:647
+msgid "Failed to save settings."
+msgstr ""
+
+#: functions.php:15 public/widgets/elementor/archive-products-grid.php:53
+msgid "Archive Products Grid"
+msgstr ""
+
+#: functions.php:22 public/widgets/elementor/archive-products-counts.php:51
+msgid "Archive Products Counts"
+msgstr ""
+
+#: functions.php:29 public/widgets/elementor/archive-products-ordering.php:47
+msgid "Archive Products Ordering"
+msgstr ""
+
+#: functions.php:36 public/widgets/elementor/sidebar-products-search.php:50
+msgid "Sidebar Products Search"
+msgstr ""
+
+#: functions.php:43
+msgid "Sidebar Products Price Filter"
+msgstr ""
+
+#: functions.php:50 public/widgets/elementor/sidebar-products-categories.php:63
+msgid "Sidebar Products Categories"
+msgstr ""
+
+#: functions.php:57 public/widgets/elementor/sidebar-attribute-filter.php:54
+msgid "Sidebar Attribute Filter"
+msgstr ""
+
+#: functions.php:64 public/widgets/elementor/sidebar-products-tags.php:45
+msgid "Sidebar Products Tags"
+msgstr ""
+
+#: functions.php:71 public/widgets/elementor/sidebar-products-top-rated.php:52
+msgid "Sidebar Products Top Rated"
+msgstr ""
+
+#: functions.php:78 public/widgets/elementor/sidebar-products-recent.php:50
+msgid "Sidebar Products Recent"
+msgstr ""
+
+#: functions.php:85 public/widgets/elementor/single-product-title.php:49
+msgid "Single Product Title"
+msgstr ""
+
+#: functions.php:92 public/widgets/elementor/single-product-price.php:49
+msgid "Single Product Price"
+msgstr ""
+
+#: functions.php:99 public/widgets/elementor/single-product-add-to-cart.php:50
+msgid "Single Add To Cart"
+msgstr ""
+
+#: functions.php:106 public/widgets/elementor/single-product-thumbnail.php:48
+msgid "Single Product Thumbnail"
+msgstr ""
+
+#: functions.php:113
+#: public/widgets/elementor/single-product-short-description.php:49
+msgid "Single Product Short Description"
+msgstr ""
+
+#: functions.php:120 public/widgets/elementor/single-product-sku.php:49
+msgid "Single Product SKU"
+msgstr ""
+
+#: functions.php:127 public/widgets/elementor/single-product-category.php:49
+msgid "Single Product Category"
+msgstr ""
+
+#: functions.php:134 public/widgets/elementor/single-product-tags.php:45
+msgid "Single Product Tags"
+msgstr ""
+
+#: functions.php:141
+msgid "Single Product Buy Now"
+msgstr ""
+
+#: functions.php:148 public/widgets/elementor/single-product-compare.php:49
+msgid "Single Product Compare"
+msgstr ""
+
+#: functions.php:155 public/widgets/elementor/single-product-wishlist.php:49
+msgid "Single Product Wishlist"
+msgstr ""
+
+#: functions.php:162 public/widgets/elementor/single-product-ratings.php:49
+msgid "Single Product Ratings"
+msgstr ""
+
+#: functions.php:169 public/widgets/elementor/single-product-related.php:51
+msgid "Single Product Related"
+msgstr ""
+
+#: functions.php:176 public/widgets/elementor/single-product-review-form.php:50
+msgid "Single Product Review Form"
+msgstr ""
+
+#: functions.php:183 public/widgets/elementor/single-product-reviews.php:49
+msgid "Single Product Reviews"
+msgstr ""
+
+#: functions.php:190 public/widgets/elementor/single-product-tabs.php:50
+msgid "Single Product Tabs"
+msgstr ""
+
+#: functions.php:197
+msgid "Single Product Social"
+msgstr ""
+
+#: functions.php:204 public/widgets/elementor/single-product-breadcrumb.php:49
+msgid "Single Product Breadcrumb"
+msgstr ""
+
+#: functions.php:211 public/widgets/elementor/single-product-stock.php:49
+msgid "Single Product Stock"
+msgstr ""
+
+#: functions.php:218 public/widgets/elementor/single-product-saletimer.php:49
+msgid "Single Product Saletimer"
+msgstr ""
+
+#: functions.php:225 public/widgets/elementor/cart-table.php:46
+#: public/widgets/elementor/cart-table.php:90
+#: public/widgets/elementor/my-account-content.php:96
+msgid "Cart Table"
+msgstr ""
+
+#: functions.php:232 public/widgets/elementor/cart-subtotal.php:50
+msgid "Cart Subtotal"
+msgstr ""
+
+#: functions.php:239 public/widgets/elementor/cart-coupon.php:49
+msgid "Cart Coupon"
+msgstr ""
+
+#: functions.php:246 public/widgets/elementor/checkout-shipping.php:49
+msgid "Checkout Shipping"
+msgstr ""
+
+#: functions.php:253 public/widgets/elementor/checkout-billing.php:50
+msgid "Checkout Billing"
+msgstr ""
+
+#: functions.php:260 public/widgets/elementor/checkout-additional.php:48
+msgid "Checkout Additional"
+msgstr ""
+
+#: functions.php:267 public/widgets/elementor/checkout-order.php:48
+msgid "Checkout Order"
+msgstr ""
+
+#: functions.php:274 public/widgets/elementor/checkout-payment.php:50
+msgid "Checkout Payment"
+msgstr ""
+
+#: functions.php:281 public/widgets/elementor/checkout-coupon.php:49
+msgid "Checkout Coupon"
+msgstr ""
+
+#: functions.php:288 public/widgets/elementor/checkout-existing-login.php:48
+msgid "Checkout Existing Login"
+msgstr ""
+
+#: functions.php:295 public/widgets/elementor/order-thankyou-message.php:48
+msgid "Order ThankYou Message"
+msgstr ""
+
+#: functions.php:302 public/widgets/elementor/order-overview.php:48
+msgid "Order Overview"
+msgstr ""
+
+#: functions.php:309 public/widgets/elementor/order-details.php:48
+#: public/woocommerce/order/order-details.php:16
+msgid "Order Details"
+msgstr ""
+
+#: functions.php:316 public/widgets/elementor/order-customer-details.php:48
+msgid "Order Customer Details"
+msgstr ""
+
+#: functions.php:323 public/widgets/elementor/order-shipping-progress.php:50
+msgid "Order Shipping Progress"
+msgstr ""
+
+#: functions.php:330 public/widgets/elementor/my-account-content.php:48
+msgid "My Account Content"
+msgstr ""
+
+#: functions.php:337 public/widgets/elementor/my-account-navigation.php:51
+msgid "My Account Navigation"
+msgstr ""
+
+#: functions.php:344 public/widgets/elementor/my-account-login.php:49
+msgid "My Account Login"
+msgstr ""
+
+#: functions.php:536
+msgid "No products were found matching your selection."
+msgstr ""
+
+#: includes/class-pure-wc-shopbuild-post-type.php:18
+#: includes/class-pure-wc-shopbuild-post-type.php:19
+#: includes/class-pure-wc-shopbuild-post-type.php:20
+msgid "Custom Post"
+msgstr ""
+
+#: includes/class-pure-wc-shopbuild-post-type.php:40
+msgid "Add New Template"
+msgstr ""
+
+#. translators: %s: placeholder
+
+#: includes/class-pure-wc-shopbuild-post-type.php:41
+msgid "Add New %s"
+msgstr ""
+
+#. translators: %s: placeholder
+
+#: includes/class-pure-wc-shopbuild-post-type.php:42
+msgid "Edit %s"
+msgstr ""
+
+#. translators: %s: placeholder
+
+#: includes/class-pure-wc-shopbuild-post-type.php:43
+msgid "New %s"
+msgstr ""
+
+#. translators: %s: placeholder
+
+#: includes/class-pure-wc-shopbuild-post-type.php:44
+msgid "All Templates"
+msgstr ""
+
+#. translators: %s: placeholder
+
+#: includes/class-pure-wc-shopbuild-post-type.php:45
+msgid "View %s"
+msgstr ""
+
+#. translators: %s: placeholder
+
+#: includes/class-pure-wc-shopbuild-post-type.php:46
+msgid "Search %s"
+msgstr ""
+
+#. translators: %s: placeholder
+
+#: includes/class-pure-wc-shopbuild-post-type.php:47
+msgid "No %s found"
+msgstr ""
+
+#. translators: %s: placeholder
+
+#: includes/class-pure-wc-shopbuild-post-type.php:48
+msgid "No %s found in Trash"
+msgstr ""
+
+#: includes/class-pure-wc-shopbuild-widgets-manager.php:129
+msgid "Pure WC ShopBuild"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-compare.php:192
+msgid "Total Added:"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-compare.php:239
+#: public/class-pure-wc-shopbuild-compare.php:258
+#: public/class-pure-wc-shopbuild-quickview.php:147
+#: public/class-pure-wc-shopbuild-quickview.php:166
+#: public/class-pure-wc-shopbuild-quickview.php:188
+#: public/class-pure-wc-shopbuild-quickview.php:207
+#: public/widgets/elementor/single-product-thumbnail.php:156
+#: public/woocommerce/single-product/product-image.php:51
+msgid "Awaiting product image"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-compare.php:279
+#: public/widgets/elementor/cart-table.php:168
+msgid "Product Price"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-compare.php:299
+msgid "Product Variations"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-compare.php:321
+msgid "Not in stock"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-compare.php:337
+#: public/woocommerce/single-product/add-to-cart/variable.php:48
+msgid "Clear"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-compare.php:423
+#: public/woocommerce/single-product/rating.php:38
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: public/class-pure-wc-shopbuild-compare.php:430
+msgid "No Ratings"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-compare.php:445
+msgid "Product SKU"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-compare.php:453
+#: public/widgets/elementor/single-product-sku.php:154
+#: public/woocommerce/single-product/meta.php:30
+msgid "N/A"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-compare.php:469
+msgid "Product Descriptions"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-public.php:240
+#: public/class-pure-wc-shopbuild-public.php:244
+msgid "Error:"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-public.php:244
+msgid "Username is required."
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-quickview.php:36
+msgid "Selected variant is unavailable."
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-sale-notification.php:193
+msgid "Someone purchaed a"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-sale-notification.php:198
+msgid "By:"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-wishlist.php:476
+msgid "Go To wishlist"
+msgstr ""
+
+#: public/controls/tpbggradient.php:62 public/controls/tpgradient.php:62
+msgctxt "Background Control"
+msgid "Select Color Type"
+msgstr ""
+
+#: public/controls/tpbggradient.php:63
+msgctxt "Background Control"
+msgid "Gradient color not work editor mode. If you set gradient color please view the result live preview page."
+msgstr ""
+
+#: public/controls/tpbggradient.php:69
+msgctxt "Color Control"
+msgid "Solid"
+msgstr ""
+
+#: public/controls/tpbggradient.php:73
+msgctxt "Color Control"
+msgid "Gradient"
+msgstr ""
+
+#: public/controls/tpbggradient.php:81 public/controls/tpgradient.php:79
+msgctxt "Background Control"
+msgid "Color"
+msgstr ""
+
+#: public/controls/tpbggradient.php:84
+msgctxt "Background Control"
+msgid "Start Color"
+msgstr ""
+
+#: public/controls/tpbggradient.php:94 public/controls/tpbggradient.php:120
+#: public/controls/tpgradient.php:92 public/controls/tpgradient.php:116
+msgctxt "Background Control"
+msgid "Location"
+msgstr ""
+
+#: public/controls/tpbggradient.php:109
+msgctxt "Background Control"
+msgid "Second Color"
+msgstr ""
+
+#: public/controls/tpbggradient.php:135 public/controls/tpgradient.php:130
+msgctxt "Background Control"
+msgid "Type"
+msgstr ""
+
+#: public/controls/tpbggradient.php:138 public/controls/tpgradient.php:133
+msgctxt "Background Control"
+msgid "Linear"
+msgstr ""
+
+#: public/controls/tpbggradient.php:139 public/controls/tpgradient.php:134
+msgctxt "Background Control"
+msgid "Radial"
+msgstr ""
+
+#: public/controls/tpbggradient.php:150 public/controls/tpgradient.php:144
+msgctxt "Background Control"
+msgid "Angle"
+msgstr ""
+
+#: public/controls/tpbggradient.php:173 public/controls/tpgradient.php:167
+msgctxt "Background Control"
+msgid "Position"
+msgstr ""
+
+#: public/controls/tpbggradient.php:176 public/controls/tpgradient.php:170
+msgctxt "Background Control"
+msgid "Center Center"
+msgstr ""
+
+#: public/controls/tpbggradient.php:177 public/controls/tpgradient.php:171
+msgctxt "Background Control"
+msgid "Center Left"
+msgstr ""
+
+#: public/controls/tpbggradient.php:178 public/controls/tpgradient.php:172
+msgctxt "Background Control"
+msgid "Center Right"
+msgstr ""
+
+#: public/controls/tpbggradient.php:179 public/controls/tpgradient.php:173
+msgctxt "Background Control"
+msgid "Top Center"
+msgstr ""
+
+#: public/controls/tpbggradient.php:180 public/controls/tpgradient.php:174
+msgctxt "Background Control"
+msgid "Top Left"
+msgstr ""
+
+#: public/controls/tpbggradient.php:181 public/controls/tpgradient.php:175
+msgctxt "Background Control"
+msgid "Top Right"
+msgstr ""
+
+#: public/controls/tpbggradient.php:182 public/controls/tpgradient.php:176
+msgctxt "Background Control"
+msgid "Bottom Center"
+msgstr ""
+
+#: public/controls/tpbggradient.php:183 public/controls/tpgradient.php:177
+msgctxt "Background Control"
+msgid "Bottom Left"
+msgstr ""
+
+#: public/controls/tpbggradient.php:184 public/controls/tpgradient.php:178
+msgctxt "Background Control"
+msgid "Bottom Right"
+msgstr ""
+
+#: public/controls/tpgradient.php:67
+msgctxt "Text Color Control"
+msgid "Solid"
+msgstr ""
+
+#: public/controls/tpgradient.php:71
+msgctxt "Text Color Control"
+msgid "Gradient"
+msgstr ""
+
+#: public/controls/tpgradient.php:82
+msgctxt "Background Control"
+msgid "Text Color"
+msgstr ""
+
+#: public/controls/tpgradient.php:106
+msgctxt "Background Control"
+msgid "Second Color (No effect for custom SVG)"
+msgstr ""
+
+#: public/sb-product-hook.php:13 public/woocommerce/checkout/form-coupon.php:42
+msgid "Coupon:"
+msgstr ""
+
+#: public/sb-product-hook.php:16 public/woocommerce/checkout/form-coupon.php:43
+msgid "Coupon code"
+msgstr ""
+
+#: public/sb-product-hook.php:62
+#: public/woocommerce/single-product/sale-flash.php:27
+msgid "Sale!"
+msgstr ""
+
+#: public/sb-product-hook.php:298
+msgid "Enter Keyword or Product Number"
+msgstr ""
+
+#: public/sb-product-hook.php:299
+msgid "Search..."
+msgstr ""
+
+#: public/sb-product-hook.php:349 public/sb-product-hook.php:358
+msgid "Add to Cart"
+msgstr ""
+
+#: public/sb-product-hook.php:351
+msgid "Select Options"
+msgstr ""
+
+#: public/sb-product-hook.php:353
+msgid "Buy Now"
+msgstr ""
+
+#: public/sb-product-hook.php:355
+msgid "View Products"
+msgstr ""
+
+#: public/templates/checkout-canvas.php:53
+#: public/templates/checkout-fullwidth.php:43 public/templates/checkout.php:29
+#: public/woocommerce/checkout/form-checkout.php:26
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:29 public/traits/shopbuild-styles.php:154
+#: public/widgets/elementor/archive-products-grid.php:141
+#: public/widgets/elementor/archive-products-ordering.php:98
+#: public/widgets/elementor/checkout-coupon.php:174
+#: public/widgets/elementor/checkout-existing-login.php:173
+#: public/widgets/elementor/my-account-navigation.php:103
+#: public/widgets/elementor/sidebar-attribute-filter.php:136
+#: public/widgets/elementor/sidebar-products-categories.php:213
+#: public/widgets/elementor/sidebar-products-price-filter.php:111
+#: public/widgets/elementor/sidebar-products-recent.php:111
+#: public/widgets/elementor/sidebar-products-search.php:109
+#: public/widgets/elementor/sidebar-products-top-rated.php:127
+#: public/widgets/elementor/single-product-related.php:141
+msgid "Color"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:37 public/traits/shopbuild-styles.php:418
+#: public/traits/shopbuild-styles.php:516
+#: public/traits/shopbuild-styles.php:663
+#: public/traits/shopbuild-styles.php:727
+#: public/widgets/elementor/cart-table.php:230
+#: public/widgets/elementor/cart-table.php:274
+#: public/widgets/elementor/single-product-add-to-cart.php:230
+#: public/widgets/elementor/single-product-add-to-cart.php:274
+#: public/widgets/elementor/single-product-breadcrumb.php:101
+#: public/widgets/elementor/single-product-buy-now.php:230
+#: public/widgets/elementor/single-product-buy-now.php:274
+msgid "Background Color"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:48
+msgid "Icon Size"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:65
+msgid "Image/SVG Width"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:86
+msgid "Image/SVG Height"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:103
+msgid "Bottom Spacing"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:114
+#: public/traits/shopbuild-styles.php:170
+#: public/traits/shopbuild-styles.php:250
+#: public/traits/shopbuild-styles.php:309
+#: public/traits/shopbuild-styles.php:587
+#: public/traits/shopbuild-styles.php:762
+#: public/widgets/elementor/archive-products-grid.php:167
+#: public/widgets/elementor/archive-products-grid.php:233
+#: public/widgets/elementor/archive-products-grid.php:298
+#: public/widgets/elementor/archive-products-grid.php:358
+#: public/widgets/elementor/archive-products-ordering.php:121
+#: public/widgets/elementor/my-account-navigation.php:137
+#: public/widgets/elementor/order-details.php:129
+#: public/widgets/elementor/order-thankyou-message.php:221
+#: public/widgets/elementor/sidebar-attribute-filter.php:159
+#: public/widgets/elementor/sidebar-attribute-filter.php:223
+#: public/widgets/elementor/sidebar-products-categories.php:236
+#: public/widgets/elementor/sidebar-products-price-filter.php:134
+#: public/widgets/elementor/sidebar-products-recent.php:134
+#: public/widgets/elementor/sidebar-products-recent.php:198
+#: public/widgets/elementor/sidebar-products-search.php:132
+#: public/widgets/elementor/sidebar-products-top-rated.php:150
+#: public/widgets/elementor/sidebar-products-top-rated.php:214
+#: public/widgets/elementor/single-product-add-to-cart.php:191
+#: public/widgets/elementor/single-product-breadcrumb.php:123
+#: public/widgets/elementor/single-product-buy-now.php:191
+#: public/widgets/elementor/single-product-price.php:121
+#: public/widgets/elementor/single-product-related.php:167
+#: public/widgets/elementor/single-product-related.php:233
+#: public/widgets/elementor/single-product-related.php:298
+#: public/widgets/elementor/single-product-saletimer.php:123
+#: public/widgets/elementor/single-product-tabs.php:132
+msgid "Padding"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:163
+#: public/traits/shopbuild-styles.php:243
+#: public/widgets/elementor/archive-products-grid.php:159
+#: public/widgets/elementor/archive-products-grid.php:226
+#: public/widgets/elementor/archive-products-grid.php:291
+#: public/widgets/elementor/archive-products-grid.php:424
+#: public/widgets/elementor/archive-products-grid.php:465
+#: public/widgets/elementor/my-account-navigation.php:130
+#: public/widgets/elementor/order-thankyou-message.php:201
+#: public/widgets/elementor/sidebar-attribute-filter.php:145
+#: public/widgets/elementor/sidebar-attribute-filter.php:216
+#: public/widgets/elementor/sidebar-products-categories.php:222
+#: public/widgets/elementor/sidebar-products-price-filter.php:120
+#: public/widgets/elementor/sidebar-products-recent.php:120
+#: public/widgets/elementor/sidebar-products-recent.php:191
+#: public/widgets/elementor/sidebar-products-recent.php:234
+#: public/widgets/elementor/sidebar-products-search.php:118
+#: public/widgets/elementor/sidebar-products-top-rated.php:136
+#: public/widgets/elementor/sidebar-products-top-rated.php:207
+#: public/widgets/elementor/sidebar-products-top-rated.php:250
+#: public/widgets/elementor/single-product-add-to-cart.php:184
+#: public/widgets/elementor/single-product-buy-now.php:184
+#: public/widgets/elementor/single-product-price.php:114
+#: public/widgets/elementor/single-product-related.php:159
+#: public/widgets/elementor/single-product-related.php:226
+#: public/widgets/elementor/single-product-related.php:291
+#: public/widgets/elementor/single-product-related.php:377
+#: public/widgets/elementor/single-product-related.php:418
+#: public/widgets/elementor/single-product-sku.php:121
+#: public/widgets/elementor/single-product-social.php:112
+#: public/widgets/elementor/single-product-tabs.php:124
+#: public/widgets/elementor/single-product-tags.php:129
+#: public/widgets/elementor/single-product-thumbnail.php:113
+msgid "Typography"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:182
+#: public/traits/shopbuild-styles.php:262
+#: public/traits/shopbuild-styles.php:321
+#: public/traits/shopbuild-styles.php:598
+#: public/traits/shopbuild-styles.php:773
+#: public/widgets/elementor/archive-products-grid.php:179
+#: public/widgets/elementor/archive-products-grid.php:246
+#: public/widgets/elementor/archive-products-grid.php:311
+#: public/widgets/elementor/archive-products-grid.php:334
+#: public/widgets/elementor/archive-products-grid.php:346
+#: public/widgets/elementor/archive-products-ordering.php:109
+#: public/widgets/elementor/my-account-navigation.php:149
+#: public/widgets/elementor/order-details.php:117
+#: public/widgets/elementor/order-thankyou-message.php:209
+#: public/widgets/elementor/sidebar-attribute-filter.php:171
+#: public/widgets/elementor/sidebar-attribute-filter.php:235
+#: public/widgets/elementor/sidebar-products-categories.php:248
+#: public/widgets/elementor/sidebar-products-price-filter.php:146
+#: public/widgets/elementor/sidebar-products-recent.php:146
+#: public/widgets/elementor/sidebar-products-recent.php:210
+#: public/widgets/elementor/sidebar-products-search.php:144
+#: public/widgets/elementor/sidebar-products-top-rated.php:162
+#: public/widgets/elementor/sidebar-products-top-rated.php:226
+#: public/widgets/elementor/single-product-add-to-cart.php:204
+#: public/widgets/elementor/single-product-breadcrumb.php:111
+#: public/widgets/elementor/single-product-buy-now.php:204
+#: public/widgets/elementor/single-product-price.php:134
+#: public/widgets/elementor/single-product-related.php:179
+#: public/widgets/elementor/single-product-related.php:246
+#: public/widgets/elementor/single-product-related.php:311
+#: public/widgets/elementor/single-product-saletimer.php:111
+#: public/widgets/elementor/single-product-tabs.php:144
+msgid "Margin"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:222
+#: public/traits/shopbuild-styles.php:301
+#: public/widgets/elementor/order-thankyou-message.php:191
+#: public/widgets/elementor/sidebar-products-price-filter.php:170
+msgid "Background"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:231
+msgid "Section Label"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:402
+#: public/traits/shopbuild-styles.php:647
+msgid "Normal"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:407
+#: public/traits/shopbuild-styles.php:505
+#: public/traits/shopbuild-styles.php:652
+#: public/widgets/elementor/cart-table.php:239
+#: public/widgets/elementor/sidebar-attribute-filter.php:193
+#: public/widgets/elementor/sidebar-products-price-filter.php:189
+#: public/widgets/elementor/sidebar-products-recent.php:168
+#: public/widgets/elementor/sidebar-products-top-rated.php:184
+#: public/widgets/elementor/single-product-add-to-cart.php:99
+#: public/widgets/elementor/single-product-add-to-cart.php:239
+#: public/widgets/elementor/single-product-buy-now.php:99
+#: public/widgets/elementor/single-product-buy-now.php:239
+#: public/widgets/elementor/single-product-sku.php:98
+#: public/widgets/elementor/single-product-social.php:99
+#: public/widgets/elementor/single-product-tabs.php:92
+#: public/widgets/elementor/single-product-tags.php:95
+msgid "Text Color"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:430
+#: public/traits/shopbuild-styles.php:528
+#: public/traits/shopbuild-styles.php:698
+#: public/traits/shopbuild-styles.php:749
+msgid "Box Shadow"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:438
+#: public/traits/shopbuild-styles.php:536
+#: public/widgets/elementor/checkout-payment.php:162
+msgid "Border Style"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:441
+#: public/traits/shopbuild-styles.php:539
+#: public/widgets/elementor/sidebar-attribute-filter.php:250
+msgid "Default"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:442
+#: public/traits/shopbuild-styles.php:540
+msgid "None"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:443
+#: public/traits/shopbuild-styles.php:541
+msgid "Solid"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:444
+#: public/traits/shopbuild-styles.php:542
+msgid "Double"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:445
+#: public/traits/shopbuild-styles.php:543
+msgid "Dotted"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:446
+#: public/traits/shopbuild-styles.php:544
+msgid "Dashed"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:447
+#: public/traits/shopbuild-styles.php:545
+msgid "Groove"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:458
+#: public/traits/shopbuild-styles.php:556
+msgid "Border Width"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:471
+#: public/traits/shopbuild-styles.php:569
+#: public/traits/shopbuild-styles.php:686
+#: public/traits/shopbuild-styles.php:738
+#: public/widgets/elementor/cart-subtotal.php:124
+#: public/widgets/elementor/cart-table.php:340
+#: public/widgets/elementor/checkout-order.php:118
+#: public/widgets/elementor/order-details.php:151
+msgid "Border Color"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:484
+#: public/traits/shopbuild-styles.php:706
+#: public/widgets/elementor/single-product-reviews.php:161
+#: public/widgets/elementor/single-product-tabs.php:364
+msgid "Border Radius"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:500
+msgid "Hover"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:674
+msgid "Placeholder Color"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:722
+msgid "Focus"
+msgstr ""
+
+#: public/traits/woocommerce-archive.php:17
+msgid "Limit"
+msgstr ""
+
+#: public/traits/woocommerce-cart.php:15
+#: public/traits/woocommerce-single.php:15
+msgid "Title HTML Tag"
+msgstr ""
+
+#: public/traits/woocommerce-cart.php:25
+#: public/traits/woocommerce-single.php:25
+msgid "H1"
+msgstr ""
+
+#: public/traits/woocommerce-cart.php:26
+#: public/traits/woocommerce-single.php:26
+msgid "H2"
+msgstr ""
+
+#: public/traits/woocommerce-cart.php:27
+#: public/traits/woocommerce-single.php:27
+msgid "H3"
+msgstr ""
+
+#: public/traits/woocommerce-cart.php:28
+#: public/traits/woocommerce-single.php:28
+msgid "H4"
+msgstr ""
+
+#: public/traits/woocommerce-cart.php:29
+#: public/traits/woocommerce-single.php:29
+msgid "H5"
+msgstr ""
+
+#: public/traits/woocommerce-cart.php:30
+#: public/traits/woocommerce-single.php:30
+msgid "H6"
+msgstr ""
+
+#: public/traits/woocommerce-cart.php:40
+#: public/widgets/elementor/sidebar-products-categories.php:114
+#: public/widgets/elementor/sidebar-products-categories.php:126
+#: public/widgets/elementor/sidebar-products-categories.php:138
+#: public/widgets/elementor/sidebar-products-categories.php:150
+#: public/widgets/elementor/sidebar-products-categories.php:162
+#: public/widgets/elementor/sidebar-products-top-rated.php:101
+#: public/widgets/elementor/single-product-category.php:87
+msgid "Show"
+msgstr ""
+
+#: public/traits/woocommerce-cart.php:41
+#: public/widgets/elementor/sidebar-products-categories.php:115
+#: public/widgets/elementor/sidebar-products-categories.php:127
+#: public/widgets/elementor/sidebar-products-categories.php:139
+#: public/widgets/elementor/sidebar-products-categories.php:151
+#: public/widgets/elementor/sidebar-products-categories.php:163
+#: public/widgets/elementor/sidebar-products-top-rated.php:102
+#: public/widgets/elementor/single-product-category.php:88
+msgid "Hide"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-grid.php:82
+#: public/widgets/elementor/cart-coupon.php:78
+#: public/widgets/elementor/cart-subtotal.php:79
+#: public/widgets/elementor/cart-table.php:75
+#: public/widgets/elementor/checkout-additional.php:77
+#: public/widgets/elementor/checkout-billing.php:79
+#: public/widgets/elementor/checkout-coupon.php:78
+#: public/widgets/elementor/checkout-existing-login.php:77
+#: public/widgets/elementor/checkout-order.php:77
+#: public/widgets/elementor/checkout-payment.php:79
+#: public/widgets/elementor/checkout-shipping.php:78
+#: public/widgets/elementor/my-account-content.php:77
+#: public/widgets/elementor/my-account-login.php:78
+#: public/widgets/elementor/my-account-navigation.php:80
+#: public/widgets/elementor/order-customer-details.php:77
+#: public/widgets/elementor/order-details.php:77
+#: public/widgets/elementor/order-overview.php:77
+#: public/widgets/elementor/order-shipping-progress.php:79
+#: public/widgets/elementor/order-thankyou-message.php:77
+#: public/widgets/elementor/sidebar-attribute-filter.php:83
+#: public/widgets/elementor/sidebar-products-categories.php:94
+#: public/widgets/elementor/sidebar-products-price-filter.php:79
+#: public/widgets/elementor/sidebar-products-recent.php:79
+#: public/widgets/elementor/sidebar-products-search.php:79
+#: public/widgets/elementor/sidebar-products-top-rated.php:81
+#: public/widgets/elementor/single-product-related.php:80
+#: public/widgets/elementor/single-product-title.php:78
+msgid "Content Controls"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-grid.php:90
+msgid "Columns"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-grid.php:92
+msgid "2 Cols"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-grid.php:93
+msgid "3 Cols"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-grid.php:94
+msgid "4 Cols"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-grid.php:95
+msgid "5 Cols"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-grid.php:104
+msgid "Product Number"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-grid.php:106
+msgid "12"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-grid.php:107
+msgid "Number of Product"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-grid.php:115
+msgid "Pagination"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-grid.php:117
+msgid "Default Pagination"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-grid.php:118
+msgid "Ajax Load More"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-grid.php:132
+#: public/widgets/elementor/cart-table.php:139
+#: public/widgets/elementor/single-product-related.php:132
+msgid "Product - Title"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-grid.php:150
+#: public/widgets/elementor/my-account-navigation.php:112
+#: public/widgets/elementor/my-account-navigation.php:121
+#: public/widgets/elementor/single-product-related.php:150
+msgid "Hover Color"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-grid.php:193
+#: public/widgets/elementor/single-product-related.php:193
+msgid "Product - Category"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-grid.php:201
+#: public/widgets/elementor/single-product-related.php:201
+msgid "Product Tag Color"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-grid.php:213
+#: public/widgets/elementor/single-product-related.php:213
+msgid "Product Tag Hover Color"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-grid.php:260
+#: public/widgets/elementor/single-product-add-to-cart.php:153
+#: public/widgets/elementor/single-product-buy-now.php:153
+#: public/widgets/elementor/single-product-price.php:83
+#: public/widgets/elementor/single-product-related.php:260
+msgid "Product - Price"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-grid.php:268
+#: public/widgets/elementor/single-product-add-to-cart.php:161
+#: public/widgets/elementor/single-product-buy-now.php:161
+#: public/widgets/elementor/single-product-price.php:91
+#: public/widgets/elementor/single-product-related.php:268
+msgid "Product Price Color"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-grid.php:279
+#: public/widgets/elementor/single-product-add-to-cart.php:172
+#: public/widgets/elementor/single-product-buy-now.php:172
+#: public/widgets/elementor/single-product-price.php:102
+#: public/widgets/elementor/single-product-related.php:279
+msgid "Product Price Old Color"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-grid.php:325
+msgid "Product Variation"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-grid.php:372
+#: public/widgets/elementor/single-product-related.php:325
+msgid "Product Rating"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-grid.php:380
+#: public/widgets/elementor/single-product-related.php:333
+msgid "Product Rating Color"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-grid.php:393
+#: public/widgets/elementor/single-product-related.php:346
+msgid "Product Countdown"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-grid.php:401
+#: public/widgets/elementor/single-product-related.php:354
+msgid "Product Countdown BG Color"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-grid.php:412
+#: public/widgets/elementor/single-product-related.php:365
+msgid "Product Countdown Color"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-grid.php:434
+#: public/widgets/elementor/single-product-related.php:387
+#: public/widgets/elementor/single-product-thumbnail.php:82
+msgid "Product Sale"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-grid.php:442
+#: public/widgets/elementor/single-product-related.php:395
+#: public/widgets/elementor/single-product-thumbnail.php:90
+msgid "Product Sale BG Color"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-grid.php:453
+#: public/widgets/elementor/single-product-related.php:406
+#: public/widgets/elementor/single-product-thumbnail.php:101
+msgid "Product Sale Color"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-ordering.php:81
+msgid "Filter"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-ordering.php:90
+#: public/widgets/elementor/single-product-saletimer.php:103
+msgid "Border"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-ordering.php:152
+msgid "Default sorting"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-ordering.php:153
+msgid "Sort by popularity"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-ordering.php:154
+msgid "Sort by average rating"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-ordering.php:155
+msgid "Sort by latest"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-ordering.php:156
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-ordering.php:157
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: public/widgets/elementor/cart-coupon.php:85
+#: public/widgets/elementor/checkout-billing.php:86
+#: public/widgets/elementor/checkout-coupon.php:85
+#: public/widgets/elementor/checkout-existing-login.php:84
+#: public/widgets/elementor/checkout-order.php:84
+msgid "Apply Button Title"
+msgstr ""
+
+#: public/widgets/elementor/cart-coupon.php:87
+#: public/widgets/elementor/checkout-billing.php:88
+#: public/widgets/elementor/checkout-coupon.php:87
+#: public/widgets/elementor/checkout-existing-login.php:86
+#: public/widgets/elementor/checkout-order.php:86
+msgid "Apply Coupon"
+msgstr ""
+
+#: public/widgets/elementor/cart-coupon.php:88
+#: public/widgets/elementor/cart-subtotal.php:90
+#: public/widgets/elementor/cart-subtotal.php:103
+#: public/widgets/elementor/checkout-billing.php:89
+#: public/widgets/elementor/checkout-billing.php:99
+#: public/widgets/elementor/checkout-coupon.php:88
+#: public/widgets/elementor/checkout-coupon.php:98
+#: public/widgets/elementor/checkout-existing-login.php:87
+#: public/widgets/elementor/checkout-existing-login.php:97
+#: public/widgets/elementor/checkout-order.php:87
+#: public/widgets/elementor/checkout-order.php:97
+#: public/widgets/elementor/checkout-payment.php:89
+#: public/widgets/elementor/checkout-shipping.php:88
+#: public/widgets/elementor/order-customer-details.php:87
+#: public/widgets/elementor/order-customer-details.php:100
+#: public/widgets/elementor/order-thankyou-message.php:87
+#: public/widgets/elementor/order-thankyou-message.php:100
+msgid "Type your title here"
+msgstr ""
+
+#: public/widgets/elementor/cart-coupon.php:101
+#: public/widgets/elementor/cart-table.php:296
+msgid "Coupon Label"
+msgstr ""
+
+#: public/widgets/elementor/cart-coupon.php:109
+#: public/widgets/elementor/cart-table.php:304
+#: public/widgets/elementor/checkout-additional.php:95
+#: public/widgets/elementor/checkout-billing.php:172
+msgid "Label Color"
+msgstr ""
+
+#: public/widgets/elementor/cart-coupon.php:121
+#: public/widgets/elementor/cart-table.php:316
+#: public/widgets/elementor/checkout-additional.php:107
+#: public/widgets/elementor/checkout-billing.php:184
+msgid "Label Typography"
+msgstr ""
+
+#: public/widgets/elementor/cart-subtotal.php:87
+#: public/widgets/elementor/checkout-payment.php:109
+#: public/widgets/elementor/sidebar-attribute-filter.php:90
+#: public/widgets/elementor/sidebar-products-categories.php:101
+#: public/widgets/elementor/sidebar-products-price-filter.php:86
+#: public/widgets/elementor/sidebar-products-recent.php:86
+#: public/widgets/elementor/sidebar-products-search.php:86
+#: public/widgets/elementor/sidebar-products-top-rated.php:88
+#: public/widgets/elementor/single-product-related.php:101
+msgid "Title"
+msgstr ""
+
+#: public/widgets/elementor/cart-subtotal.php:89
+msgid "Cart Totals"
+msgstr ""
+
+#: public/widgets/elementor/cart-subtotal.php:100
+#: public/widgets/elementor/cart-subtotal.php:102
+msgid "Checkout Button"
+msgstr ""
+
+#: public/widgets/elementor/cart-subtotal.php:116
+#: public/widgets/elementor/cart-table.php:332
+#: public/widgets/elementor/checkout-order.php:110
+msgid "Checkout Table"
+msgstr ""
+
+#: public/widgets/elementor/cart-subtotal.php:135
+#: public/widgets/elementor/cart-table.php:351
+msgid "Checkout Table Title"
+msgstr ""
+
+#: public/widgets/elementor/cart-subtotal.php:147
+#: public/widgets/elementor/cart-table.php:363
+msgid "Checkout Table Title Typography"
+msgstr ""
+
+#: public/widgets/elementor/cart-subtotal.php:155
+#: public/widgets/elementor/cart-table.php:371
+#: public/widgets/elementor/checkout-order.php:129
+msgid "Checkout Heading Color"
+msgstr ""
+
+#: public/widgets/elementor/cart-subtotal.php:167
+#: public/widgets/elementor/cart-table.php:121
+#: public/widgets/elementor/cart-table.php:383
+#: public/widgets/elementor/my-account-content.php:127
+msgid "Table Heading Typography"
+msgstr ""
+
+#: public/widgets/elementor/cart-subtotal.php:175
+#: public/widgets/elementor/cart-table.php:391
+#: public/widgets/elementor/checkout-order.php:149
+msgid "Checkout Data Color"
+msgstr ""
+
+#: public/widgets/elementor/cart-subtotal.php:189
+#: public/widgets/elementor/cart-table.php:405
+#: public/widgets/elementor/checkout-order.php:161
+msgid "Table Data Typography"
+msgstr ""
+
+#: public/widgets/elementor/cart-table.php:98
+#: public/widgets/elementor/my-account-content.php:104
+msgid "Table Row Border Color"
+msgstr ""
+
+#: public/widgets/elementor/cart-table.php:109
+#: public/widgets/elementor/my-account-content.php:115
+msgid "Table Heading Color"
+msgstr ""
+
+#: public/widgets/elementor/cart-table.php:130
+#: public/widgets/elementor/my-account-content.php:136
+msgid "Table Head Background"
+msgstr ""
+
+#: public/widgets/elementor/cart-table.php:149
+msgid "Product - Title Hover"
+msgstr ""
+
+#: public/widgets/elementor/cart-table.php:160
+msgid "Product Title Typhography"
+msgstr ""
+
+#: public/widgets/elementor/cart-table.php:180
+msgid "Product Price Typhography"
+msgstr ""
+
+#: public/widgets/elementor/cart-table.php:188
+msgid "Product Action Color"
+msgstr ""
+
+#: public/widgets/elementor/cart-table.php:198
+msgid "Product Action Hover Color"
+msgstr ""
+
+#: public/widgets/elementor/cart-table.php:210
+msgid "Product Action Typhography"
+msgstr ""
+
+#: public/widgets/elementor/cart-table.php:221
+#: public/widgets/elementor/single-product-add-to-cart.php:221
+#: public/widgets/elementor/single-product-buy-now.php:221
+msgid "Quantity - Field"
+msgstr ""
+
+#: public/widgets/elementor/cart-table.php:251
+#: public/widgets/elementor/single-product-add-to-cart.php:251
+#: public/widgets/elementor/single-product-buy-now.php:251
+msgid "Plus Minus Color"
+msgstr ""
+
+#: public/widgets/elementor/cart-table.php:262
+#: public/widgets/elementor/single-product-add-to-cart.php:262
+#: public/widgets/elementor/single-product-buy-now.php:262
+msgid "Plus Minus Hover Color"
+msgstr ""
+
+#: public/widgets/elementor/cart-table.php:284
+#: public/widgets/elementor/single-product-add-to-cart.php:284
+#: public/widgets/elementor/single-product-buy-now.php:284
+msgid "Background Hover Color"
+msgstr ""
+
+#: public/widgets/elementor/checkout-additional.php:88
+#: public/widgets/elementor/checkout-billing.php:165
+msgid "Input Label"
+msgstr ""
+
+#: public/widgets/elementor/checkout-billing.php:96
+#: public/widgets/elementor/checkout-coupon.php:95
+#: public/widgets/elementor/checkout-existing-login.php:94
+#: public/widgets/elementor/checkout-order.php:94
+msgid "Update Cart Button Title"
+msgstr ""
+
+#: public/widgets/elementor/checkout-billing.php:98
+#: public/widgets/elementor/checkout-coupon.php:97
+#: public/widgets/elementor/checkout-existing-login.php:96
+#: public/widgets/elementor/checkout-order.php:96
+msgid "Update Cart"
+msgstr ""
+
+#: public/widgets/elementor/checkout-billing.php:112
+msgid "Billing Title"
+msgstr ""
+
+#: public/widgets/elementor/checkout-billing.php:119
+#: public/widgets/elementor/order-customer-details.php:135
+#: public/widgets/elementor/order-thankyou-message.php:179
+#: public/widgets/elementor/single-product-saletimer.php:144
+msgid "Title Color"
+msgstr ""
+
+#: public/widgets/elementor/checkout-billing.php:131
+#: public/widgets/elementor/checkout-payment.php:121
+#: public/widgets/elementor/order-customer-details.php:147
+#: public/widgets/elementor/single-product-saletimer.php:156
+#: public/widgets/elementor/single-product-saletimer.php:196
+#: public/widgets/elementor/single-product-tabs.php:179
+#: public/widgets/elementor/single-product-tabs.php:199
+msgid "Title Typography"
+msgstr ""
+
+#: public/widgets/elementor/checkout-billing.php:139
+msgid "Title Margin"
+msgstr ""
+
+#: public/widgets/elementor/checkout-billing.php:151
+msgid "Title Padding"
+msgstr ""
+
+#: public/widgets/elementor/checkout-coupon.php:112
+#: public/widgets/elementor/checkout-existing-login.php:111
+msgid "Checkout - Coupon"
+msgstr ""
+
+#: public/widgets/elementor/checkout-coupon.php:121
+#: public/widgets/elementor/checkout-existing-login.php:120
+msgid "Coupon Background"
+msgstr ""
+
+#: public/widgets/elementor/checkout-coupon.php:132
+#: public/widgets/elementor/checkout-existing-login.php:131
+msgid "Coupon Border"
+msgstr ""
+
+#: public/widgets/elementor/checkout-coupon.php:140
+#: public/widgets/elementor/checkout-existing-login.php:139
+msgid "Coupon Margin"
+msgstr ""
+
+#: public/widgets/elementor/checkout-coupon.php:152
+#: public/widgets/elementor/checkout-existing-login.php:151
+msgid "Coupon Padding"
+msgstr ""
+
+#: public/widgets/elementor/checkout-coupon.php:166
+#: public/widgets/elementor/checkout-existing-login.php:165
+msgid "Coupon Text"
+msgstr ""
+
+#: public/widgets/elementor/checkout-coupon.php:185
+#: public/widgets/elementor/checkout-existing-login.php:184
+msgid "Link Text Color"
+msgstr ""
+
+#: public/widgets/elementor/checkout-coupon.php:198
+#: public/widgets/elementor/checkout-existing-login.php:197
+msgid "Coupon Typography"
+msgstr ""
+
+#: public/widgets/elementor/checkout-existing-login.php:218
+#: public/woocommerce/checkout/form-login.php:32
+msgid "If you have shopped with us before, please enter your details below. If you are a new customer, please proceed to the Billing section."
+msgstr ""
+
+#: public/widgets/elementor/checkout-existing-login.php:226
+#: public/widgets/elementor/checkout-existing-login.php:279
+msgid " Returning customer?"
+msgstr ""
+
+#: public/widgets/elementor/checkout-existing-login.php:226
+#: public/widgets/elementor/checkout-existing-login.php:279
+#: public/woocommerce/checkout/form-login.php:26
+msgid "Click here to login"
+msgstr ""
+
+#: public/widgets/elementor/checkout-existing-login.php:234
+#: public/widgets/elementor/checkout-existing-login.php:287
+#: public/woocommerce/global/form-login.php:34
+#: public/woocommerce/myaccount/form-lost-password.php:28
+msgid "Username or email"
+msgstr ""
+
+#: public/widgets/elementor/checkout-existing-login.php:238
+#: public/widgets/elementor/checkout-existing-login.php:291
+#: public/woocommerce/global/form-login.php:38
+#: public/woocommerce/myaccount/form-login.php:52
+#: public/woocommerce/myaccount/form-login.php:129
+msgid "Password"
+msgstr ""
+
+#: public/widgets/elementor/checkout-existing-login.php:247
+#: public/widgets/elementor/checkout-existing-login.php:300
+#: public/woocommerce/global/form-login.php:47
+#: public/woocommerce/myaccount/form-login.php:81
+msgid "Remember me"
+msgstr ""
+
+#: public/widgets/elementor/checkout-existing-login.php:251
+#: public/widgets/elementor/checkout-existing-login.php:304
+#: public/woocommerce/global/form-login.php:51
+#: public/woocommerce/myaccount/form-login.php:36
+msgid "Login"
+msgstr ""
+
+#: public/widgets/elementor/checkout-existing-login.php:254
+#: public/widgets/elementor/checkout-existing-login.php:307
+#: public/woocommerce/global/form-login.php:54
+#: public/woocommerce/myaccount/form-login.php:86
+msgid "Lost your password?"
+msgstr ""
+
+#: public/widgets/elementor/checkout-order.php:141
+msgid "Checkout Heading Typography"
+msgstr ""
+
+#: public/widgets/elementor/checkout-payment.php:86
+#: public/widgets/elementor/checkout-payment.php:88
+msgid "Make Payment"
+msgstr ""
+
+#: public/widgets/elementor/checkout-payment.php:101
+msgid "Payment Style"
+msgstr ""
+
+#: public/widgets/elementor/checkout-payment.php:130
+#: public/woocommerce/single-product/tabs/description.php:22
+msgid "Description"
+msgstr ""
+
+#: public/widgets/elementor/checkout-payment.php:143
+msgid "Payment Box"
+msgstr ""
+
+#: public/widgets/elementor/checkout-payment.php:153
+msgid "Description Typography"
+msgstr ""
+
+#: public/widgets/elementor/checkout-payment.php:173
+msgid "Policy Text Control"
+msgstr ""
+
+#: public/widgets/elementor/checkout-payment.php:181
+msgid "Policy Text"
+msgstr ""
+
+#: public/widgets/elementor/checkout-payment.php:192
+msgid "Policy Link Text"
+msgstr ""
+
+#: public/widgets/elementor/checkout-payment.php:204
+msgid "Policy Typography"
+msgstr ""
+
+#. translators: $1 and $2 opening and closing emphasis tags respectively
+
+#: public/widgets/elementor/checkout-payment.php:249
+#: public/woocommerce/checkout/payment.php:42
+msgid "Since your browser does not support JavaScript, or it is disabled, please ensure you click the %1$sUpdate Totals%2$s button before placing your order. You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: public/widgets/elementor/checkout-payment.php:251
+#: public/woocommerce/checkout/payment.php:44
+msgid "Update totals"
+msgstr ""
+
+#: public/widgets/elementor/checkout-payment.php:263
+msgid "required"
+msgstr ""
+
+#: public/widgets/elementor/checkout-shipping.php:85
+msgid "Shipping Title"
+msgstr ""
+
+#: public/widgets/elementor/checkout-shipping.php:87
+msgid "Shipping to a different address?"
+msgstr ""
+
+#: public/widgets/elementor/checkout-shipping.php:100
+#: public/widgets/elementor/order-thankyou-message.php:115
+msgid "Style Controls"
+msgstr ""
+
+#: public/widgets/elementor/my-account-content.php:145
+msgid "Order - Title"
+msgstr ""
+
+#: public/widgets/elementor/my-account-content.php:157
+msgid "Order Title Typhography"
+msgstr ""
+
+#: public/widgets/elementor/my-account-content.php:165
+msgid "Order Text"
+msgstr ""
+
+#: public/widgets/elementor/my-account-content.php:177
+msgid "Order Text Typhography"
+msgstr ""
+
+#: public/widgets/elementor/my-account-navigation.php:94
+msgid "Account Navigation"
+msgstr ""
+
+#: public/widgets/elementor/order-customer-details.php:84
+#: public/widgets/elementor/order-thankyou-message.php:84
+msgid "Thank You Text"
+msgstr ""
+
+#: public/widgets/elementor/order-customer-details.php:86
+#: public/widgets/elementor/order-thankyou-message.php:86
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: public/widgets/elementor/order-customer-details.php:97
+#: public/widgets/elementor/order-thankyou-message.php:97
+msgid "Order Failed Text"
+msgstr ""
+
+#: public/widgets/elementor/order-customer-details.php:99
+#: public/widgets/elementor/order-thankyou-message.php:99
+msgid "Unfortunately your order cannot be processed as the originating bank/merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+
+#: public/widgets/elementor/order-customer-details.php:115
+msgid "Customer Address Control"
+msgstr ""
+
+#: public/widgets/elementor/order-customer-details.php:124
+msgid "Icon Color"
+msgstr ""
+
+#: public/widgets/elementor/order-customer-details.php:155
+msgid "Info Color"
+msgstr ""
+
+#: public/widgets/elementor/order-customer-details.php:167
+msgid "Info Typography"
+msgstr ""
+
+#: public/widgets/elementor/order-details.php:89
+#: public/widgets/elementor/order-overview.php:89
+#: public/widgets/elementor/order-shipping-progress.php:91
+msgid "Order Box"
+msgstr ""
+
+#: public/widgets/elementor/order-details.php:98
+#: public/widgets/elementor/order-overview.php:98
+#: public/widgets/elementor/order-shipping-progress.php:100
+msgid "Order Background"
+msgstr ""
+
+#: public/widgets/elementor/order-details.php:106
+msgid "Shadow"
+msgstr ""
+
+#: public/widgets/elementor/order-details.php:143
+msgid "Order Table"
+msgstr ""
+
+#: public/widgets/elementor/order-details.php:162
+msgid "Order Table Title"
+msgstr ""
+
+#: public/widgets/elementor/order-details.php:174
+msgid "Order Table Title Typography"
+msgstr ""
+
+#: public/widgets/elementor/order-details.php:182
+msgid "Order Heading Color"
+msgstr ""
+
+#: public/widgets/elementor/order-details.php:194
+msgid "Order Heading Typography"
+msgstr ""
+
+#: public/widgets/elementor/order-details.php:202
+msgid "Order Data Color"
+msgstr ""
+
+#: public/widgets/elementor/order-details.php:216
+msgid "Order Data Typography"
+msgstr ""
+
+#: public/widgets/elementor/order-details.php:225
+#: public/widgets/elementor/order-details.php:237
+msgid "Order Footer Info Color"
+msgstr ""
+
+#: public/widgets/elementor/order-overview.php:107
+#: public/widgets/elementor/order-shipping-progress.php:109
+msgid "Confirmed Title"
+msgstr ""
+
+#: public/widgets/elementor/order-overview.php:119
+#: public/widgets/elementor/order-shipping-progress.php:121
+msgid "Confirmed Title Typography"
+msgstr ""
+
+#: public/widgets/elementor/order-overview.php:127
+#: public/widgets/elementor/order-shipping-progress.php:129
+msgid "Confirmed Description"
+msgstr ""
+
+#: public/widgets/elementor/order-overview.php:139
+#: public/widgets/elementor/order-shipping-progress.php:141
+msgid "Confirmed Description Typography"
+msgstr ""
+
+#: public/widgets/elementor/order-overview.php:148
+#: public/widgets/elementor/order-shipping-progress.php:150
+msgid "Confirmed Margin"
+msgstr ""
+
+#: public/widgets/elementor/order-overview.php:160
+#: public/widgets/elementor/order-shipping-progress.php:162
+msgid "Confirmed Padding"
+msgstr ""
+
+#: public/widgets/elementor/order-overview.php:174
+#: public/widgets/elementor/order-shipping-progress.php:176
+msgid "Order Items"
+msgstr ""
+
+#: public/widgets/elementor/order-overview.php:182
+#: public/widgets/elementor/order-shipping-progress.php:184
+msgid "Order Item Title"
+msgstr ""
+
+#: public/widgets/elementor/order-overview.php:194
+#: public/widgets/elementor/order-shipping-progress.php:196
+msgid "Order Item Title Typography"
+msgstr ""
+
+#: public/widgets/elementor/order-overview.php:202
+#: public/widgets/elementor/order-shipping-progress.php:204
+msgid "Order Info"
+msgstr ""
+
+#: public/widgets/elementor/order-overview.php:214
+#: public/widgets/elementor/order-shipping-progress.php:216
+msgid "Order Info Typography"
+msgstr ""
+
+#: public/widgets/elementor/order-thankyou-message.php:123
+msgid "Alignment"
+msgstr ""
+
+#: public/widgets/elementor/order-thankyou-message.php:127
+msgid "Left"
+msgstr ""
+
+#: public/widgets/elementor/order-thankyou-message.php:131
+msgid "Center"
+msgstr ""
+
+#: public/widgets/elementor/order-thankyou-message.php:135
+msgid "Right"
+msgstr ""
+
+#: public/widgets/elementor/order-thankyou-message.php:150
+msgid "HTML Tag"
+msgstr ""
+
+#: public/widgets/elementor/order-thankyou-message.php:171
+msgid "Thanks Message"
+msgstr ""
+
+#: public/widgets/elementor/order-thankyou-message.php:260
+msgid "Pay"
+msgstr ""
+
+#: public/widgets/elementor/order-thankyou-message.php:262
+msgid "My account"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-attribute-filter.php:92
+#: public/widgets/elementor/sidebar-products-categories.php:103
+#: public/widgets/elementor/sidebar-products-price-filter.php:88
+#: public/widgets/elementor/sidebar-products-recent.php:88
+#: public/widgets/elementor/sidebar-products-search.php:88
+#: public/widgets/elementor/sidebar-products-top-rated.php:90
+msgid "ShopBuild Widget Title"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-attribute-filter.php:93
+#: public/widgets/elementor/sidebar-products-categories.php:104
+#: public/widgets/elementor/sidebar-products-price-filter.php:89
+#: public/widgets/elementor/sidebar-products-recent.php:89
+#: public/widgets/elementor/sidebar-products-search.php:89
+#: public/widgets/elementor/sidebar-products-top-rated.php:91
+msgid "Your Text"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-attribute-filter.php:101
+msgid "Products Attribute"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-attribute-filter.php:110
+msgid "Query type"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-attribute-filter.php:127
+#: public/widgets/elementor/sidebar-products-categories.php:204
+#: public/widgets/elementor/sidebar-products-price-filter.php:102
+#: public/widgets/elementor/sidebar-products-recent.php:102
+#: public/widgets/elementor/sidebar-products-search.php:100
+#: public/widgets/elementor/sidebar-products-top-rated.php:118
+msgid "Widget - Title"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-attribute-filter.php:185
+msgid "Attribute Style"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-attribute-filter.php:204
+#: public/widgets/elementor/sidebar-products-recent.php:179
+#: public/widgets/elementor/sidebar-products-top-rated.php:195
+#: public/widgets/elementor/single-product-tabs.php:102
+msgid "Text Hover Color"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-categories.php:112
+msgid "Show product counts"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-categories.php:124
+msgid "Show as dropdown"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-categories.php:136
+msgid "Show children only"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-categories.php:148
+msgid "Hide empty"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-categories.php:160
+msgid "Show hierarchical"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-categories.php:172
+msgid "Order by"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-categories.php:177
+#: public/widgets/elementor/single-product-review-form.php:261
+#: public/woocommerce/single-product-reviews.php:92
+msgid "Name"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-categories.php:178
+msgid "Category order"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-categories.php:187
+msgid "Max depth"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-categories.php:453
+msgid "Select a category"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-categories.php:459
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-categories.php:474
+msgid "No product categories exist."
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-price-filter.php:50
+msgid "Sidebar Price Filter"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-price-filter.php:160
+msgid "Price Filter "
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-price-filter.php:181
+msgid "Price Text "
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-recent.php:160
+#: public/widgets/elementor/sidebar-products-top-rated.php:176
+msgid "Box Title"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-recent.php:225
+#: public/widgets/elementor/sidebar-products-top-rated.php:241
+msgid "Price Style"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-recent.php:242
+#: public/widgets/elementor/sidebar-products-recent.php:274
+#: public/widgets/elementor/sidebar-products-top-rated.php:258
+#: public/widgets/elementor/sidebar-products-top-rated.php:290
+msgid "Price Color"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-recent.php:253
+#: public/widgets/elementor/sidebar-products-top-rated.php:269
+msgid "Old Price Color"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-recent.php:266
+#: public/widgets/elementor/sidebar-products-top-rated.php:282
+msgid "Rating Style"
+msgstr ""
+
+#. translators: %s: product count
+
+#: public/widgets/elementor/sidebar-products-tags.php:84
+msgid "%s product"
+msgid_plural "%s products"
+msgstr[0] ""
+msgstr[1] ""
+
+#: public/widgets/elementor/sidebar-products-top-rated.php:99
+msgid "Price Rating Swithch"
+msgstr ""
+
+#: public/widgets/elementor/single-product-add-to-cart.php:91
+#: public/widgets/elementor/single-product-buy-now.php:91
+msgid "Variations Controls"
+msgstr ""
+
+#: public/widgets/elementor/single-product-add-to-cart.php:109
+#: public/widgets/elementor/single-product-buy-now.php:109
+msgid "Select Text Color"
+msgstr ""
+
+#: public/widgets/elementor/single-product-add-to-cart.php:119
+#: public/widgets/elementor/single-product-buy-now.php:119
+#: public/widgets/elementor/single-product-short-description.php:91
+msgid "Description Text Color"
+msgstr ""
+
+#: public/widgets/elementor/single-product-add-to-cart.php:131
+#: public/widgets/elementor/single-product-buy-now.php:131
+msgid "Select Border Color"
+msgstr ""
+
+#: public/widgets/elementor/single-product-add-to-cart.php:139
+#: public/widgets/elementor/single-product-buy-now.php:139
+msgid "Text Padding"
+msgstr ""
+
+#: public/widgets/elementor/single-product-breadcrumb.php:92
+msgid "Product - Breadcrumb Dot"
+msgstr ""
+
+#: public/widgets/elementor/single-product-buy-now.php:50
+msgid "Single Buy Now"
+msgstr ""
+
+#: public/widgets/elementor/single-product-category.php:78
+msgid "Category Label"
+msgstr ""
+
+#: public/widgets/elementor/single-product-category.php:85
+msgid "Enable Category Label?"
+msgstr ""
+
+#: public/widgets/elementor/single-product-category.php:128
+#: public/woocommerce/single-product/meta.php:36
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: public/widgets/elementor/single-product-price.php:167
+msgid "Price does not set this product."
+msgstr ""
+
+#: public/widgets/elementor/single-product-ratings.php:90
+msgid "Product - Rating"
+msgstr ""
+
+#: public/widgets/elementor/single-product-ratings.php:98
+msgid "Rating Icon Color"
+msgstr ""
+
+#: public/widgets/elementor/single-product-ratings.php:109
+msgid "Rating Text Color"
+msgstr ""
+
+#: public/widgets/elementor/single-product-related.php:88
+msgid "Posts Per Page"
+msgstr ""
+
+#: public/widgets/elementor/single-product-related.php:96
+msgid "Order By"
+msgstr ""
+
+#: public/widgets/elementor/single-product-related.php:100
+#: public/woocommerce/myaccount/my-orders.php:15
+msgid "Date"
+msgstr ""
+
+#: public/widgets/elementor/single-product-related.php:102
+#: public/woocommerce/cart/cart.php:30 public/woocommerce/cart/cart.php:81
+msgid "Price"
+msgstr ""
+
+#: public/widgets/elementor/single-product-related.php:103
+msgid "Popularity"
+msgstr ""
+
+#: public/widgets/elementor/single-product-related.php:104
+msgid "Rating"
+msgstr ""
+
+#: public/widgets/elementor/single-product-related.php:105
+msgid "Random"
+msgstr ""
+
+#: public/widgets/elementor/single-product-related.php:106
+msgid "Menu Order"
+msgstr ""
+
+#: public/widgets/elementor/single-product-related.php:114
+#: public/woocommerce/myaccount/my-orders.php:14
+msgid "Order"
+msgstr ""
+
+#: public/widgets/elementor/single-product-related.php:118
+msgid "ASC"
+msgstr ""
+
+#: public/widgets/elementor/single-product-related.php:119
+msgid "DESC"
+msgstr ""
+
+#: public/widgets/elementor/single-product-review-form.php:84
+#: public/widgets/elementor/single-product-tabs.php:450
+msgid "Review Form Controls"
+msgstr ""
+
+#: public/widgets/elementor/single-product-review-form.php:92
+#: public/widgets/elementor/single-product-tabs.php:458
+msgid "Review Form Title"
+msgstr ""
+
+#: public/widgets/elementor/single-product-review-form.php:104
+#: public/widgets/elementor/single-product-tabs.php:470
+msgid "Review Form Typography"
+msgstr ""
+
+#: public/widgets/elementor/single-product-review-form.php:112
+#: public/widgets/elementor/single-product-tabs.php:478
+msgid "Review Rating Title"
+msgstr ""
+
+#: public/widgets/elementor/single-product-review-form.php:124
+#: public/widgets/elementor/single-product-tabs.php:490
+msgid "Review Rating Typography"
+msgstr ""
+
+#: public/widgets/elementor/single-product-review-form.php:132
+#: public/widgets/elementor/single-product-tabs.php:498
+msgid "Review Rating Icon"
+msgstr ""
+
+#: public/widgets/elementor/single-product-review-form.php:144
+#: public/widgets/elementor/single-product-review-form.php:157
+#: public/widgets/elementor/single-product-tabs.php:510
+#: public/widgets/elementor/single-product-tabs.php:523
+msgid "Review Rating Label"
+msgstr ""
+
+#. translators: %s is product title
+
+#: public/widgets/elementor/single-product-review-form.php:247
+#: public/woocommerce/single-product-reviews.php:78
+msgid "Add a review"
+msgstr ""
+
+#: public/widgets/elementor/single-product-review-form.php:247
+#: public/woocommerce/single-product-reviews.php:78
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: %s is product title
+
+#: public/widgets/elementor/single-product-review-form.php:249
+#: public/woocommerce/single-product-reviews.php:80
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: public/widgets/elementor/single-product-review-form.php:253
+#: public/woocommerce/single-product-reviews.php:84
+msgid "Submit"
+msgstr ""
+
+#: public/widgets/elementor/single-product-review-form.php:267
+#: public/woocommerce/single-product-reviews.php:98
+msgid "Email"
+msgstr ""
+
+#. translators: %s opening and closing link tags respectively
+
+#: public/widgets/elementor/single-product-review-form.php:292
+#: public/woocommerce/single-product-reviews.php:123
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr ""
+
+#: public/widgets/elementor/single-product-review-form.php:296
+#: public/woocommerce/single-product-reviews.php:127
+msgid "Your rating"
+msgstr ""
+
+#: public/widgets/elementor/single-product-review-form.php:297
+#: public/woocommerce/single-product-reviews.php:128
+msgid "Rate&hellip;"
+msgstr ""
+
+#: public/widgets/elementor/single-product-review-form.php:298
+#: public/woocommerce/single-product-reviews.php:129
+msgid "Perfect"
+msgstr ""
+
+#: public/widgets/elementor/single-product-review-form.php:299
+#: public/woocommerce/single-product-reviews.php:130
+msgid "Good"
+msgstr ""
+
+#: public/widgets/elementor/single-product-review-form.php:300
+#: public/woocommerce/single-product-reviews.php:131
+msgid "Average"
+msgstr ""
+
+#: public/widgets/elementor/single-product-review-form.php:301
+#: public/woocommerce/single-product-reviews.php:132
+msgid "Not that bad"
+msgstr ""
+
+#: public/widgets/elementor/single-product-review-form.php:302
+#: public/woocommerce/single-product-reviews.php:133
+msgid "Very poor"
+msgstr ""
+
+#: public/widgets/elementor/single-product-review-form.php:306
+#: public/woocommerce/single-product-reviews.php:137
+msgid "Your review"
+msgstr ""
+
+#: public/widgets/elementor/single-product-review-form.php:314
+#: public/woocommerce/single-product-reviews.php:144
+msgid "Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: public/widgets/elementor/single-product-reviews.php:83
+#: public/widgets/elementor/single-product-tabs.php:286
+msgid "Comment Aavater Controls"
+msgstr ""
+
+#: public/widgets/elementor/single-product-reviews.php:92
+#: public/widgets/elementor/single-product-tabs.php:295
+msgid "Comment Avater"
+msgstr ""
+
+#: public/widgets/elementor/single-product-reviews.php:104
+#: public/widgets/elementor/single-product-tabs.php:307
+msgid "Width"
+msgstr ""
+
+#: public/widgets/elementor/single-product-reviews.php:132
+#: public/widgets/elementor/single-product-tabs.php:335
+msgid "Height"
+msgstr ""
+
+#: public/widgets/elementor/single-product-reviews.php:174
+#: public/widgets/elementor/single-product-tabs.php:377
+msgid "Rating Color"
+msgstr ""
+
+#: public/widgets/elementor/single-product-reviews.php:185
+#: public/widgets/elementor/single-product-tabs.php:388
+msgid "Username Color"
+msgstr ""
+
+#: public/widgets/elementor/single-product-reviews.php:197
+#: public/widgets/elementor/single-product-tabs.php:400
+msgid "Username Typography"
+msgstr ""
+
+#: public/widgets/elementor/single-product-reviews.php:205
+#: public/widgets/elementor/single-product-tabs.php:408
+msgid "Avater Meta"
+msgstr ""
+
+#: public/widgets/elementor/single-product-reviews.php:217
+#: public/widgets/elementor/single-product-tabs.php:420
+msgid "Avater Typography"
+msgstr ""
+
+#: public/widgets/elementor/single-product-reviews.php:225
+#: public/widgets/elementor/single-product-tabs.php:428
+msgid "Review Text"
+msgstr ""
+
+#: public/widgets/elementor/single-product-reviews.php:237
+#: public/widgets/elementor/single-product-tabs.php:440
+msgid "Review Text Typography"
+msgstr ""
+
+#: public/widgets/elementor/single-product-saletimer.php:84
+msgid "Sale Timer Box"
+msgstr ""
+
+#: public/widgets/elementor/single-product-saletimer.php:93
+msgid "Box Background"
+msgstr ""
+
+#: public/widgets/elementor/single-product-saletimer.php:137
+msgid "Sale Timer Title"
+msgstr ""
+
+#: public/widgets/elementor/single-product-saletimer.php:167
+msgid "Sale Date Color"
+msgstr ""
+
+#: public/widgets/elementor/single-product-saletimer.php:174
+msgid "Time Color"
+msgstr ""
+
+#: public/widgets/elementor/single-product-saletimer.php:186
+msgid "Dot Color"
+msgstr ""
+
+#: public/widgets/elementor/single-product-short-description.php:83
+msgid "Product - Description"
+msgstr ""
+
+#: public/widgets/elementor/single-product-sku.php:90
+msgid "Product - SKU"
+msgstr ""
+
+#: public/widgets/elementor/single-product-sku.php:109
+msgid "SKU Text Color"
+msgstr ""
+
+#: public/widgets/elementor/single-product-sku.php:154
+#: public/woocommerce/single-product/meta.php:30
+msgid "SKU:"
+msgstr ""
+
+#: public/widgets/elementor/single-product-social.php:50
+msgid "Single Product Social Share"
+msgstr ""
+
+#: public/widgets/elementor/single-product-social.php:91
+msgid "Product - Social Title"
+msgstr ""
+
+#: public/widgets/elementor/single-product-social.php:148
+msgid "Share:"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:84
+msgid "Tab Style"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:112
+msgid "Text Hover Line Color"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:158
+msgid "Description Controls"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:167
+msgid "Description Title"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:187
+msgid "Description Content"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:209
+msgid "Additional Info Table"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:217
+msgid "Table Title"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:228
+msgid "Table Title Padding"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:241
+msgid "Table Title Typo"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:251
+msgid "Table Info"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:262
+msgid "Table Info Padding"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:275
+msgid "Table Info Typography"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tags.php:87
+msgid "Product - Tags"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tags.php:106
+msgid "Tag Text Color"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tags.php:117
+msgid "Tag Hover Color"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tags.php:168
+#: public/woocommerce/single-product/meta.php:40
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: public/woocommerce/cart/cart-empty.php:42
+msgid "Return to shop"
+msgstr ""
+
+#. Translators: $s shipping destination.
+
+#: public/woocommerce/cart/cart-shipping.php:50
+msgid "Shipping to %s."
+msgstr ""
+
+#: public/woocommerce/cart/cart-shipping.php:51
+msgid "Change address"
+msgstr ""
+
+#: public/woocommerce/cart/cart-shipping.php:53
+msgid "Shipping options will be updated during checkout."
+msgstr ""
+
+#: public/woocommerce/cart/cart-shipping.php:61
+msgid "Shipping costs are calculated during checkout."
+msgstr ""
+
+#: public/woocommerce/cart/cart-shipping.php:63
+msgid "Enter your address to view shipping options."
+msgstr ""
+
+#: public/woocommerce/cart/cart-shipping.php:66
+msgid "There are no shipping options available. Please ensure that your address has been entered correctly, or contact us if you need any help."
+msgstr ""
+
+#. Translators: $s shipping destination.
+
+#: public/woocommerce/cart/cart-shipping.php:80
+msgid "No shipping options were found for %s."
+msgstr ""
+
+#: public/woocommerce/cart/cart-shipping.php:84
+msgid "Enter a different address"
+msgstr ""
+
+#: public/woocommerce/cart/cart-totals.php:21
+#: public/woocommerce/cart/cart-totals.php:22
+#: public/woocommerce/cart/cart.php:32 public/woocommerce/cart/cart.php:113
+#: public/woocommerce/checkout/review-order.php:15
+#: public/woocommerce/checkout/review-order.php:58
+msgid "Subtotal"
+msgstr ""
+
+#: public/woocommerce/cart/cart-totals.php:54
+#: public/woocommerce/cart/cart-totals.php:55
+msgid "Shipping"
+msgstr ""
+
+#. translators: %s location.
+
+#: public/woocommerce/cart/cart-totals.php:75
+msgid "(estimated for %s)"
+msgstr ""
+
+#: public/woocommerce/cart/cart-totals.php:103
+#: public/woocommerce/cart/cart-totals.php:104
+#: public/woocommerce/checkout/review-order.php:117
+#: public/woocommerce/myaccount/my-orders.php:17
+#: public/woocommerce/order/order-details.php:23
+msgid "Total"
+msgstr ""
+
+#: public/woocommerce/cart/cart.php:29 public/woocommerce/cart/cart.php:61
+#: public/woocommerce/checkout/review-order.php:14
+#: public/woocommerce/order/order-details.php:22
+msgid "Product"
+msgstr ""
+
+#: public/woocommerce/cart/cart.php:31 public/woocommerce/cart/cart.php:87
+#: public/woocommerce/global/quantity-input.php:28
+msgid "Quantity"
+msgstr ""
+
+#: public/woocommerce/cart/cart.php:33
+msgid "Action"
+msgstr ""
+
+#: public/woocommerce/cart/cart.php:76
+msgid "Available on backorder"
+msgstr ""
+
+#: public/woocommerce/cart/cart.php:131
+msgid "Remove this item"
+msgstr ""
+
+#: public/woocommerce/cart/cart.php:161
+msgid "Update cart"
+msgstr ""
+
+#: public/woocommerce/checkout/form-billing.php:16
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: public/woocommerce/checkout/form-billing.php:20
+msgid "Billing details"
+msgstr ""
+
+#: public/woocommerce/checkout/form-billing.php:45
+msgid "Create an account?"
+msgstr ""
+
+#: public/woocommerce/checkout/form-checkout.php:56
+msgid "Your order"
+msgstr ""
+
+#: public/woocommerce/checkout/form-coupon.php:29
+#: public/woocommerce/checkout/form-coupon.php:32
+msgid "Have a coupon?"
+msgstr ""
+
+#: public/woocommerce/checkout/form-coupon.php:29
+#: public/woocommerce/checkout/form-coupon.php:32
+msgid "Click here to enter your code"
+msgstr ""
+
+#: public/woocommerce/checkout/form-coupon.php:39
+msgid "If you have a coupon code, please apply it below."
+msgstr ""
+
+#: public/woocommerce/checkout/form-coupon.php:47
+msgid "Apply coupon"
+msgstr ""
+
+#: public/woocommerce/checkout/form-login.php:26
+msgid "Returning customer?"
+msgstr ""
+
+#: public/woocommerce/checkout/payment.php:33
+msgid "Sorry, it seems that there are no available payment methods for your state. Please contact us if you require assistance or wish to make alternate arrangements."
+msgstr ""
+
+#: public/woocommerce/checkout/payment.php:33
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#. translators: %s: Quantity.
+
+#: public/woocommerce/global/quantity-input.php:28
+msgid "%s quantity"
+msgstr ""
+
+#: public/woocommerce/global/quantity-input.php:48
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: public/woocommerce/loop/orderby.php:23
+msgid "Shop order"
+msgstr ""
+
+#: public/woocommerce/myaccount/dashboard.php:47
+msgid "Welcome"
+msgstr ""
+
+#: public/woocommerce/myaccount/dashboard.php:52
+msgid "Welcome back to your dashboard"
+msgstr ""
+
+#: public/woocommerce/myaccount/dashboard.php:58
+msgid "Logout"
+msgstr ""
+
+#. translators: 1: Orders URL 2: Address URL 3: Account URL.
+
+#: public/woocommerce/myaccount/dashboard.php:68
+msgid "From your account dashboard you can view your <a href=\"%1$s\">recent orders</a>, manage your <a href=\"%2$s\">billing address</a>, and <a href=\"%3$s\">edit your password and account details</a>."
+msgstr ""
+
+#. translators: 1: Orders URL 2: Addresses URL 3: Account URL.
+
+#: public/woocommerce/myaccount/dashboard.php:71
+msgid "From your account dashboard you can view your <a href=\"%1$s\">recent orders</a>, manage your <a href=\"%2$s\">shipping and billing addresses</a>, and <a href=\"%3$s\">edit your password and account details</a>."
+msgstr ""
+
+#: public/woocommerce/myaccount/downloads.php:43
+msgid "No downloads available yet."
+msgstr ""
+
+#: public/woocommerce/myaccount/downloads.php:45
+#: public/woocommerce/myaccount/orders.php:118
+msgid "Browse products"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-add-payment-method.php:54
+#: public/woocommerce/myaccount/payment-methods.php:77
+msgid "Add payment method"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-add-payment-method.php:60
+msgid "New payment methods can only be added during checkout. Please contact us if you require assistance."
+msgstr ""
+
+#: public/woocommerce/myaccount/form-edit-account.php:27
+msgid "First name"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-edit-account.php:31
+msgid "Last name"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-edit-account.php:37
+msgid "Display name"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-edit-account.php:38
+msgid "This will be how your name will be displayed in the account section and in reviews"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-edit-account.php:43
+#: public/woocommerce/myaccount/form-login.php:122
+msgid "Email address"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-edit-account.php:48
+msgid "Password change"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-edit-account.php:51
+msgid "Current password (leave blank to leave unchanged)"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-edit-account.php:55
+msgid "New password (leave blank to leave unchanged)"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-edit-account.php:59
+msgid "Confirm new password"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-edit-account.php:69
+msgid "Save changes"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-edit-address.php:20
+#: public/woocommerce/myaccount/my-address.php:26
+#: public/woocommerce/myaccount/my-address.php:35
+#: public/woocommerce/order/order-details-customer.php:55
+msgid "Billing address"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-edit-address.php:20
+#: public/woocommerce/myaccount/my-address.php:27
+#: public/woocommerce/order/order-details-customer.php:121
+msgid "Shipping address"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-edit-address.php:46
+msgid "Save address"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-login.php:44
+msgid "Username or email address"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-login.php:92
+msgid "Log in"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-login.php:106
+#: public/woocommerce/myaccount/form-login.php:143
+msgid "Register"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-login.php:115
+msgid "Username"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-login.php:135
+msgid "A link to set a new password will be sent to your email address."
+msgstr ""
+
+#: public/woocommerce/myaccount/form-lost-password.php:25
+msgid "Lost your password? Please enter your username or email address. You will receive a link to create a new password via email."
+msgstr ""
+
+#: public/woocommerce/myaccount/form-lost-password.php:38
+msgid "Reset password"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-reset-password.php:25
+msgid "Enter a new password below."
+msgstr ""
+
+#: public/woocommerce/myaccount/form-reset-password.php:28
+msgid "New password"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-reset-password.php:32
+msgid "Re-enter new password"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-reset-password.php:45
+msgid "Save"
+msgstr ""
+
+#: public/woocommerce/myaccount/lost-password-confirmation.php:20
+msgid "Password reset email has been sent."
+msgstr ""
+
+#: public/woocommerce/myaccount/lost-password-confirmation.php:25
+msgid "A password reset email has been sent to the email address on file for your account, but may take several minutes to show up in your inbox. Please wait at least 10 minutes before attempting another reset."
+msgstr ""
+
+#: public/woocommerce/myaccount/my-address.php:46
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: public/woocommerce/myaccount/my-address.php:63
+msgid "Edit"
+msgstr ""
+
+#: public/woocommerce/myaccount/my-address.php:63
+msgid "Add"
+msgstr ""
+
+#: public/woocommerce/myaccount/my-address.php:67
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: public/woocommerce/myaccount/my-downloads.php:29
+msgid "Available downloads"
+msgstr ""
+
+#. translators: %s product name
+
+#: public/woocommerce/myaccount/my-downloads.php:39
+msgid "%s download remaining"
+msgid_plural "%s downloads remaining"
+msgstr[0] ""
+msgstr[1] ""
+
+#: public/woocommerce/myaccount/my-orders.php:16
+msgid "Status"
+msgstr ""
+
+#: public/woocommerce/myaccount/my-orders.php:39
+msgid "Recent orders"
+msgstr ""
+
+#: public/woocommerce/myaccount/my-orders.php:65
+#: public/woocommerce/myaccount/orders.php:50
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#. translators: 1: formatted order total 2: total order items
+
+#: public/woocommerce/myaccount/my-orders.php:77
+#: public/woocommerce/myaccount/orders.php:64
+msgid "%1$s for %2$s item"
+msgid_plural "%1$s for %2$s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: public/woocommerce/myaccount/orders.php:99
+msgid "Previous"
+msgstr ""
+
+#: public/woocommerce/myaccount/orders.php:105
+msgid "Next"
+msgstr ""
+
+#: public/woocommerce/myaccount/orders.php:117
+msgid "No order has been made yet."
+msgstr ""
+
+#. translators: 1: credit card type 2: last 4 digits
+
+#: public/woocommerce/myaccount/payment-methods.php:49
+msgid "%1$s ending in %2$s"
+msgstr ""
+
+#: public/woocommerce/myaccount/payment-methods.php:70
+msgid "No saved methods found."
+msgstr ""
+
+#. translators: 1: order number 2: order date 3: order status
+
+#: public/woocommerce/myaccount/view-order.php:28
+msgid "Order #%1$s was placed on %2$s and is currently %3$s."
+msgstr ""
+
+#: public/woocommerce/myaccount/view-order.php:37
+msgid "Order updates"
+msgstr ""
+
+#: public/woocommerce/myaccount/view-order.php:43
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:59
+#: public/woocommerce/order/order-details-customer.php:125
+msgid "Name:"
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:63
+msgid "Email:"
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:67
+msgid "Phone number:"
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:71
+#: public/woocommerce/order/order-details-customer.php:139
+msgid "Company:"
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:75
+#: public/woocommerce/order/order-details-customer.php:129
+msgid "Address 1:"
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:79
+#: public/woocommerce/order/order-details-customer.php:132
+msgid "Address 2:"
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:83
+#: public/woocommerce/order/order-details-customer.php:136
+msgid "City:"
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:87
+msgid "State/province/area:"
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:91
+msgid "Zip code:"
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:95
+#: public/woocommerce/order/order-details-customer.php:142
+msgid "Country:"
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:145
+msgid "Method:"
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:148
+msgid "Phone:"
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:151
+msgid "Zip Code:"
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:154
+msgid "State:"
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:157
+msgid "Tax:"
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:160
+msgid "Tax Display:"
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:163
+#: public/woocommerce/order/order-overview.php:32
+msgid "Total:"
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:166
+msgid "Refund:"
+msgstr ""
+
+#: public/woocommerce/order/order-details.php:62
+msgid "Note:"
+msgstr ""
+
+#: public/woocommerce/order/order-overview.php:18
+msgid "Your Order Confirmed"
+msgstr ""
+
+#: public/woocommerce/order/order-overview.php:19
+msgid "We will send you a shipping confirmation email as soon as your order ships"
+msgstr ""
+
+#: public/woocommerce/order/order-overview.php:26
+msgid "Order Date:"
+msgstr ""
+
+#: public/woocommerce/order/order-overview.php:38
+msgid "Order Number:"
+msgstr ""
+
+#: public/woocommerce/order/order-overview.php:39
+msgid "#"
+msgstr ""
+
+#: public/woocommerce/order/order-overview.php:44
+msgid "Payment Method:"
+msgstr ""
+
+#: public/woocommerce/single-product/add-to-cart/grouped.php:67
+msgid "Buy one of this item"
+msgstr ""
+
+#: public/woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: public/woocommerce/single-product/add-to-cart/variation.php:22
+msgid "Sorry, this product is unavailable. Please choose a different combination."
+msgstr ""
+
+#: public/woocommerce/single-product/photoswipe.php:34
+msgid "Close (Esc)"
+msgstr ""
+
+#: public/woocommerce/single-product/photoswipe.php:35
+msgid "Share"
+msgstr ""
+
+#: public/woocommerce/single-product/photoswipe.php:36
+msgid "Toggle fullscreen"
+msgstr ""
+
+#: public/woocommerce/single-product/photoswipe.php:37
+msgid "Zoom in/out"
+msgstr ""
+
+#: public/woocommerce/single-product/photoswipe.php:49
+msgid "Previous (arrow left)"
+msgstr ""
+
+#: public/woocommerce/single-product/photoswipe.php:50
+msgid "Next (arrow right)"
+msgstr ""
+
+#: public/woocommerce/single-product/related.php:27
+msgid "Related products"
+msgstr ""
+
+#: public/woocommerce/single-product/review-meta.php:27
+msgid "Your review is awaiting approval"
+msgstr ""
+
+#: public/woocommerce/single-product/review-meta.php:37
+msgid "verified owner"
+msgstr ""
+
+#: public/woocommerce/single-product/tabs/additional-information.php:22
+msgid "Additional information"
+msgstr ""
+
+#: public/woocommerce/single-product/up-sells.php:26
+msgid "You may also like&hellip;"
+msgstr ""
+
+#. translators: 1: reviews count 2: product name
+
+#: public/woocommerce/single-product-reviews.php:34
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: public/woocommerce/single-product-reviews.php:37
+msgid "Reviews"
+msgstr ""
+
+#: public/woocommerce/single-product-reviews.php:67
+msgid "There are no reviews yet."
+msgstr ""
+
+#: pure-wc-shopbuild.php:122 pure-wc-shopbuild.php:123
+msgid "Templates"
+msgstr ""
+
+#: pure-wc-shopbuild.php:124
+msgid "Template"
+msgstr ""

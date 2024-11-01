@@ -1,0 +1,245 @@
+@use '../utils/' as *;
+
+/*----------------------------------------*/
+/*  8.26 Hotspot CSS
+/*----------------------------------------*/
+
+
+.#{$theme-prefix}-hotspot{
+    $self: &;
+    border-radius: 50%;
+    background-color: var(--sbp-common-white);
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    &-item{
+        width: 44px;
+        height: 44px;
+    }
+    & span{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        line-height: 100%;
+        text-align: center;
+        font-size: 16px;
+        color: var(--sbp-common-black);
+        border-radius: 50%;
+        background-color: var(--sbp-common-white);
+        position: absolute;
+        z-index: 1;
+
+        &:hover{
+            cursor: pointer;
+        }
+
+        & svg{
+            width: 22px;
+            @include transform(translateY(4px));
+        }
+    
+        &.sb-svg-icon{
+            & svg{
+                @include transform(translateY(1px));
+            }
+        }
+    }
+
+   
+
+
+
+    &-wrapper{
+        position: relative;
+        &:not(.has-height){
+            height: 400px;
+        }
+    }
+
+    &-thumb{
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    &-item{
+        width: 44px;
+        height: 44px;
+        position: absolute;
+        z-index: 1;
+        &:hover{
+            z-index: 99;
+            #{$self}{
+                &-content{
+                    visibility: visible;
+                    opacity: 1;
+                }
+            }
+        }
+
+        &.content{
+            &-bottom{
+                #{$self}{
+                    &-content{
+                        bottom: 0;
+                        left: 50%;
+                        @include transform(translate3d(-50%, calc(22px), 0));
+                        &::after{
+                            top: 0;
+                            left: 50%;
+                            @include transform(translate(-50%, -50%) rotate(45deg));
+                            clip-path: polygon(0 0, 0% 100%, 100% 0);
+                        }
+                    }
+                }
+                &:hover{
+                    #{$self}{
+                        &-content{
+                            @include transform(translate3d(-50%, calc(12px), 0))
+                        }
+                    }
+                }
+            }
+            &-top{
+                #{$self}{
+                    &-content{
+                        top: 0;
+                        left: 50%;
+                        @include transform(translate3d(-50%, calc(-100% - 64px), 0));
+                        &::after{
+                            bottom: -13px;
+                            left: 50%;
+                            @include transform(translate(-50%, -50%) rotate(45deg));
+                            clip-path: polygon(100% 100%, 0% 100%, 100% 0);
+                        }
+                    }
+                }
+                &:hover{
+                    #{$self}{
+                        &-content{
+                            @include transform(translate3d(-50%, calc(-100% - 54px), 0));
+                        }
+                    }
+                }
+            }
+            &-left{
+                #{$self}{
+                    &-content{
+                        top: 50%;
+                        right: 100%;
+                        @include transform(translate3d(calc(-100% + 22px), calc(-50% - 44px), 0));
+                        &::after{
+                            top: 50%;
+                            right: -13px;
+                            @include transform(translate(-50%, -50%) rotate(45deg));
+                            clip-path: polygon(100% 100%, 100% 0, 0 0)
+                        }
+                    }
+                }
+                &:hover{
+                    #{$self}{
+                        &-content{
+                            @include transform(translate3d(calc(-100% + 32px), calc(-50% - 44px), 0));
+                        }
+                    }
+                }
+            }
+            &-right{
+                #{$self}{
+                    &-content{
+                        top: 50%;
+                        left: 100%;
+                        @include transform(translate3d(23px, calc(-50% - 44px), 0));
+                        &::after{
+                            top: 50%;
+                            left: 0;
+                            @include transform(translate(-50%, -50%) rotate(45deg));
+                            clip-path: polygon(100% 100%, 0% 100%, 0 0);
+                        }
+                    }
+                }
+                &:hover{
+                    #{$self}{
+                        &-content{
+                            @include transform(translate3d(13px, calc(-50% - 44px), 0));
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &-content{
+        background-color: var(--sbp-common-white);
+        position: relative;
+        min-width: 240px;
+        padding: 15px 20px;
+        visibility: hidden;
+        opacity: 0;
+        @include transition-mul((opacity .3s ease,visibility .3s ease,transform .3s cubic-bezier(0.71, 1.7, 0.77, 1.24),-webkit-transform .3s cubic-bezier(0.71, 1.7, 0.77, 1.24)));
+        text-align: center;
+
+        &::after{
+            position: absolute;
+            content: "";
+            width: 14px;
+            height: 14px;
+            background-color: var(--sbp-common-white);
+            
+        }
+
+        & p{
+            line-height: 1.3;
+            margin-bottom: 0;
+            font-size: 14px;
+            @extend %ff-jost;
+        }
+    }
+    &-title{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1;
+        text-align: center;
+        margin-bottom: 10px;
+        @extend %ff-jost;
+    }
+}
+
+.#{$theme-prefix}-pulse-border{
+	&::after,
+	&::before{
+		position: absolute;
+		content: '';
+		left: 50%;
+		top: 50%;
+		width: 100%;
+		height: 100%;
+		border-radius: 50%;
+		border: 1px solid rgba($color: #fff, $alpha: .4);
+		@include transform(translate(-50%, -50%));
+        @include animation((pulse_border_animation 2s linear infinite));
+		@extend %transition;
+		z-index: -1;
+	}
+
+	&::before{
+		animation-delay: .7s;
+	}
+}
+
+@include keyframes(pulse_border_animation){
+    0% {
+       @include transform(translate(-50%, -50%) scale(.8));
+    }
+	60%{
+		opacity: 1;
+	}
+    100% {
+        @include transform(translate(-50%, -50%) scale(2.5));
+        opacity: 0;
+    }
+}

@@ -1,0 +1,169 @@
+@use '../../utils/' as *;
+
+.#{$theme-prefix}-product{
+    $self: &;
+    &-item{
+        &:hover{
+            #{$self}{
+                &-action{
+                    visibility: visible;
+                    opacity: 1;
+
+                    &.action-position{
+                        &-left{
+                            left: 24px;
+                        }
+                        &-right{
+                            right: 24px;
+                        }
+                        &-top{
+                            top: 24px;
+                            bottom: auto;
+                        }
+                        &-bottom{
+                            top: auto;
+                            bottom: 24px;
+                        }
+                    }
+                }
+                &-action-addToCart-bottom{
+                    opacity: 1;
+                    visibility: visible;
+                    @include transform(translateY(0));
+
+                    
+                }
+                &-action-price{
+                    opacity: 1;
+                    visibility: visible;
+                    @include transform(translateY(0));
+                }
+            }
+        }     
+
+        &.select-type-position{
+            &-before_content{
+                & .sb-product-thumb{
+                    & .tpwvs-shop-variations.variations{
+                        & .tpwvs-type-select{
+                            display: none;
+                        }
+                    }
+                }
+            }
+            &-on_thumbnail{
+                & .sb-product-content{
+                    & .tpwvs-shop-variations.variations{
+                        & .tpwvs-type-select{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+        &.color-type-position{
+            &-before_content{
+                & .sb-product-thumb{
+                    & .tpwvs-shop-variations.variations{
+                        & .tpwvs-type-color{
+                            display: none;
+                        }
+                    }
+                }
+            }
+            &-on_thumbnail{
+                & .sb-product-content{
+                    & .tpwvs-shop-variations.variations{
+                        & .tpwvs-type-color{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+        &.image-type-position{
+            &-before_content{
+                & .sb-product-thumb{
+                    & .tpwvs-shop-variations.variations{
+                        & .tpwvs-type-image{
+                            display: none;
+                        }
+                    }
+                }
+            }
+            &-on_thumbnail{
+                & .sb-product-content{
+                    & .tpwvs-shop-variations.variations{
+                        & .tpwvs-type-image{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+        &.none-type-position{
+            &-before_content{
+                & .sb-product-thumb{
+                    & .tpwvs-shop-variations.variations{
+                        & .tpwvs-type-none{
+                            display: none;
+                        }
+                    }
+                }
+            }
+            &-on_thumbnail{
+                & .sb-product-content{
+                    & .tpwvs-shop-variations.variations{
+                        & .tpwvs-type-none{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        &.action-type-fixed{
+            .sb-product-action{
+                visibility: visible;
+                opacity: 1;
+
+                &.action-position-right{
+                    left: auto;
+                    right: 24px;
+                }
+                &.action-position-top{
+                    top: 24px;
+                    bottom: auto;
+                }
+                &.action-position-bottom{
+                    top: auto;
+                    bottom: 24px;
+                }
+                &.action-position-left{
+                    left: 24px;
+                }
+
+            }
+        }
+    }
+    &-content{
+        &.text-right{
+            & .tpwvs-shop-variations.variations,
+            & .tpvws-variation-html{
+                justify-content: flex-end;
+            }
+        }
+        &.text-center{
+            & .tpwvs-shop-variations.variations,
+            & .tpvws-variation-html{
+                justify-content: center;
+            }
+        }
+        &.text-left{
+            & .tpwvs-shop-variations.variations,
+            & .tpvws-variation-html{
+                justify-content: flex-start;
+            }
+        }
+    }
+}

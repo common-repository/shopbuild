@@ -1,0 +1,76 @@
+@use '../utils/' as *;
+$grids : (
+  'theme-prefix' : 'sb',
+  'grid-gap' : '1rem',
+  'grid-columns' : 12,
+  'grid-breakpoints' : (
+    'sm' : 576px,
+    'md' : 768px,
+    'lg' : 992px,
+    'xl' : 1200px,
+    'xxl' : 1400px
+  )
+);
+
+$theme-prefix: map-get($grids, 'theme-prefix');
+ 
+.#{$theme-prefix}-grid-row{
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: var(--sbp-grid-gap);
+    margin-left:  var(--sbp-grid-gap);
+    word-wrap: break-word;
+    & > [class*="col-"] {
+      min-height: 1px;
+      position: relative;
+      width: 100%;
+      padding-right: var(--sbp-grid-gap);
+      padding-left: var(--sbp-grid-gap);
+    }
+}
+
+@for $i from 1 through map-get($grids, 'grid-columns') {
+    .#{$theme-prefix}-grid-cols-#{$i}{
+      .#{$theme-prefix}-grid-row{
+        [class*="col-"]{
+          -webkit-box-flex: 0;
+          -webkit-flex: 0 0 calc(100% / $i);
+          -ms-flex: 0 0 calc(100% / $i);
+          flex: 0 0 calc(100% / $i);
+          max-width: calc(100% / $i);
+        }
+      }
+    }
+}
+
+@each $breakpoint, $value in map-get($grids, 'grid-breakpoints') {
+    $name: $breakpoint;
+    $value: $value;
+    @media (min-width: #{$value}) {
+        @for $i from 1 through map-get($grids, 'grid-columns') {
+          .#{$theme-prefix}-grid-cols-#{$name}-#{$i}{
+            .#{$theme-prefix}-grid-row{
+              [class*="col-"]{
+                -webkit-box-flex: 0;
+                -webkit-flex: 0 0 calc(100% / $i);
+                -ms-flex: 0 0 calc(100% / $i);
+                flex: 0 0 calc(100% / $i);
+                max-width: calc(100% / $i);
+              }
+            }
+          }
+        }
+    }
+}
+
+
+
+.sb-g-3, 
+.sb-gx-3 {
+	--sb-gutter-x: 1rem;
+}

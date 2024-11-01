@@ -1,0 +1,187 @@
+@use '../utils/' as *;
+.#{$theme-prefix}-category{
+    $self: &;
+    &-item{
+        position: relative;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #E0E2E3;
+        &:last-child{
+            padding-bottom: 0;
+            border: 0;
+        }
+
+        &:hover{
+            #{$self}{
+                &-thumb{
+                    & img{
+                        @include transform(scale(1.05));
+                    }
+                }
+            }
+        
+        }
+    }
+    &-title{
+        font-size: 18px;
+        color: var(--sbp-common-black);
+        @extend %ff-jost;
+        display: inline-block;
+        position: relative;
+        & a{
+            color: currentColor;
+            @extend %transition;
+            &:hover{
+                color: var(--sbp-theme-primary);
+            }
+        }
+
+        & sup{
+            color: var(--sbp-theme-primary);
+            position: absolute;
+            top: 0;
+            left: 100%;
+            font-size: 12px;
+        }
+    }
+    &-desc{
+        font-size: 14px;
+        line-height: 1.3;
+        margin-bottom: 0;
+        @extend %ff-jost;
+    }
+    &-thumb{
+        position: relative;
+        margin-right: 20px;
+        & span{
+            display: inline-block;
+        }
+
+        & img{
+            @extend %transition;
+        }
+        &-overflow{
+            overflow: hidden;
+        }
+    }
+    &-count{
+        &.on-right{
+            position: absolute;
+            top: 50%;
+            right: 0;
+            @include transform(translateY(-50%));
+            border: 1px solid #e0e2e3;
+            border-radius: 30px;
+            padding: 0px 14px;
+            line-height: 1;
+            font-size: 13px;
+            font-weight: 500;
+            text-align: center;
+            @extend %ff-jost;
+        }
+        &.on-thumbnail{
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            width: 24px;
+            height: 24px;
+            text-align: center;
+            line-height: 20px;
+            background: var(--sbp-theme-primary);
+            border: 2px solid #fff;
+            font-size: 12px;
+            color: #fff;
+            font-weight: 500;
+            border-radius: 50%;
+            display: inline-block;
+            @extend %ff-jost;
+
+        }
+    }
+
+    &-grid{
+        &-item{
+            margin-bottom: 30px;
+
+            &:hover{
+                #{$self}{
+                    &-thumb{
+                        & img{
+                            @include transform(scale(1.05));
+                        }
+                    }
+                }
+            
+            }
+        }
+        &-thumb{
+            position: relative;
+            margin-bottom: 15px;
+            display: inline-block;
+            margin-right: 0;
+            & span{
+                display: inline-block;
+            }
+
+           
+        }
+    }
+}
+
+
+.#{$theme-prefix}-category{
+    $self5: &;
+    &-item-5{
+        background-color: #E5EFE2;
+        min-height: 260px;
+        border-radius: 16px;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        &:hover{
+            #{$self5}{
+                &-thumb-5{
+                    @include transform(scale(1.05));
+                }
+            }
+        }
+    }
+    &-title-5{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1;
+        margin-bottom: 0;
+
+        & a{
+            color: currentColor;
+            &:hover{
+                color: var(--sbp-theme-primary);
+            }
+        }
+
+    }
+    &-thumb-5{
+        @extend %transition;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        
+    }
+    &-content-5{
+        position: absolute;
+        top: 35px;
+        left: 10px;
+        right: 10px;
+        text-align: center;
+        & span{
+            font-size: 14px;
+            color: #5C8C10;
+
+        }
+    }
+}

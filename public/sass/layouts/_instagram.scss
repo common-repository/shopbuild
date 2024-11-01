@@ -1,0 +1,73 @@
+@use '../utils/' as *;
+
+/*----------------------------------------*/
+/*  8.26 Hotspot CSS
+/*----------------------------------------*/
+
+
+.#{$theme-prefix}-instagram{
+    $self:&;
+
+    &-item{
+        position: relative;
+        &::after{
+            position: absolute;
+            content: '';
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba($color: $black, $alpha: .3);
+            opacity: 0;
+            visibility: hidden;
+            @extend %transition;
+        }
+        &:hover{
+            &::after{
+                visibility: visible;
+                opacity: 1;
+            }
+
+            #{$self}{
+                &-icon{
+                    top: 50%;
+                    visibility: visible;
+                    opacity: 1;
+                }
+            }
+        }
+        @include tp-root('div'){
+            & img{
+                max-width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+    &-icon{
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        @include transform(translate(-50%, -50%));
+        z-index: 1;
+        visibility: hidden;
+        opacity: 0;
+        @extend %transition;
+        & a{
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 60px;
+            height: 60px;
+            text-align: center;
+            line-height: 60px;
+            color: var(--sbp-common-black);
+            font-size: 18px;
+            border-radius: 50px;
+            background-color: var(--sbp-common-white);
+            &:hover{
+                background-color: var(--sbp-theme-primary);
+                color: var(--sbp-common-white);
+            }
+        }
+    }
+}

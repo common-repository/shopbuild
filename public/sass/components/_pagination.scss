@@ -1,0 +1,44 @@
+@use '../utils/' as *;
+nav.#{$theme-prefix}-pagination{
+    margin-top: 30px;
+    & ul{
+      
+      &.page-numbers{
+        padding-left: 0;
+        text-align: left;
+      }
+      & li{
+        display: inline-block;
+        border: 0 !important;
+        &:not(:last-child){
+          margin-right: 6px;
+        }
+        & a,
+        & span{
+          padding: 0 !important;
+          display: inline-block;
+          width: 40px;
+          height: 40px;
+          line-height: 38px !important;
+          text-align: center;
+          border: 1px solid rgba($color: $black, $alpha: .1);
+          font-size: 16px;
+          font-weight: 500;
+          color: var(--sbp-text-body);
+          @extend %transition;
+          min-width: 40px;
+
+          &:hover,
+          &.current{
+            background: var(--sbp-theme-primary);
+            border-color: var(--sbp-theme-primary);
+            color: var(--sbp-common-white);
+          }
+  
+          & svg{
+            @include transform(translateY(2px));
+          }
+        }
+      }
+    }
+  }

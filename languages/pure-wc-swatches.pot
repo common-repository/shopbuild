@@ -1,0 +1,139 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Pure WC Variation Swatches\n"
+"POT-Creation-Date: 2023-02-26 15:17+0600\n"
+"PO-Revision-Date: 2023-02-26 15:16+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: pure-wc-variation-swatches.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: admin/class-pure-wc-shopbuild-admin.php:163
+msgid "No valid setting keys found."
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:174
+msgid "Settings saved successfully."
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:177
+msgid "Failed to save settings."
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:230
+msgid "Select a image to upload"
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:234
+msgid "Use this image"
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:274
+msgid "Select"
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:275
+#: admin/class-pure-wc-shopbuild-admin.php:450
+msgid "Color"
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:276
+#: admin/class-pure-wc-shopbuild-admin.php:456
+msgid "Image"
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:288
+#: admin/class-pure-wc-shopbuild-admin.php:289
+msgid "Pure Swatches"
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:390
+msgid "Preview"
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:451
+msgid "Choose a color"
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:457
+msgid "Choose an image"
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:490
+msgid "Variation swatches image preview"
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:493
+msgid "Upload image"
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:494
+msgid "Remove image"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-public.php:140
+msgid "Selected variant is unavailable."
+msgstr ""
+
+#. translators: %s: Product title
+#: public/class-pure-wc-shopbuild-public.php:178
+#, php-format
+msgid "\"%1$s\" has been added to your cart. %2$s"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-public.php:180
+msgid "View Cart"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-public.php:210
+msgid "Add to Cart"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-public.php:247
+#: shortcodes/pure-wc-shopbuild-shortcodes.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-public.php:323
+msgid "No Colors Added!"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-public.php:369
+#: public/class-pure-wc-shopbuild-public.php:384
+msgid "Choose an option"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Pure WC Variation Swatches"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://themepure.net/plugin/pure-variation-swatches.zip"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Nice and easy woocommerce product color variation swatches. Design your "
+"store with more modern looks."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemePure"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themepure.net"
+msgstr ""

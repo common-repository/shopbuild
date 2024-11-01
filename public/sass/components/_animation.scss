@@ -1,0 +1,136 @@
+@use '../utils/' as *;
+@-webkit-keyframes extendedFadeInUp {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(20px);
+      transform: translateY(20px);
+    }
+  
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes extendedFadeInUp {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(20px);
+      -ms-transform: translateY(20px);
+      transform: translateY(20px);
+    }
+  
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+      -ms-transform: translateY(0);
+      transform: translateY(0);
+    }
+  }
+  
+  
+  @-webkit-keyframes extendedFadeInRight {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateX(20px);
+      transform: translateX(20px);
+    }
+  
+    100% {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes extendedFadeInRight {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateX(20px);
+      -ms-transform: translateX(20px);
+      transform: translateX(20px);
+    }
+  
+    100% {
+      opacity: 1;
+      -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+      transform: translateX(0);
+    }
+  }
+
+
+  
+  @keyframes span-first-on {
+    0% {
+      transform: translate(-50%, -300%);
+    }
+    30% {
+      transform: translate(-50%, -50%);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(-45deg);
+    }
+  }
+  @keyframes span-first-off {
+    0% {
+      transform: translate(-50%, -50%) rotate(-45deg);
+    }
+    30% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+      transform: translate(-50%, -300%);
+    }
+  }
+  @keyframes span-second-on {
+    0% {
+      transform: translate(-50%, -50%);
+    }
+    25% {
+      background: #fff;
+    }
+    50% {
+      transform: translate(-50%, -50%) scale(1);
+    }
+    100% {
+      transform: translate(-150%, -50%) scale(0);
+    }
+  }
+  @keyframes span-second-off {
+    0% {
+      transform: translate(-150%, -50%) scale(0);
+    }
+    25% {
+      background: #fff;
+    }
+    50% {
+      transform: translate(-50%, -50%) scale(1);
+    }
+    100% {
+      transform: translate(-50%, -50%);
+    }
+  }
+  @keyframes span-third-on {
+    0% {
+      transform: translate(-50%, 200%);
+    }
+    30% {
+      transform: translate(-50%, -50%);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(45deg);
+    }
+  }
+  @keyframes span-third-off {
+    0% {
+      transform: translate(-50%, -50%) rotate(45deg);
+    }
+    30% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+      transform: translate(-50%, 200%);
+    }
+  }

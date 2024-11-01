@@ -1,0 +1,4152 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: StoreBuild\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-29 07:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.11; wp-6.6.2\n"
+"X-Domain: shopbuild"
+
+#: public/widgets/elementor/checkout-existing-login.php:213
+#: public/widgets/elementor/checkout-existing-login.php:256
+msgid " Returning customer?"
+msgstr ""
+
+#: public/woocommerce/order/order-overview.php:52
+msgid "#"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:982
+#: public/widgets/elementor/pure-coupon.php:985
+msgid "%"
+msgstr ""
+
+#. 1: credit card type 2: last 4 digits
+#: public/woocommerce/myaccount/payment-methods.php:49
+#, php-format
+msgid "%1$s ending in %2$s"
+msgstr ""
+
+#. 1: number of items, 2: total price
+#. 1: formatted order total 2: total order items
+#: public/woocommerce/myaccount/my-orders.php:79
+#: public/woocommerce/myaccount/orders.php:64
+#, php-format
+msgid "%1$s for %2$s item"
+msgid_plural "%1$s for %2$s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#. 1: reviews count 2: product name
+#: public/woocommerce/single-product-reviews.php:35
+#, php-format
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. 1: customer review count 2: customer review counts
+#: public/class-pure-wc-shopbuild-compare.php:440
+#: public/woocommerce/single-product/rating.php:39
+#, php-format
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s product name
+#: public/woocommerce/myaccount/my-downloads.php:39
+#, php-format
+msgid "%s download remaining"
+msgid_plural "%s downloads remaining"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s is the product label.
+#: public/class-pure-wc-shopbuild-cross-sell.php:37
+#: public/class-pure-wc-shopbuild-add-to-cart-notification.php:36
+#, php-format
+msgid "%s has been successfully added to your cart!"
+msgstr ""
+
+#. %s: product count
+#: public/widgets/elementor/sidebar-products-tags.php:92
+#, php-format
+msgid "%s product"
+msgid_plural "%s products"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: Quantity.
+#: public/woocommerce/global/quantity-input.php:28
+#, php-format
+msgid "%s quantity"
+msgstr ""
+
+#. %s is the tag label.
+#: public/widgets/elementor/single-product-tags.php:170
+#, php-format
+msgid "%s Tag"
+msgid_plural "%s Tags"
+msgstr[0] ""
+msgstr[1] ""
+
+#. 1: Review 2: Reviews
+#: public/sb-product-hook.php:510
+#, php-format
+msgid "( %s Review )"
+msgid_plural "( %s Reviews )"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s location.
+#: public/woocommerce/cart/cart-totals.php:77
+#, php-format
+msgid "(estimated for %s)"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-wishlist.php:477
+msgid ")"
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:115
+#: admin/class-pure-wc-shopbuild-admin.php:246
+msgid "+880 123 456 789"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:1009
+#: public/widgets/elementor/pure-coupon.php:1010
+#: public/widgets/elementor/pure-coupon.php:1011
+#: public/widgets/elementor/pure-coupon.php:1012
+msgid "0"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1205
+#: public/traits/shopbuild-styles.php:1224
+#: public/traits/shopbuild-styles.php:1243
+#: public/traits/shopbuild-styles.php:1262
+#: public/traits/shopbuild-styles.php:1281
+msgid "1 Columns"
+msgstr ""
+
+#: public/traits/shopbuild-query.php:122
+msgid "2 Cols"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1206
+#: public/traits/shopbuild-styles.php:1225
+#: public/traits/shopbuild-styles.php:1244
+#: public/traits/shopbuild-styles.php:1263
+#: public/traits/shopbuild-styles.php:1282
+msgid "2 Columns"
+msgstr ""
+
+#: public/traits/shopbuild-query.php:123
+msgid "3 Cols"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1207
+#: public/traits/shopbuild-styles.php:1226
+#: public/traits/shopbuild-styles.php:1245
+#: public/traits/shopbuild-styles.php:1264
+#: public/traits/shopbuild-styles.php:1283
+msgid "3 Columns"
+msgstr ""
+
+#: public/traits/shopbuild-query.php:124
+msgid "4 Cols"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1208
+#: public/traits/shopbuild-styles.php:1227
+#: public/traits/shopbuild-styles.php:1246
+#: public/traits/shopbuild-styles.php:1265
+#: public/traits/shopbuild-styles.php:1284
+msgid "4 Columns"
+msgstr ""
+
+#: public/traits/shopbuild-query.php:125
+msgid "5 Cols"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1209
+#: public/traits/shopbuild-styles.php:1228
+#: public/traits/shopbuild-styles.php:1247
+#: public/traits/shopbuild-styles.php:1266
+#: public/traits/shopbuild-styles.php:1285
+msgid "5 Columns"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1210
+#: public/traits/shopbuild-styles.php:1229
+#: public/traits/shopbuild-styles.php:1248
+#: public/traits/shopbuild-styles.php:1267
+#: public/traits/shopbuild-styles.php:1286
+msgid "6 Columns"
+msgstr ""
+
+#: public/woocommerce/myaccount/lost-password-confirmation.php:25
+msgid ""
+"A password reset email has been sent to the email address on file for your "
+"account, but may take several minutes to show up in your inbox. Please wait "
+"at least 10 minutes before attempting another reset."
+msgstr ""
+
+#: functions.php:123
+msgid "Accordion"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-wishlist.php:187
+#: public/class-pure-wc-shopbuild-wishlist.php:295
+#: public/woocommerce/cart/cart.php:34
+msgid "Action"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1491
+msgid "Action Button Position"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1392
+msgid "Action Style"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1409
+msgid "Action Type"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:639
+#: public/widgets/elementor/product-card.php:702
+msgid "Action Wrapper Background"
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:491
+msgid "Activate Elementor"
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:469
+msgid "Activate WooCommerce"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:316
+#: public/widgets/elementor/pure-coupon.php:216
+#: public/widgets/elementor/product-card.php:379
+msgid "Active"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:724
+msgid "Active Color"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:316
+msgid "Active Dot Color"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:214
+msgid "Active Text"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:736
+msgid "Active Typography"
+msgstr ""
+
+#: public/woocommerce/myaccount/my-address.php:60
+msgid "Add"
+msgstr ""
+
+#. %s is product title
+#: public/woocommerce/single-product-reviews.php:79
+msgid "Add a review"
+msgstr ""
+
+#. %s: placeholder
+#: includes/class-pure-wc-shopbuild-post-type.php:41
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: includes/class-pure-wc-shopbuild-post-type.php:40
+msgid "Add New Template"
+msgstr ""
+
+#: public/woocommerce/myaccount/payment-methods.php:77
+#: public/woocommerce/myaccount/form-add-payment-method.php:54
+#: public/woocommerce/myaccount/form-add-payment-method.php:54
+msgid "Add payment method"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-wishlist.php:512
+msgid "Add To Cart"
+msgstr ""
+
+#: public/sb-product-hook.php:833 public/sb-product-hook.php:842
+msgid "Add to Cart"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:195
+msgid "Additional Info Table"
+msgstr ""
+
+#: public/woocommerce/single-product/tabs/additional-information.php:22
+msgid "Additional information"
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:75
+#: public/woocommerce/order/order-details-customer.php:129
+#: public/woocommerce/order/order-billing-address.php:57
+msgid "Address 1:"
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:79
+#: public/woocommerce/order/order-details-customer.php:132
+#: public/woocommerce/order/order-billing-address.php:61
+msgid "Address 2:"
+msgstr ""
+
+#: public/traits/shopbuild-query.php:140
+msgid "Ajax Load More"
+msgstr ""
+
+#: public/widgets/elementor/cart-table.php:99
+#: public/widgets/elementor/cart-cross-sell.php:84
+msgid "Alignment"
+msgstr ""
+
+#: includes/class-pure-wc-shopbuild-template-manager.php:224
+msgid "All"
+msgstr ""
+
+#. %s: placeholder
+#: includes/class-pure-wc-shopbuild-post-type.php:44
+msgid "All Templates"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:574
+msgid "Ammout Color"
+msgstr ""
+
+#: public/woocommerce/cart/cart-coupon.php:6
+msgid "Apply"
+msgstr ""
+
+#: public/widgets/elementor/cart-coupon.php:72
+#: public/widgets/elementor/checkout-existing-login.php:71
+#: public/widgets/elementor/checkout-coupon.php:71
+msgid "Apply Button Title"
+msgstr ""
+
+#: public/widgets/elementor/cart-coupon.php:74
+#: public/widgets/elementor/checkout-existing-login.php:73
+#: public/widgets/elementor/checkout-coupon.php:73
+msgid "Apply Coupon"
+msgstr ""
+
+#: public/woocommerce/checkout/form-coupon.php:48
+#: public/woocommerce/checkout/form-coupon.php:71
+#: public/woocommerce/checkout/form-coupon.php:105
+#: public/woocommerce/checkout/form-coupon.php:146
+msgid "Apply coupon"
+msgstr ""
+
+#: functions.php:184 public/widgets/elementor/archive-products-counts.php:49
+msgid "Archive Products Counts"
+msgstr ""
+
+#: functions.php:176 public/widgets/elementor/archive-products-grid.php:49
+msgid "Archive Products Grid"
+msgstr ""
+
+#: functions.php:192 public/widgets/elementor/archive-products-ordering.php:47
+msgid "Archive Products Ordering"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:19
+msgid "Arrow"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:45
+msgid "Arrow Next Icon"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:31
+msgid "Arrow Prev Icon"
+msgstr ""
+
+#: public/widgets/elementor/single-product-related.php:184
+msgid "ASC"
+msgstr ""
+
+#: public/traits/shopbuild-query.php:97
+#: public/widgets/elementor/pure-coupon.php:144
+msgid "Ascending"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-attribute-filter.php:94
+#: public/widgets/elementor/sidebar-attribute-filter.php:204
+msgid "Attribute Style"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:116
+msgid "Autoplay"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:128
+msgid "Autoplay Speed"
+msgstr ""
+
+#: public/woocommerce/myaccount/my-downloads.php:29
+msgid "Available downloads"
+msgstr ""
+
+#: public/woocommerce/cart/cart.php:77
+msgid "Available on backorder"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:415
+#: public/widgets/elementor/single-product-reviews.php:192
+msgid "Avater Meta"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:427
+#: public/widgets/elementor/single-product-reviews.php:204
+msgid "Avater Typography"
+msgstr ""
+
+#: public/woocommerce/single-product-reviews.php:132
+msgid "Average"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-quickview.php:160
+#: public/class-pure-wc-shopbuild-quickview.php:179
+#: public/class-pure-wc-shopbuild-quickview.php:201
+#: public/class-pure-wc-shopbuild-quickview.php:220
+#: public/class-pure-wc-shopbuild-compare.php:245
+#: public/class-pure-wc-shopbuild-compare.php:264
+#: public/woocommerce/single-product/product-image.php:68
+#: public/woocommerce/single-product/product-image.php:96
+#: public/woocommerce/single-product/product-image.php:126
+#: public/widgets/elementor/single-product-thumbnail.php:260
+#: public/widgets/elementor/single-product-thumbnail.php:280
+#: public/widgets/elementor/single-product-thumbnail.php:301
+#: public/widgets/elementor/single-product-thumbnail.php:380
+#: public/widgets/elementor/single-product-thumbnail.php:399
+#: public/widgets/elementor/single-product-thumbnail.php:421
+#: public/widgets/elementor/single-product-thumbnail.php:440
+msgid "Awaiting product image"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:422
+#: public/traits/shopbuild-common-style.php:709
+#: public/traits/shopbuild-styles.php:220
+#: public/traits/shopbuild-styles.php:584
+#: public/traits/shopbuild-styles.php:678
+#: public/widgets/elementor/sidebar-products-price-filter.php:155
+#: public/widgets/elementor/pure-coupon.php:777
+#: public/widgets/elementor/pure-coupon.php:843
+#: public/widgets/elementor/product-card.php:485
+#: public/widgets/elementor/product-card.php:769
+msgid "Background"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:894
+#: public/traits/shopbuild-common-style.php:938
+#: public/traits/shopbuild-styles.php:35 public/traits/shopbuild-styles.php:808
+#: public/traits/shopbuild-styles.php:906
+#: public/traits/shopbuild-styles.php:1053
+#: public/traits/shopbuild-styles.php:1117
+#: public/widgets/elementor/single-product-breadcrumb.php:82
+#: public/widgets/elementor/single-product-add-to-cart.php:151
+#: public/widgets/elementor/single-product-add-to-cart.php:195
+msgid "Background Color"
+msgstr ""
+
+#: public/controls/tpgradient.php:143 public/controls/tpbggradient.php:149
+msgctxt "Background Control"
+msgid "Angle"
+msgstr ""
+
+#: public/controls/tpgradient.php:175 public/controls/tpbggradient.php:181
+msgctxt "Background Control"
+msgid "Bottom Center"
+msgstr ""
+
+#: public/controls/tpgradient.php:176 public/controls/tpbggradient.php:182
+msgctxt "Background Control"
+msgid "Bottom Left"
+msgstr ""
+
+#: public/controls/tpgradient.php:177 public/controls/tpbggradient.php:183
+msgctxt "Background Control"
+msgid "Bottom Right"
+msgstr ""
+
+#: public/controls/tpgradient.php:169 public/controls/tpbggradient.php:175
+msgctxt "Background Control"
+msgid "Center Center"
+msgstr ""
+
+#: public/controls/tpgradient.php:170 public/controls/tpbggradient.php:176
+msgctxt "Background Control"
+msgid "Center Left"
+msgstr ""
+
+#: public/controls/tpgradient.php:171 public/controls/tpbggradient.php:177
+msgctxt "Background Control"
+msgid "Center Right"
+msgstr ""
+
+#: public/controls/tpgradient.php:78 public/controls/tpbggradient.php:80
+msgctxt "Background Control"
+msgid "Color"
+msgstr ""
+
+#: public/controls/tpbggradient.php:62
+msgctxt "Background Control"
+msgid ""
+"Gradient color not work editor mode. If you set gradient color please view "
+"the result live preview page."
+msgstr ""
+
+#: public/controls/tpgradient.php:132 public/controls/tpbggradient.php:137
+msgctxt "Background Control"
+msgid "Linear"
+msgstr ""
+
+#: public/controls/tpgradient.php:91 public/controls/tpgradient.php:115
+#: public/controls/tpbggradient.php:93 public/controls/tpbggradient.php:119
+msgctxt "Background Control"
+msgid "Location"
+msgstr ""
+
+#: public/controls/tpgradient.php:166 public/controls/tpbggradient.php:172
+msgctxt "Background Control"
+msgid "Position"
+msgstr ""
+
+#: public/controls/tpgradient.php:133 public/controls/tpbggradient.php:138
+msgctxt "Background Control"
+msgid "Radial"
+msgstr ""
+
+#: public/controls/tpbggradient.php:108
+msgctxt "Background Control"
+msgid "Second Color"
+msgstr ""
+
+#: public/controls/tpgradient.php:105
+msgctxt "Background Control"
+msgid "Second Color (No effect for custom SVG)"
+msgstr ""
+
+#: public/controls/tpgradient.php:61 public/controls/tpbggradient.php:61
+msgctxt "Background Control"
+msgid "Select Color Type"
+msgstr ""
+
+#: public/controls/tpbggradient.php:83
+msgctxt "Background Control"
+msgid "Start Color"
+msgstr ""
+
+#: public/controls/tpgradient.php:81
+msgctxt "Background Control"
+msgid "Text Color"
+msgstr ""
+
+#: public/controls/tpgradient.php:172 public/controls/tpbggradient.php:178
+msgctxt "Background Control"
+msgid "Top Center"
+msgstr ""
+
+#: public/controls/tpgradient.php:173 public/controls/tpbggradient.php:179
+msgctxt "Background Control"
+msgid "Top Left"
+msgstr ""
+
+#: public/controls/tpgradient.php:174 public/controls/tpbggradient.php:180
+msgctxt "Background Control"
+msgid "Top Right"
+msgstr ""
+
+#: public/controls/tpgradient.php:129 public/controls/tpbggradient.php:134
+msgctxt "Background Control"
+msgid "Type"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:948
+#: public/widgets/elementor/single-product-add-to-cart.php:205
+msgid "Background Hover Color"
+msgstr ""
+
+#: functions.php:105
+msgid "Banner"
+msgstr ""
+
+#: public/woocommerce/single-product-reviews.php:79
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1426
+#: public/traits/shopbuild-styles.php:1442
+#: public/traits/shopbuild-styles.php:1459
+#: public/traits/shopbuild-styles.php:1476
+msgid "Before Content"
+msgstr ""
+
+#: functions.php:52
+msgid "Best Deals"
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:55
+#: public/woocommerce/myaccount/form-edit-address.php:20
+#: public/woocommerce/myaccount/my-address.php:26
+#: public/woocommerce/myaccount/my-address.php:35
+msgid "Billing address"
+msgstr ""
+
+#: public/widgets/elementor/checkout-billing.php:75
+msgid "Billing Details"
+msgstr ""
+
+#: invoice-templates/default.php:110
+msgid "Billing Info"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:719
+#: public/widgets/elementor/archive-products-ordering.php:77
+#: public/widgets/elementor/product-card.php:779
+msgid "Border"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:861
+#: public/traits/shopbuild-styles.php:959
+#: public/traits/shopbuild-styles.php:1076
+#: public/traits/shopbuild-styles.php:1128
+#: public/traits/shopbuild-styles.php:1646
+#: public/widgets/elementor/cart-table.php:151
+#: public/widgets/elementor/checkout-order.php:98
+#: public/widgets/elementor/cart-subtotal.php:107
+msgid "Border Color"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:874
+#: public/traits/shopbuild-styles.php:1096
+#: public/traits/shopbuild-styles.php:1659
+#: public/widgets/elementor/single-product-tabs.php:371
+#: public/widgets/elementor/single-product-reviews.php:148
+msgid "Border Radius"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:828
+#: public/traits/shopbuild-styles.php:926
+#: public/widgets/elementor/checkout-payment.php:148
+msgid "Border Style"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1613
+msgid "Border Type"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:848
+#: public/traits/shopbuild-styles.php:946
+#: public/traits/shopbuild-styles.php:1633
+msgid "Border Width"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1497
+#: public/traits/shopbuild-styles.php:1512
+msgid "Bottom"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:438
+msgid "Bottom Cut"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:101
+msgid "Bottom Spacing"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:251
+msgid "Box Background"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:261
+msgid "Box Border"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:689
+#: public/traits/shopbuild-styles.php:820
+#: public/traits/shopbuild-styles.php:918
+#: public/traits/shopbuild-styles.php:1088
+#: public/traits/shopbuild-styles.php:1139
+msgid "Box Shadow"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:242
+msgid "Box Style"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-recent.php:157
+#: public/widgets/elementor/sidebar-top-rated.php:167
+msgid "Box Title"
+msgstr ""
+
+#: functions.php:78
+msgid "Brand"
+msgstr ""
+
+#: public/woocommerce/myaccount/orders.php:118
+#: public/woocommerce/myaccount/downloads.php:45
+msgid "Browse products"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Build your shop with amazing woocommerce tools. Customize your shop and "
+"product page. Order invoices, order tracking now in one package."
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:131
+#: admin/class-pure-wc-shopbuild-admin.php:336 public/sb-product-hook.php:837
+#: public/widgets/elementor/single-product-buy-now.php:95
+msgid "Buy Now"
+msgstr ""
+
+#: public/woocommerce/single-product/add-to-cart/grouped.php:67
+msgid "Buy one of this item"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-sale-notification.php:200
+msgid "By:"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:78
+msgid "Capsule Style"
+msgstr ""
+
+#: functions.php:498 public/widgets/elementor/cart-coupon.php:49
+msgid "Cart Coupon"
+msgstr ""
+
+#: functions.php:506 public/widgets/elementor/cart-cross-sell.php:49
+msgid "Cart Cross Sell"
+msgstr ""
+
+#: functions.php:490 public/widgets/elementor/cart-subtotal.php:50
+msgid "Cart Subtotal"
+msgstr ""
+
+#: functions.php:482 public/traits/shopbuild-common-style.php:754
+#: public/widgets/elementor/cart-table.php:49
+msgid "Cart Table"
+msgstr ""
+
+#: public/widgets/elementor/cart-subtotal.php:75
+msgid "Cart Totals"
+msgstr ""
+
+#: public/widgets/elementor/checkout-payment.php:225
+msgid "Cash on delivery"
+msgstr ""
+
+#: functions.php:87
+msgid "Category"
+msgstr ""
+
+#: public/widgets/elementor/single-product-category.php:64
+msgid "Category Label"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-categories.php:164
+msgid "Category order"
+msgstr ""
+
+#: public/woocommerce/single-product/meta.php:36
+#: public/widgets/elementor/single-product-category.php:115
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: public/traits/shopbuild-slider.php:97
+#: public/traits/shopbuild-styles.php:1357
+#: public/widgets/elementor/single-product-related.php:132
+#: public/widgets/elementor/cart-table.php:107
+#: public/widgets/elementor/cart-cross-sell.php:92
+msgid "Center"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:195
+msgid "Center Mode"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:231
+msgid "Center Padding"
+msgstr ""
+
+#: public/woocommerce/cart/cart-shipping.php:51
+msgid "Change address"
+msgstr ""
+
+#: public/widgets/elementor/checkout-existing-login.php:98
+#: public/widgets/elementor/checkout-coupon.php:132
+msgid "Checkout - Coupon"
+msgstr ""
+
+#: functions.php:530 public/widgets/elementor/checkout-additional.php:48
+msgid "Checkout Additional"
+msgstr ""
+
+#: functions.php:522 public/widgets/elementor/checkout-billing.php:50
+msgid "Checkout Billing"
+msgstr ""
+
+#: public/widgets/elementor/cart-subtotal.php:83
+#: public/widgets/elementor/cart-subtotal.php:85
+msgid "Checkout Button"
+msgstr ""
+
+#: functions.php:554 public/widgets/elementor/checkout-coupon.php:49
+msgid "Checkout Coupon"
+msgstr ""
+
+#: public/widgets/elementor/cart-table.php:202
+#: public/widgets/elementor/checkout-order.php:129
+#: public/widgets/elementor/cart-subtotal.php:158
+msgid "Checkout Data Color"
+msgstr ""
+
+#: functions.php:562 public/widgets/elementor/checkout-existing-login.php:48
+msgid "Checkout Existing Login"
+msgstr ""
+
+#: public/widgets/elementor/cart-table.php:182
+#: public/widgets/elementor/checkout-order.php:109
+#: public/widgets/elementor/cart-subtotal.php:138
+msgid "Checkout Heading Color"
+msgstr ""
+
+#: public/widgets/elementor/checkout-order.php:121
+msgid "Checkout Heading Typography"
+msgstr ""
+
+#: functions.php:538 public/widgets/elementor/checkout-order.php:48
+msgid "Checkout Order"
+msgstr ""
+
+#: functions.php:546 public/widgets/elementor/checkout-payment.php:50
+msgid "Checkout Payment"
+msgstr ""
+
+#: functions.php:514 public/widgets/elementor/checkout-shipping.php:49
+msgid "Checkout Shipping"
+msgstr ""
+
+#: public/widgets/elementor/cart-table.php:143
+#: public/widgets/elementor/checkout-order.php:90
+#: public/widgets/elementor/cart-subtotal.php:99
+msgid "Checkout Table"
+msgstr ""
+
+#: public/widgets/elementor/cart-table.php:162
+#: public/widgets/elementor/cart-subtotal.php:118
+msgid "Checkout Table Title"
+msgstr ""
+
+#: public/widgets/elementor/cart-table.php:174
+#: public/widgets/elementor/cart-subtotal.php:130
+msgid "Checkout Table Title Typography"
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:83
+#: public/woocommerce/order/order-details-customer.php:136
+#: public/woocommerce/order/order-billing-address.php:65
+msgid "City:"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-compare.php:349
+#: public/woocommerce/single-product/add-to-cart/variable.php:48
+msgid "Clear"
+msgstr ""
+
+#: public/woocommerce/checkout/form-coupon.php:85
+#: public/woocommerce/checkout/form-coupon.php:120
+msgid "Click here to enter your code"
+msgstr ""
+
+#: public/woocommerce/checkout/form-login.php:26
+#: public/widgets/elementor/checkout-existing-login.php:213
+#: public/widgets/elementor/checkout-existing-login.php:256
+msgid "Click here to login"
+msgstr ""
+
+#: public/woocommerce/single-product/photoswipe.php:34
+msgid "Close (Esc)"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:823
+msgid "Code Style"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:21
+#: public/traits/shopbuild-styles.php:27 public/traits/shopbuild-styles.php:152
+#: public/traits/shopbuild-styles.php:229
+#: public/traits/shopbuild-styles.php:597
+#: public/widgets/elementor/sidebar-products-price-filter.php:96
+#: public/widgets/elementor/pure-coupon.php:531
+#: public/widgets/elementor/sidebar-products-categories.php:227
+#: public/widgets/elementor/archive-products-ordering.php:85
+#: public/widgets/elementor/single-product-related.php:210
+#: public/widgets/elementor/sidebar-products-recent.php:108
+#: public/widgets/elementor/sidebar-attribute-filter.php:155
+#: public/widgets/elementor/sidebar-products-search.php:95
+#: public/widgets/elementor/checkout-existing-login.php:160
+#: public/widgets/elementor/checkout-coupon.php:194
+#: public/widgets/elementor/product-card.php:84
+#: public/widgets/elementor/sidebar-top-rated.php:118
+msgid "Color"
+msgstr ""
+
+#: public/controls/tpbggradient.php:72
+msgctxt "Color Control"
+msgid "Gradient"
+msgstr ""
+
+#: public/controls/tpbggradient.php:68
+msgctxt "Color Control"
+msgid "Solid"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1438
+msgid "Color Type Attribute"
+msgstr ""
+
+#: public/widgets/elementor/single-product-thumbnail.php:89
+msgid "Column Gap"
+msgstr ""
+
+#: public/traits/shopbuild-query.php:120
+msgid "Columns"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1201
+msgid "Columns for Desktop"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1277
+msgid "Columns for Extra Small"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1220
+msgid "Columns for Large"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1258
+msgid "Columns for Mobile"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1239
+msgid "Columns for Tablet"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:293
+#: public/widgets/elementor/single-product-reviews.php:70
+msgid "Comment Aavater Controls"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:302
+#: public/widgets/elementor/single-product-reviews.php:79
+msgid "Comment Avater"
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:71
+#: public/woocommerce/order/order-details-customer.php:139
+#: public/woocommerce/order/order-billing-address.php:53
+msgid "Company:"
+msgstr ""
+
+#: functions.php:25
+msgid "Comparison Slider"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-edit-account.php:59
+msgid "Confirm new password"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-tags.php:60
+msgid "Content"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1351
+msgid "Content Align"
+msgstr ""
+
+#: public/widgets/elementor/single-product-sku.php:65
+#: public/widgets/elementor/sidebar-products-price-filter.php:64
+#: public/widgets/elementor/cart-coupon.php:65
+#: public/widgets/elementor/sidebar-products-categories.php:80
+#: public/widgets/elementor/single-product-related.php:70
+#: public/widgets/elementor/checkout-payment.php:65
+#: public/widgets/elementor/cart-table.php:65
+#: public/widgets/elementor/sidebar-products-recent.php:64
+#: public/widgets/elementor/single-product-tags.php:61
+#: public/widgets/elementor/sidebar-attribute-filter.php:67
+#: public/widgets/elementor/sidebar-products-search.php:65
+#: public/widgets/elementor/checkout-existing-login.php:64
+#: public/widgets/elementor/checkout-shipping.php:65
+#: public/widgets/elementor/single-product-title.php:65
+#: public/widgets/elementor/checkout-billing.php:66
+#: public/widgets/elementor/checkout-coupon.php:64
+#: public/widgets/elementor/sidebar-top-rated.php:60
+#: public/widgets/elementor/checkout-order.php:64
+#: public/widgets/elementor/checkout-additional.php:63
+#: public/widgets/elementor/cart-subtotal.php:66
+msgid "Content Controls"
+msgstr ""
+
+#: functions.php:1776
+msgid "Continue Shopping"
+msgstr ""
+
+#: public/widgets/elementor/cart-coupon.php:84
+msgid "Cooupon"
+msgstr ""
+
+#: functions.php:1660
+msgid "Count Color"
+msgstr ""
+
+#: functions.php:1610
+msgid "Count Text Color."
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:606
+msgid "Countdown Style"
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:95
+#: public/woocommerce/order/order-details-customer.php:142
+#: public/woocommerce/order/order-billing-address.php:77
+msgid "Country:"
+msgstr ""
+
+#: functions.php:61
+msgid "Coupon"
+msgstr ""
+
+#: public/widgets/elementor/checkout-existing-login.php:107
+#: public/widgets/elementor/checkout-coupon.php:141
+msgid "Coupon Background"
+msgstr ""
+
+#: public/widgets/elementor/checkout-existing-login.php:118
+#: public/widgets/elementor/checkout-coupon.php:152
+msgid "Coupon Border"
+msgstr ""
+
+#: public/sb-product-hook.php:71 public/sb-product-hook.php:84
+#: public/sb-product-hook.php:99 public/sb-product-hook.php:113
+#: public/woocommerce/checkout/form-coupon.php:40
+#: public/woocommerce/checkout/form-coupon.php:66
+#: public/woocommerce/checkout/form-coupon.php:100
+#: public/woocommerce/checkout/form-coupon.php:138
+msgid "Coupon code"
+msgstr ""
+
+#: public/widgets/elementor/checkout-coupon.php:111
+msgid "Coupon Description"
+msgstr ""
+
+#: includes/class-pure-wc-shopbuild-woocomerce.php:33
+#: includes/class-pure-wc-shopbuild-woocomerce.php:37
+msgid "Coupon Image"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:962
+#: public/widgets/elementor/cart-coupon.php:82
+#: public/widgets/elementor/cart-coupon.php:130
+#: public/widgets/elementor/checkout-coupon.php:97
+msgid "Coupon Label"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:68
+msgid "Coupon Layout"
+msgstr ""
+
+#: public/widgets/elementor/checkout-existing-login.php:126
+#: public/widgets/elementor/checkout-coupon.php:160
+msgid "Coupon Margin"
+msgstr ""
+
+#: public/widgets/elementor/checkout-existing-login.php:138
+#: public/widgets/elementor/checkout-coupon.php:172
+msgid "Coupon Padding"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:92
+msgid "Coupon Query"
+msgstr ""
+
+#: public/widgets/elementor/cart-coupon.php:96
+#: public/widgets/elementor/checkout-coupon.php:82
+msgid "Coupon Style"
+msgstr ""
+
+#: public/widgets/elementor/checkout-existing-login.php:152
+#: public/widgets/elementor/checkout-coupon.php:186
+msgid "Coupon Text"
+msgstr ""
+
+#: public/widgets/elementor/cart-coupon.php:111
+msgid "Coupon Title"
+msgstr ""
+
+#: public/widgets/elementor/checkout-existing-login.php:184
+#: public/widgets/elementor/checkout-coupon.php:218
+msgid "Coupon Typography"
+msgstr ""
+
+#: public/woocommerce/checkout/form-coupon.php:39
+#: public/woocommerce/checkout/form-coupon.php:137
+#: public/woocommerce/cart/cart-coupon.php:7
+msgid "Coupon:"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:205
+msgid "Coupon: "
+msgstr ""
+
+#: public/woocommerce/checkout/form-billing.php:49
+msgid "Create an account?"
+msgstr ""
+
+#: public/widgets/elementor/cart-table.php:77
+#: public/widgets/elementor/cart-cross-sell.php:65
+msgid "Cross Sell Contents"
+msgstr ""
+
+#: public/widgets/elementor/cart-table.php:88
+#: public/widgets/elementor/cart-cross-sell.php:73
+msgid "Cross Sell Heading"
+msgstr ""
+
+#: functions.php:17
+msgid "Currency Switcher"
+msgstr ""
+
+#: public/widgets/elementor/currency-switcher/currency-switcher.php:101
+msgid "Currency:"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-edit-account.php:51
+msgid "Current password (leave blank to leave unchanged)"
+msgstr ""
+
+#: includes/class-pure-wc-shopbuild-post-type.php:18
+#: includes/class-pure-wc-shopbuild-post-type.php:19
+#: includes/class-pure-wc-shopbuild-post-type.php:20
+msgid "Custom Post"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:465
+msgid "Cut Background"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:344
+msgid "Cut Border"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:477
+msgid "Cut Border Color"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:490
+msgid "Cut Border Width"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:395
+msgid "Cut Height"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:352
+msgid "Cut Position"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:379
+msgid "Cut Width"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:335
+msgid "Cutout Style"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:836
+#: public/traits/shopbuild-styles.php:934
+#: public/traits/shopbuild-styles.php:1621
+msgid "Dashed"
+msgstr ""
+
+#: public/woocommerce/myaccount/my-orders.php:15
+#: public/widgets/elementor/single-product-related.php:168
+msgid "Date"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:1009
+msgid "Days"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:831
+#: public/traits/shopbuild-styles.php:929
+#: public/traits/shopbuild-styles.php:1354
+#: public/traits/shopbuild-styles.php:1524
+#: public/traits/shopbuild-styles.php:1616
+#: public/traits/woocommerce-archive.php:27
+#: public/traits/woocommerce-archive.php:41
+#: public/widgets/elementor/cart-coupon.php:102
+#: public/widgets/elementor/pure-coupon.php:79
+#: public/widgets/elementor/sidebar-attribute-filter.php:269
+#: public/widgets/elementor/single-product-thumbnail.php:75
+#: public/widgets/elementor/checkout-coupon.php:88
+#: public/widgets/elementor/checkout-order.php:74
+msgid "Default"
+msgstr ""
+
+#: public/traits/shopbuild-query.php:139
+msgid "Default Pagination"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-ordering.php:139
+msgid "Default sorting"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1342
+#: public/traits/shopbuild-styles.php:1395
+msgid "Default Style"
+msgstr ""
+
+#: public/widgets/elementor/single-product-related.php:185
+msgid "DESC"
+msgstr ""
+
+#: public/traits/shopbuild-query.php:98
+#: public/widgets/elementor/pure-coupon.php:145
+msgid "Descending"
+msgstr ""
+
+#: public/widgets/elementor/checkout-payment.php:116
+#: public/woocommerce/single-product/tabs/description.php:22
+msgid "Description"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:173
+msgid "Description Content"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:144
+msgid "Description Controls"
+msgstr ""
+
+#: public/widgets/elementor/single-product-add-to-cart.php:105
+#: public/widgets/elementor/single-product-short-description.php:78
+msgid "Description Text Color"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:153
+msgid "Description Title"
+msgstr ""
+
+#: public/widgets/elementor/checkout-payment.php:139
+msgid "Description Typography"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:260
+#: public/traits/shopbuild-slider.php:299
+msgid "Desktop Slides to Scroll"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:287
+msgid "Desktop Slides to Show"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:274
+msgid "Desktop Width"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-edit-account.php:37
+msgid "Display name"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:294
+msgid "Dot Color"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:304
+msgid "Dot Hover Color"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:74
+msgid "Dot Style"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:89
+msgid "Dots Alignment"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:71
+msgid "Dots Type"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:835
+#: public/traits/shopbuild-styles.php:933
+#: public/traits/shopbuild-styles.php:1620
+msgid "Dotted"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:834
+#: public/traits/shopbuild-styles.php:932
+#: public/traits/shopbuild-styles.php:1619
+msgid "Double"
+msgstr ""
+
+#: public/woocommerce/myaccount/my-address.php:60
+msgid "Edit"
+msgstr ""
+
+#. %s: placeholder
+#: includes/class-pure-wc-shopbuild-post-type.php:42
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: public/woocommerce/single-product-reviews.php:99
+msgid "Email"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-edit-account.php:43
+msgid "Email address"
+msgstr ""
+
+#: invoice-templates/default.php:125
+#: public/woocommerce/order/order-details-customer.php:63
+#: public/woocommerce/order/order-billing-address.php:45
+msgid "Email:"
+msgstr ""
+
+#: public/widgets/elementor/single-product-category.php:71
+msgid "Enable Category Label?"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1584
+msgid "Enable Compare?"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:59
+msgid "Enable Dots?"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1560
+msgid "Enable Quick View?"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1380
+msgid "Enable Rating Text?"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1368
+msgid "Enable Rating?"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:171
+msgid "Enable RTL?"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1548
+msgid "Enable Tooltip?"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1572
+msgid "Enable Wishlist?"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-categories.php:476
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr ""
+
+#: public/woocommerce/cart/cart-shipping.php:84
+msgid "Enter a different address"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-reset-password.php:25
+msgid "Enter a new password below."
+msgstr ""
+
+#: public/sb-product-hook.php:782
+msgid "Enter Keyword or Product Number"
+msgstr ""
+
+#: public/woocommerce/cart/cart-shipping.php:63
+msgid "Enter your address to view shipping options."
+msgstr ""
+
+#: functions.php:1656
+msgid "Enter your class name here. (Field From ShopBuild)"
+msgstr ""
+
+#: functions.php:1600
+msgid "Enter your SVG code here."
+msgstr ""
+
+#: functions.php:1649
+msgid "Enter your SVG code here. (Field From ShopBuild)"
+msgstr ""
+
+#: functions.php:1605
+msgid "Enter your text here."
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-public.php:266
+#: public/class-pure-wc-shopbuild-public.php:270
+msgid "Error:"
+msgstr ""
+
+#: public/traits/shopbuild-query.php:50
+msgid "Exclude Categories"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-categories.php:203
+msgid "Exclude categories"
+msgstr ""
+
+#: public/traits/shopbuild-query.php:74
+#: public/widgets/elementor/pure-coupon.php:121
+msgid "Exclude Item"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:227
+msgid "Expired"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:744
+msgid "Expired Color"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:225
+msgid "Expired Text"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:756
+msgid "Expired Typography"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:183
+msgid "Fade Effect"
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:1130
+msgid "Failed to save settings."
+msgstr ""
+
+#: public/widgets/elementor/archive-products-ordering.php:68
+msgid "Filter"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-edit-account.php:27
+msgid "First name"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1413
+msgid "Fixed"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1112
+msgid "Focus"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:285
+msgid "Font Size"
+msgstr ""
+
+#. 1: Orders URL 2: Address URL 3: Account URL.
+#: public/woocommerce/myaccount/dashboard.php:168
+#, php-format
+msgid ""
+"From your account dashboard you can view your <a href=\"%1$s\">recent "
+"orders</a>, manage your <a href=\"%2$s\">billing address</a>, and <a "
+"href=\"%3$s\">edit your password and account details</a>."
+msgstr ""
+
+#. 1: Orders URL 2: Addresses URL 3: Account URL.
+#: public/woocommerce/myaccount/dashboard.php:171
+#, php-format
+msgid ""
+"From your account dashboard you can view your <a href=\"%1$s\">recent "
+"orders</a>, manage your <a href=\"%2$s\">shipping and billing addresses</a>, "
+"and <a href=\"%3$s\">edit your password and account details</a>."
+msgstr ""
+
+#: functions.php:43
+msgid "Fun Fact"
+msgstr ""
+
+#. Page title
+#: admin/class-pure-wc-shopbuild-admin.php:997
+#: admin/class-pure-wc-shopbuild-admin.php:998
+msgid "Go Premium"
+msgstr ""
+
+#: functions.php:1720 functions.php:1773
+msgid "Go to cart"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-wishlist.php:544
+msgid "Go To wishlist"
+msgstr ""
+
+#: public/woocommerce/single-product-reviews.php:131
+msgid "Good"
+msgstr ""
+
+#: public/widgets/elementor/single-product-thumbnail.php:79
+msgid "Grid View"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:837
+#: public/traits/shopbuild-styles.php:935
+#: public/traits/shopbuild-styles.php:1622
+msgid "Groove"
+msgstr ""
+
+#: public/traits/woocommerce-cart.php:24
+#: public/traits/woocommerce-single.php:24
+#: public/widgets/elementor/single-product-related.php:92
+msgid "H1"
+msgstr ""
+
+#: public/traits/woocommerce-cart.php:25
+#: public/traits/woocommerce-single.php:25
+#: public/widgets/elementor/single-product-related.php:96
+msgid "H2"
+msgstr ""
+
+#: public/traits/woocommerce-cart.php:26
+#: public/traits/woocommerce-single.php:26
+#: public/widgets/elementor/single-product-related.php:100
+msgid "H3"
+msgstr ""
+
+#: public/traits/woocommerce-cart.php:27
+#: public/traits/woocommerce-single.php:27
+#: public/widgets/elementor/single-product-related.php:104
+msgid "H4"
+msgstr ""
+
+#: public/traits/woocommerce-cart.php:28
+#: public/traits/woocommerce-single.php:28
+#: public/widgets/elementor/single-product-related.php:108
+#: public/widgets/elementor/single-product-related.php:112
+msgid "H5"
+msgstr ""
+
+#: public/traits/woocommerce-cart.php:29
+#: public/traits/woocommerce-single.php:29
+msgid "H6"
+msgstr ""
+
+#: public/woocommerce/myaccount/my-orders.php:65
+#: public/woocommerce/myaccount/orders.php:50
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#: public/widgets/elementor/checkout-coupon.php:100
+msgid "Have a Coupon ?"
+msgstr ""
+
+#: public/widgets/elementor/cart-coupon.php:114
+msgid "Have a Coupon?"
+msgstr ""
+
+#: public/woocommerce/checkout/form-coupon.php:85
+#: public/woocommerce/checkout/form-coupon.php:120
+msgid "Have a coupon?"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:203
+msgid "Heading Color"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:215
+msgid "Heading Typography "
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:355
+#: public/widgets/elementor/single-product-tabs.php:342
+#: public/widgets/elementor/pure-coupon.php:306
+#: public/widgets/elementor/single-product-reviews.php:119
+#: public/widgets/elementor/sidebar-products-recent.php:370
+#: public/widgets/elementor/sidebar-top-rated.php:380
+msgid "Height"
+msgstr ""
+
+#: public/woocommerce/myaccount/dashboard.php:64
+#: public/woocommerce/myaccount/dashboard.php:148
+msgid "Hello"
+msgstr ""
+
+#: functions.php:96
+msgid "Hero Slider"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:22 public/traits/shopbuild-slider.php:62
+#: public/traits/shopbuild-slider.php:174
+#: public/traits/shopbuild-slider.php:186
+#: public/traits/shopbuild-slider.php:198 public/traits/woocommerce-cart.php:40
+#: public/traits/shopbuild-styles.php:1371
+#: public/traits/shopbuild-styles.php:1383
+#: public/traits/shopbuild-styles.php:1551
+#: public/traits/shopbuild-styles.php:1563
+#: public/traits/shopbuild-styles.php:1575
+#: public/traits/shopbuild-styles.php:1587
+#: public/widgets/elementor/pure-coupon.php:158
+#: public/widgets/elementor/sidebar-products-categories.php:101
+#: public/widgets/elementor/sidebar-products-categories.php:113
+#: public/widgets/elementor/sidebar-products-categories.php:125
+#: public/widgets/elementor/sidebar-products-categories.php:137
+#: public/widgets/elementor/sidebar-products-categories.php:149
+#: public/widgets/elementor/single-product-category.php:74
+#: public/widgets/elementor/sidebar-attribute-filter.php:133
+#: public/widgets/elementor/sidebar-top-rated.php:81
+msgid "Hide"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-categories.php:134
+#: public/widgets/elementor/sidebar-attribute-filter.php:130
+msgid "Hide empty"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:155
+msgid "Hide Expire Coupons?"
+msgstr ""
+
+#: functions.php:301
+msgid "Horizontal Filters"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:276
+#: public/traits/shopbuild-styles.php:890
+#: public/widgets/elementor/product-card.php:339
+msgid "Hover"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:30
+#: public/widgets/elementor/single-product-related.php:219
+#: public/widgets/elementor/product-card.php:93
+msgid "Hover Color"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:101
+msgid "How many items you wnat to show .Leave blank or enter -1 for all."
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:1010
+msgid "Hrs"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://themepure.net"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://themepure.net/plugins/storebuild/"
+msgstr ""
+
+#: functions.php:34
+msgid "Icon Box"
+msgstr ""
+
+#: functions.php:1653
+msgid "Icon Class Name"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:46
+#: public/widgets/elementor/sidebar-products-recent.php:271
+#: public/widgets/elementor/sidebar-top-rated.php:281
+msgid "Icon Size"
+msgstr ""
+
+#: public/widgets/elementor/single-product-related.php:171
+msgid "ID"
+msgstr ""
+
+#: public/widgets/elementor/checkout-coupon.php:114
+msgid "If you have a coupon code, please apply it below."
+msgstr ""
+
+#: public/woocommerce/checkout/form-login.php:32
+#: public/widgets/elementor/checkout-existing-login.php:205
+msgid ""
+"If you have shopped with us before, please enter your details below. If you "
+"are a new customer, please proceed to the Billing section."
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1455
+msgid "Image Type Attribute"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:84
+msgid "Image/SVG Height"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:63
+msgid "Image/SVG Width"
+msgstr ""
+
+#: public/traits/shopbuild-query.php:37
+msgid "Include Categories"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-categories.php:194
+msgid "Include categories"
+msgstr ""
+
+#: public/traits/shopbuild-query.php:64
+#: public/widgets/elementor/pure-coupon.php:110
+msgid "Include Item"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:158
+msgid "Infinite Loop"
+msgstr ""
+
+#: public/widgets/elementor/cart-coupon.php:100
+#: public/widgets/elementor/checkout-coupon.php:86
+msgid "Inline"
+msgstr ""
+
+#: public/widgets/elementor/checkout-additional.php:74
+msgid "Input Label"
+msgstr ""
+
+#: functions.php:69
+msgid "Instagram"
+msgstr ""
+
+#: invoice-templates/default.php:120
+msgid "INVOICE"
+msgstr ""
+
+#: admin/class-pure-wc-invoice.php:38
+msgid "Invoice Download"
+msgstr ""
+
+#: public/widgets/elementor/single-product-sku.php:72
+#: public/widgets/elementor/single-product-tags.php:68
+msgid "Label"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:657
+#: public/widgets/elementor/pure-coupon.php:862
+#: public/widgets/elementor/product-card.php:720
+msgid "label"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:970
+#: public/widgets/elementor/cart-coupon.php:138
+#: public/widgets/elementor/pure-coupon.php:634
+#: public/widgets/elementor/pure-coupon.php:702
+#: public/widgets/elementor/checkout-additional.php:81
+msgid "Label Color"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:982
+#: public/widgets/elementor/cart-coupon.php:150
+#: public/widgets/elementor/pure-coupon.php:646
+#: public/widgets/elementor/pure-coupon.php:714
+#: public/widgets/elementor/checkout-additional.php:93
+msgid "Label Typography"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-edit-account.php:31
+msgid "Last name"
+msgstr ""
+
+#. %s is product title
+#: public/woocommerce/single-product-reviews.php:81
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: public/traits/shopbuild-query.php:29
+msgid "Leave blank or enter -1 for all."
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:93 public/traits/shopbuild-styles.php:469
+#: public/traits/shopbuild-styles.php:1355
+#: public/traits/shopbuild-styles.php:1494
+#: public/traits/shopbuild-styles.php:1509
+#: public/widgets/elementor/pure-coupon.php:180
+#: public/widgets/elementor/pure-coupon.php:193
+#: public/widgets/elementor/single-product-related.php:128
+#: public/widgets/elementor/cart-table.php:103
+#: public/widgets/elementor/cart-cross-sell.php:88
+msgid "Left"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1526
+msgid "Left Bottom"
+msgstr ""
+
+#: public/widgets/elementor/single-product-thumbnail.php:76
+msgid "Left Sidebar"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1525
+msgid "Left Top"
+msgstr ""
+
+#: public/traits/woocommerce-archive.php:15
+msgid "Limit"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:654
+msgid "Line Color"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:665
+msgid "Line Height"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:76
+msgid "Line Style"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:77
+msgid "Line Style 2"
+msgstr ""
+
+#: public/widgets/elementor/checkout-existing-login.php:171
+#: public/widgets/elementor/checkout-coupon.php:205
+msgid "Link Text Color"
+msgstr ""
+
+#: public/widgets/elementor/single-product-thumbnail.php:174
+msgid "List Style"
+msgstr ""
+
+#: public/widgets/elementor/single-product-thumbnail.php:80
+msgid "List View"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-login.php:105
+msgid "Log in"
+msgstr ""
+
+#: public/woocommerce/global/form-login.php:51
+#: public/widgets/elementor/checkout-existing-login.php:238
+#: public/widgets/elementor/checkout-existing-login.php:238
+#: public/widgets/elementor/checkout-existing-login.php:281
+#: public/widgets/elementor/checkout-existing-login.php:281
+msgid "Login"
+msgstr ""
+
+#: public/woocommerce/myaccount/dashboard.php:158
+msgid "Logout"
+msgstr ""
+
+#: functions.php:651
+msgid "Logout Button"
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:119
+#: admin/class-pure-wc-shopbuild-admin.php:250
+msgid ""
+"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita laborum "
+"aut aspernatur vero tenetur. Non quo provident tempore laborum laboriosam "
+"aut architecto, mollitia, vero eveniet quae, beatae dolores incidunt animi."
+msgstr ""
+
+#: public/woocommerce/myaccount/form-login.php:100
+#: public/woocommerce/global/form-login.php:54
+#: public/widgets/elementor/checkout-existing-login.php:241
+#: public/widgets/elementor/checkout-existing-login.php:284
+msgid "Lost your password?"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-lost-password.php:25
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+
+#: public/widgets/elementor/checkout-payment.php:72
+#: public/widgets/elementor/checkout-payment.php:74
+msgid "Make Payment"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:59
+#: public/traits/shopbuild-common-style.php:126
+#: public/traits/shopbuild-common-style.php:200
+#: public/traits/shopbuild-common-style.php:431
+#: public/traits/shopbuild-common-style.php:510
+#: public/traits/shopbuild-common-style.php:604
+#: public/traits/shopbuild-common-style.php:665
+#: public/traits/shopbuild-common-style.php:737
+#: public/traits/shopbuild-styles.php:180
+#: public/traits/shopbuild-styles.php:260
+#: public/traits/shopbuild-styles.php:409
+#: public/traits/shopbuild-styles.php:637
+#: public/traits/shopbuild-styles.php:711
+#: public/traits/shopbuild-styles.php:988
+#: public/traits/shopbuild-styles.php:1163
+#: public/widgets/elementor/sidebar-products-price-filter.php:131
+#: public/widgets/elementor/single-product-price.php:130
+#: public/widgets/elementor/single-product-tabs.php:130
+#: public/widgets/elementor/pure-coupon.php:551
+#: public/widgets/elementor/pure-coupon.php:870
+#: public/widgets/elementor/sidebar-products-categories.php:262
+#: public/widgets/elementor/archive-products-ordering.php:96
+#: public/widgets/elementor/single-product-related.php:248
+#: public/widgets/elementor/single-product-related.php:315
+#: public/widgets/elementor/single-product-related.php:380
+#: public/widgets/elementor/sidebar-products-recent.php:143
+#: public/widgets/elementor/sidebar-products-recent.php:207
+#: public/widgets/elementor/sidebar-products-recent.php:331
+#: public/widgets/elementor/single-product-breadcrumb.php:92
+#: public/widgets/elementor/sidebar-attribute-filter.php:190
+#: public/widgets/elementor/sidebar-attribute-filter.php:254
+#: public/widgets/elementor/sidebar-products-search.php:130
+#: public/widgets/elementor/single-product-thumbnail.php:182
+#: public/widgets/elementor/product-card.php:122
+#: public/widgets/elementor/product-card.php:189
+#: public/widgets/elementor/product-card.php:263
+#: public/widgets/elementor/product-card.php:494
+#: public/widgets/elementor/product-card.php:573
+#: public/widgets/elementor/product-card.php:667
+#: public/widgets/elementor/product-card.php:728
+#: public/widgets/elementor/product-card.php:797
+#: public/widgets/elementor/sidebar-top-rated.php:153
+#: public/widgets/elementor/sidebar-top-rated.php:217
+#: public/widgets/elementor/sidebar-top-rated.php:341
+msgid "Margin"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:387
+#: public/widgets/elementor/product-card.php:450
+msgid "Margin Without Last Child"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-categories.php:173
+msgid "Max depth"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:364
+msgid "Medium Display Column"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:376
+msgid "Medium Slides to Scroll"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:350
+msgid "Medium Width"
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:145
+msgid "Method:"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:1011
+msgid "Min"
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:117
+#: admin/class-pure-wc-shopbuild-admin.php:248
+msgid "Mirpur, Dhaka, Bangladesh"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:440
+msgid "Mobile Display Column"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:452
+msgid "Mobile Slides to Scroll"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:426
+msgid "Mobile Width"
+msgstr ""
+
+#: functions.php:642
+msgid "My Account Content"
+msgstr ""
+
+#: functions.php:660
+msgid "My Account Content Box"
+msgstr ""
+
+#: functions.php:687
+msgid "My Account Login"
+msgstr ""
+
+#: functions.php:678
+msgid "My Account Navigation"
+msgstr ""
+
+#: functions.php:696
+msgid "My Account Register"
+msgstr ""
+
+#: functions.php:669
+msgid "My Account User"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-compare.php:480
+#: public/woocommerce/single-product/meta.php:30
+#: public/widgets/elementor/single-product-sku.php:161
+msgid "N/A"
+msgstr ""
+
+#: public/woocommerce/single-product-reviews.php:93
+#: public/widgets/elementor/sidebar-products-categories.php:163
+msgid "Name"
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:59
+#: public/woocommerce/order/order-details-customer.php:125
+#: public/woocommerce/order/order-billing-address.php:41
+msgid "Name:"
+msgstr ""
+
+#. %s: placeholder
+#: includes/class-pure-wc-shopbuild-post-type.php:43
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-reset-password.php:28
+msgid "New password"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-edit-account.php:55
+msgid "New password (leave blank to leave unchanged)"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-add-payment-method.php:60
+msgid ""
+"New payment methods can only be added during checkout. Please contact us if "
+"you require assistance."
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:48 public/traits/shopbuild-styles.php:498
+#: public/woocommerce/myaccount/orders.php:105
+msgid "Next"
+msgstr ""
+
+#: public/woocommerce/single-product/photoswipe.php:50
+msgid "Next (arrow right)"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:119
+#: public/traits/shopbuild-slider.php:146
+#: public/traits/shopbuild-slider.php:161
+msgid "No"
+msgstr ""
+
+#. %s: placeholder
+#: includes/class-pure-wc-shopbuild-post-type.php:47
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#. %s: placeholder
+#: includes/class-pure-wc-shopbuild-post-type.php:48
+#, php-format
+msgid "No %s found in Trash"
+msgstr ""
+
+#: public/woocommerce/myaccount/downloads.php:43
+msgid "No downloads available yet."
+msgstr ""
+
+#: public/woocommerce/myaccount/orders.php:117
+msgid "No order has been made yet."
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-categories.php:491
+msgid "No product categories exist."
+msgstr ""
+
+#: functions.php:1186
+msgid "No products were found matching your selection."
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-compare.php:454
+msgid "No Ratings"
+msgstr ""
+
+#: public/woocommerce/myaccount/payment-methods.php:70
+msgid "No saved methods found."
+msgstr ""
+
+#. $s shipping destination.
+#: public/woocommerce/cart/cart-shipping.php:80
+#, php-format
+msgid "No shipping options were found for %s."
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:1076
+msgid "No valid setting keys found."
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:704
+#: admin/class-pure-wc-shopbuild-admin.php:848
+msgid "Nonce Varification Faild !"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:832
+#: public/traits/shopbuild-styles.php:930
+#: public/traits/shopbuild-styles.php:1617
+msgid "None"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1472
+msgid "None Type Attribute"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:235
+#: public/traits/shopbuild-styles.php:792
+#: public/traits/shopbuild-styles.php:1037
+#: public/widgets/elementor/product-card.php:298
+msgid "Normal"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-recent.php:300
+#: public/widgets/elementor/sidebar-top-rated.php:310
+msgid "Normal Color"
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:890
+msgid "Not data fond!"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-compare.php:333
+msgid "Not in stock"
+msgstr ""
+
+#: public/woocommerce/single-product-reviews.php:133
+msgid "Not that bad"
+msgstr ""
+
+#: public/woocommerce/order/order-details.php:49
+#: public/woocommerce/order/order-details.php:102
+msgid "Note:"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-categories.php:185
+msgid "Number of categores to show"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-attribute-filter.php:120
+msgid "Number of items to show"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-tags.php:67
+msgid "Number of tags to show"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:75
+msgid "Number Style"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:169
+msgid "Off"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:566
+msgid "Offer Style"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:167
+msgid "Offer Text"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-recent.php:250
+#: public/widgets/elementor/sidebar-top-rated.php:260
+msgid "Old Price Color"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:180
+#: public/widgets/elementor/product-card.php:243
+msgid "Old Price Typography"
+msgstr ""
+
+#: public/widgets/elementor/single-product-price.php:109
+msgid "Old Typography"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1412
+msgid "On Hover"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1425
+#: public/traits/shopbuild-styles.php:1441
+#: public/traits/shopbuild-styles.php:1458
+#: public/traits/shopbuild-styles.php:1475
+msgid "On Thumbnail"
+msgstr ""
+
+#: public/woocommerce/single-product-reviews.php:145
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: public/traits/shopbuild-query.php:94
+#: public/woocommerce/myaccount/my-orders.php:14
+#: public/widgets/elementor/pure-coupon.php:141
+#: public/widgets/elementor/single-product-related.php:181
+msgid "Order"
+msgstr ""
+
+#. 1: order number 2: order date 3: order status
+#: public/woocommerce/myaccount/view-order.php:28
+#, php-format
+msgid "Order #%1$s was placed on %2$s and is currently %3$s."
+msgstr ""
+
+#: public/traits/shopbuild-query.php:84
+#: public/widgets/elementor/pure-coupon.php:131
+#: public/widgets/elementor/single-product-related.php:165
+msgid "Order By"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-categories.php:158
+msgid "Order by"
+msgstr ""
+
+#: functions.php:615
+msgid "Order Customer Details"
+msgstr ""
+
+#: invoice-templates/default.php:123
+msgid "Order date:"
+msgstr ""
+
+#: functions.php:606
+msgid "Order Details"
+msgstr ""
+
+#: functions.php:597
+msgid "Order Meta"
+msgstr ""
+
+#: functions.php:588
+msgid "Order Number"
+msgstr ""
+
+#: invoice-templates/default.php:122
+msgid "Order number:"
+msgstr ""
+
+#: functions.php:579
+msgid "Order Overview"
+msgstr ""
+
+#: functions.php:633
+msgid "Order Recommendation"
+msgstr ""
+
+#: functions.php:624
+msgid "Order Shipping Progress"
+msgstr ""
+
+#: invoice-templates/default.php:121
+msgid "Order Status:"
+msgstr ""
+
+#: functions.php:570
+msgid "Order ThankYou Message"
+msgstr ""
+
+#: public/woocommerce/myaccount/view-order.php:37
+msgid "Order updates"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:399
+#: public/widgets/elementor/product-card.php:462
+msgid "Outer Margin"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:47
+#: public/traits/shopbuild-common-style.php:113
+#: public/traits/shopbuild-common-style.php:187
+#: public/traits/shopbuild-common-style.php:443
+#: public/traits/shopbuild-common-style.php:496
+#: public/traits/shopbuild-common-style.php:616
+#: public/traits/shopbuild-common-style.php:677
+#: public/traits/shopbuild-styles.php:112
+#: public/traits/shopbuild-styles.php:168
+#: public/traits/shopbuild-styles.php:248
+#: public/traits/shopbuild-styles.php:622
+#: public/traits/shopbuild-styles.php:699
+#: public/traits/shopbuild-styles.php:977
+#: public/traits/shopbuild-styles.php:1152
+#: public/widgets/elementor/sidebar-products-price-filter.php:119
+#: public/widgets/elementor/single-product-price.php:117
+#: public/widgets/elementor/single-product-tabs.php:118
+#: public/widgets/elementor/pure-coupon.php:809
+#: public/widgets/elementor/pure-coupon.php:882
+#: public/widgets/elementor/sidebar-products-categories.php:250
+#: public/widgets/elementor/archive-products-ordering.php:108
+#: public/widgets/elementor/single-product-related.php:236
+#: public/widgets/elementor/single-product-related.php:302
+#: public/widgets/elementor/single-product-related.php:367
+#: public/widgets/elementor/sidebar-products-recent.php:131
+#: public/widgets/elementor/sidebar-products-recent.php:195
+#: public/widgets/elementor/single-product-breadcrumb.php:104
+#: public/widgets/elementor/sidebar-attribute-filter.php:178
+#: public/widgets/elementor/sidebar-attribute-filter.php:242
+#: public/widgets/elementor/sidebar-products-search.php:118
+#: public/widgets/elementor/product-card.php:110
+#: public/widgets/elementor/product-card.php:176
+#: public/widgets/elementor/product-card.php:250
+#: public/widgets/elementor/product-card.php:506
+#: public/widgets/elementor/product-card.php:559
+#: public/widgets/elementor/product-card.php:679
+#: public/widgets/elementor/product-card.php:740
+#: public/widgets/elementor/sidebar-top-rated.php:141
+#: public/widgets/elementor/sidebar-top-rated.php:205
+msgid "Padding"
+msgstr ""
+
+#: public/traits/shopbuild-query.php:137
+#: public/traits/shopbuild-common-style.php:700
+#: public/widgets/elementor/product-card.php:760
+msgid "Pagination"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-login.php:66
+#: public/woocommerce/global/form-login.php:38
+#: public/widgets/elementor/checkout-existing-login.php:225
+#: public/widgets/elementor/checkout-existing-login.php:268
+msgid "Password"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-edit-account.php:48
+msgid "Password change"
+msgstr ""
+
+#: public/woocommerce/myaccount/lost-password-confirmation.php:20
+msgid "Password reset email has been sent."
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:143
+msgid "Pause On Hover"
+msgstr ""
+
+#: public/widgets/elementor/checkout-payment.php:227
+msgid "Pay with cash upon delivery."
+msgstr ""
+
+#: public/widgets/elementor/checkout-payment.php:129
+msgid "Payment Box"
+msgstr ""
+
+#: public/widgets/elementor/checkout-payment.php:87
+msgid "Payment Style"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:190
+msgid "Percent Symbol Position"
+msgstr ""
+
+#: public/woocommerce/single-product-reviews.php:130
+msgid "Perfect"
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:67
+#: public/woocommerce/order/order-billing-address.php:49
+msgid "Phone number:"
+msgstr ""
+
+#: invoice-templates/default.php:124
+#: public/woocommerce/order/order-details-customer.php:148
+msgid "Phone:"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1064
+msgid "Placeholder Color"
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:478
+msgid ""
+"Please activate <strong>Elementor</strong> plugin as the dependency for this "
+"plugin to run."
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:458
+msgid ""
+"Please activate <strong>WooCommerce</strong> plugin as the dependency for "
+"this plugin to run."
+msgstr ""
+
+#: public/woocommerce/checkout/payment.php:33
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:482
+msgid ""
+"Please install <strong>Elementor</strong> plugin as the dependency for this "
+"plugin to run."
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:462
+msgid ""
+"Please install <strong>WooCommerce</strong> plugin as the dependency for "
+"this plugin to run."
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:1059
+msgid "Please Select A Product"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:915
+#: public/widgets/elementor/single-product-add-to-cart.php:172
+msgid "Plus Minus Color"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:926
+#: public/widgets/elementor/single-product-add-to-cart.php:183
+msgid "Plus Minus Hover Color"
+msgstr ""
+
+#: public/widgets/elementor/checkout-payment.php:178
+msgid "Policy Link Text"
+msgstr ""
+
+#: public/widgets/elementor/checkout-payment.php:167
+msgid "Policy Text"
+msgstr ""
+
+#: public/widgets/elementor/checkout-payment.php:159
+msgid "Policy Text Control"
+msgstr ""
+
+#: public/widgets/elementor/checkout-payment.php:190
+msgid "Policy Typography"
+msgstr ""
+
+#: includes/class-pure-wc-shopbuild-template-manager.php:152
+msgid "Popups"
+msgstr ""
+
+#: public/widgets/elementor/single-product-related.php:152
+msgid "Post Per Page"
+msgstr ""
+
+#: public/traits/shopbuild-query.php:28
+msgid "Posts Per Page"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:34
+msgid "Prev"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:436
+#: public/woocommerce/myaccount/orders.php:99
+msgid "Previous"
+msgstr ""
+
+#: public/woocommerce/single-product/photoswipe.php:49
+msgid "Previous (arrow left)"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-wishlist.php:185
+#: public/class-pure-wc-shopbuild-wishlist.php:293
+#: invoice-templates/default.php:136 public/woocommerce/cart/cart.php:31
+#: public/woocommerce/cart/cart.php:82
+msgid "Price"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-recent.php:239
+#: public/widgets/elementor/sidebar-top-rated.php:249
+msgid "Price Color"
+msgstr ""
+
+#: public/widgets/elementor/single-product-price.php:163
+msgid "Price does not set this product."
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-price-filter.php:145
+msgid "Price Filter "
+msgstr ""
+
+#: public/widgets/elementor/sidebar-top-rated.php:78
+msgid "Price Rating Switch"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-recent.php:222
+#: public/widgets/elementor/sidebar-top-rated.php:232
+msgid "Price Style"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-price-filter.php:166
+msgid "Price Text "
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:171
+#: public/widgets/elementor/product-card.php:234
+msgid "Price Typography"
+msgstr ""
+
+#: public/widgets/elementor/checkout-payment.php:242
+msgid "privacy policy"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-wishlist.php:184
+#: public/class-pure-wc-shopbuild-wishlist.php:292
+#: invoice-templates/default.php:134
+#: public/woocommerce/order/order-details.php:61
+#: public/woocommerce/checkout/review-order.php:17
+#: public/woocommerce/cart/cart.php:30 public/woocommerce/cart/cart.php:62
+msgid "Product"
+msgstr ""
+
+#: public/widgets/elementor/single-product-breadcrumb.php:73
+msgid "Product - Breadcrumb Dot"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:73
+#: public/widgets/elementor/single-product-related.php:262
+#: public/widgets/elementor/product-card.php:136
+msgid "Product - Category"
+msgstr ""
+
+#: public/widgets/elementor/single-product-short-description.php:70
+msgid "Product - Description"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:140
+#: public/widgets/elementor/single-product-price.php:69
+#: public/widgets/elementor/single-product-related.php:329
+#: public/widgets/elementor/product-card.php:203
+msgid "Product - Price"
+msgstr ""
+
+#: public/widgets/elementor/single-product-ratings.php:77
+msgid "Product - Rating"
+msgstr ""
+
+#: public/widgets/elementor/single-product-sku.php:88
+msgid "Product - SKU"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tags.php:85
+msgid "Product - Tags"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:12
+#: public/traits/shopbuild-common-style.php:803
+#: public/widgets/elementor/single-product-related.php:201
+#: public/widgets/elementor/product-card.php:75
+msgid "Product - Title"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:813
+msgid "Product - Title Hover"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1540
+msgid "Product Action Button"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:852
+msgid "Product Action Color"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:862
+msgid "Product Action Hover Color"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:874
+msgid "Product Action Typhography"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:630
+#: public/widgets/elementor/product-card.php:693
+msgid "Product Action Wrapper"
+msgstr ""
+
+#: functions.php:150 public/traits/shopbuild-styles.php:1331
+msgid "Product Card"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:524
+#: public/widgets/elementor/single-product-related.php:415
+#: public/widgets/elementor/product-card.php:587
+msgid "Product Countdown"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:532
+#: public/widgets/elementor/single-product-related.php:423
+#: public/widgets/elementor/product-card.php:595
+msgid "Product Countdown BG Color"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:543
+#: public/widgets/elementor/single-product-related.php:434
+#: public/widgets/elementor/product-card.php:606
+msgid "Product Countdown Color"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-compare.php:496
+msgid "Product Descriptions"
+msgstr ""
+
+#: functions.php:141
+msgid "Product Hotspot"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-compare.php:227
+msgid "Product Image"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-compare.php:285
+#: public/traits/shopbuild-common-style.php:832
+msgid "Product Price"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:148
+#: public/widgets/elementor/single-product-price.php:77
+#: public/widgets/elementor/single-product-related.php:337
+#: public/widgets/elementor/product-card.php:211
+msgid "Product Price Color"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:159
+#: public/widgets/elementor/single-product-price.php:88
+#: public/widgets/elementor/single-product-related.php:348
+#: public/widgets/elementor/product-card.php:222
+msgid "Product Price Old Color"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:844
+msgid "Product Price Typhography"
+msgstr ""
+
+#: public/woocommerce/global/quantity-input.php:48
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-compare.php:419
+#: public/traits/shopbuild-common-style.php:457
+#: public/widgets/elementor/single-product-related.php:394
+#: public/widgets/elementor/product-card.php:520
+msgid "Product Rating"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:465
+#: public/widgets/elementor/single-product-related.php:402
+#: public/widgets/elementor/product-card.php:528
+msgid "Product Rating Color"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:476
+#: public/widgets/elementor/product-card.php:539
+msgid "Product Rating Text Color"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:488
+#: public/widgets/elementor/product-card.php:551
+msgid "Product Rating Text Typography"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:565
+#: public/widgets/elementor/single-product-related.php:456
+#: public/widgets/elementor/single-product-thumbnail.php:133
+#: public/widgets/elementor/product-card.php:628
+msgid "Product Sale"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:573
+#: public/widgets/elementor/single-product-related.php:464
+#: public/widgets/elementor/single-product-thumbnail.php:141
+#: public/widgets/elementor/product-card.php:636
+msgid "Product Sale BG Color"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:584
+#: public/widgets/elementor/single-product-related.php:475
+#: public/widgets/elementor/single-product-thumbnail.php:152
+#: public/widgets/elementor/product-card.php:647
+msgid "Product Sale Color"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-compare.php:469
+msgid "Product SKU"
+msgstr ""
+
+#: functions.php:158
+msgid "Product Slider"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1339
+msgid "Product Style"
+msgstr ""
+
+#: functions.php:167
+msgid "Product Tab"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:81
+#: public/widgets/elementor/single-product-related.php:270
+#: public/widgets/elementor/product-card.php:144
+msgid "Product Tag Color"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:93
+#: public/widgets/elementor/single-product-related.php:282
+#: public/widgets/elementor/product-card.php:156
+msgid "Product Tag Hover Color"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:824
+msgid "Product Title Typhography"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:214
+#: public/widgets/elementor/product-card.php:277
+msgid "Product Variation"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-compare.php:308
+msgid "Product Variations"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-attribute-filter.php:85
+msgid "Products Attribute"
+msgstr ""
+
+#: public/widgets/elementor/currency-switcher/currency-switcher.php:46
+msgid "Pure Currency Switcher"
+msgstr ""
+
+#: invoice-templates/default.php:135 public/woocommerce/cart/cart.php:32
+#: public/woocommerce/cart/cart.php:88
+#: public/woocommerce/global/quantity-input.php:28
+msgid "Quantity"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:885
+#: public/widgets/elementor/single-product-add-to-cart.php:142
+msgid "Quantity - Field"
+msgstr ""
+
+#. %s: Control's Name
+#: public/traits/shopbuild-query.php:19
+#, php-format
+msgid "Query %s"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-attribute-filter.php:107
+msgid "Query type"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:382
+msgid "Radius"
+msgstr ""
+
+#: public/widgets/elementor/single-product-related.php:170
+msgid "Random"
+msgstr ""
+
+#: public/woocommerce/single-product-reviews.php:129
+msgid "Rate&hellip;"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-recent.php:310
+#: public/widgets/elementor/sidebar-top-rated.php:320
+msgid "Rated Icon Color"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:384
+#: public/widgets/elementor/single-product-reviews.php:161
+msgid "Rating Color"
+msgstr ""
+
+#: public/widgets/elementor/single-product-ratings.php:85
+msgid "Rating Icon Color"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-recent.php:263
+#: public/widgets/elementor/sidebar-top-rated.php:273
+msgid "Rating Style"
+msgstr ""
+
+#: public/widgets/elementor/single-product-ratings.php:96
+msgid "Rating Text Color"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-reset-password.php:32
+msgid "Re-enter new password"
+msgstr ""
+
+#: public/woocommerce/myaccount/my-orders.php:39
+msgid "Recent orders"
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:166
+msgid "Refund:"
+msgstr ""
+
+#: public/widgets/elementor/single-product-related.php:78
+msgid "Related Heading"
+msgstr ""
+
+#: public/widgets/elementor/single-product-related.php:80
+msgid "Related Products"
+msgstr ""
+
+#: public/woocommerce/single-product/related.php:27
+msgid "Related products"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-login.php:95
+#: public/woocommerce/global/form-login.php:47
+#: public/widgets/elementor/checkout-existing-login.php:234
+#: public/widgets/elementor/checkout-existing-login.php:277
+msgid "Remember me"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-compare.php:196
+msgid "Remove All"
+msgstr ""
+
+#: includes/class-pure-wc-shopbuild-woocomerce.php:41
+msgid "Remove Image"
+msgstr ""
+
+#: public/woocommerce/cart/cart.php:132
+msgid "Remove this item"
+msgstr ""
+
+#: public/widgets/elementor/checkout-payment.php:251
+msgid "required"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-lost-password.php:38
+msgid "Reset password"
+msgstr ""
+
+#: public/woocommerce/cart/cart-empty.php:42
+msgid "Return to shop"
+msgstr ""
+
+#: public/woocommerce/checkout/form-login.php:26
+msgid "Returning customer?"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:457
+msgid "Review Form Controls"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:465
+msgid "Review Form Title"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:477
+msgid "Review Form Typography"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:505
+msgid "Review Rating Icon"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:517
+#: public/widgets/elementor/single-product-tabs.php:530
+msgid "Review Rating Label"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:485
+msgid "Review Rating Title"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:497
+msgid "Review Rating Typography"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:435
+#: public/widgets/elementor/single-product-reviews.php:212
+msgid "Review Text"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:447
+#: public/widgets/elementor/single-product-reviews.php:224
+msgid "Review Text Typography"
+msgstr ""
+
+#: public/woocommerce/single-product-reviews.php:38
+msgid "Reviews"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:101
+#: public/traits/shopbuild-styles.php:1356
+#: public/traits/shopbuild-styles.php:1495
+#: public/traits/shopbuild-styles.php:1510
+#: public/widgets/elementor/pure-coupon.php:181
+#: public/widgets/elementor/pure-coupon.php:194
+#: public/widgets/elementor/single-product-related.php:136
+#: public/widgets/elementor/cart-table.php:111
+#: public/widgets/elementor/cart-cross-sell.php:96
+msgid "Right"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1528
+msgid "Right Bottom"
+msgstr ""
+
+#: public/widgets/elementor/single-product-thumbnail.php:77
+msgid "Right Sidebar"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1527
+msgid "Right Top"
+msgstr ""
+
+#: public/widgets/elementor/single-product-thumbnail.php:106
+msgid "Row Gap"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1521
+msgid "Sale Badge Position"
+msgstr ""
+
+#: public/sb-product-hook.php:162
+#: public/woocommerce/single-product/sale-flash.php:27
+msgid "Sale!"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-reset-password.php:45
+msgid "Save"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-edit-address.php:46
+msgid "Save address"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-edit-account.php:69
+msgid "Save changes"
+msgstr ""
+
+#: includes/class-pure-wc-shopbuild-template-manager.php:150
+msgid "Saved Templates"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1202
+msgid "Screen width equal to or greater than 1200px"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1259
+msgid "Screen width equal to or greater than 576px"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1240
+msgid "Screen width equal to or greater than 768px"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1221
+msgid "Screen width equal to or greater than 992px"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1278
+msgid "Screen width less than 575px"
+msgstr ""
+
+#. %s: placeholder
+#: includes/class-pure-wc-shopbuild-post-type.php:46
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: public/sb-product-hook.php:783
+msgid "Search..."
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:1012
+msgid "Sec"
+msgstr ""
+
+#: public/widgets/elementor/single-product-related.php:124
+msgid "Section Label"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-categories.php:470
+msgid "Select a category"
+msgstr ""
+
+#: public/traits/shopbuild-query.php:51
+msgid "Select a category to exclude"
+msgstr ""
+
+#: public/traits/shopbuild-query.php:38
+msgid "Select a category to include or leave blank for all."
+msgstr ""
+
+#: public/widgets/elementor/single-product-add-to-cart.php:117
+msgid "Select Border Color"
+msgstr ""
+
+#: functions.php:1663
+msgid ""
+"Select Count Color. This field is only for layout 3 (Field From ShopBuild) "
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:76
+#: public/widgets/elementor/single-product-thumbnail.php:72
+#: public/widgets/elementor/checkout-order.php:71
+msgid "Select Layout"
+msgstr ""
+
+#: public/sb-product-hook.php:835
+msgid "Select Options"
+msgstr ""
+
+#: public/widgets/elementor/single-product-add-to-cart.php:95
+msgid "Select Text Color"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1422
+msgid "Select Type Attribute"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-quickview.php:39
+msgid "Selected variant is unavailable."
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:877
+msgid "Set as"
+msgstr ""
+
+#: public/traits/shopbuild-query.php:109
+#: public/traits/shopbuild-styles.php:1598
+msgid "Set how many word you want to display!"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:287
+msgid "Set the font size for number style."
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:275
+msgid "Set the width of the slider for desktop devices."
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:351
+msgid "Set the width of the slider for medium devices."
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:427
+msgid "Set the width of the slider for mobile devices."
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:389
+msgid "Set the width of the slider for small devices."
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:313
+msgid "Set the width of the slider for tablet devices."
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:1127
+msgid "Settings saved successfully."
+msgstr ""
+
+#: public/woocommerce/single-product/photoswipe.php:35
+msgid "Share"
+msgstr ""
+
+#: public/woocommerce/cart/cart-totals.php:53
+#: public/woocommerce/cart/cart-totals.php:54
+msgid "Shipping"
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:121
+#: public/woocommerce/myaccount/form-edit-address.php:20
+#: public/woocommerce/myaccount/my-address.php:27
+msgid "Shipping address"
+msgstr ""
+
+#: public/woocommerce/cart/cart-shipping.php:61
+msgid "Shipping costs are calculated during checkout."
+msgstr ""
+
+#: public/woocommerce/cart/cart-shipping.php:53
+msgid "Shipping options will be updated during checkout."
+msgstr ""
+
+#: public/widgets/elementor/checkout-shipping.php:72
+msgid "Shipping Title"
+msgstr ""
+
+#. $s shipping destination.
+#: public/woocommerce/cart/cart-shipping.php:50
+#, php-format
+msgid "Shipping to %s."
+msgstr ""
+
+#: public/widgets/elementor/checkout-shipping.php:74
+msgid "Shipping to a different address?"
+msgstr ""
+
+#: functions.php:132
+msgid "Shop Features"
+msgstr ""
+
+#: public/woocommerce/loop/orderby.php:23
+msgid "Shop order"
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:113
+#: admin/class-pure-wc-shopbuild-admin.php:244
+msgid "Shopbuild"
+msgstr ""
+
+#: functions.php:292
+msgid "Shopbuild Ajax Search"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:51
+msgid "Shopbuild Coupon"
+msgstr ""
+
+#: public/widgets/elementor/product-card.php:48
+msgid "Shopbuild Product Card"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-price-filter.php:73
+#: public/widgets/elementor/sidebar-products-categories.php:89
+#: public/widgets/elementor/sidebar-products-recent.php:73
+#: public/widgets/elementor/sidebar-attribute-filter.php:76
+#: public/widgets/elementor/sidebar-products-search.php:74
+#: public/widgets/elementor/sidebar-top-rated.php:69
+msgid "ShopBuild Widget Title"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:21 public/traits/shopbuild-slider.php:61
+#: public/traits/shopbuild-slider.php:173
+#: public/traits/shopbuild-slider.php:185
+#: public/traits/shopbuild-slider.php:197 public/traits/woocommerce-cart.php:39
+#: public/traits/shopbuild-styles.php:1370
+#: public/traits/shopbuild-styles.php:1382
+#: public/traits/shopbuild-styles.php:1550
+#: public/traits/shopbuild-styles.php:1562
+#: public/traits/shopbuild-styles.php:1574
+#: public/traits/shopbuild-styles.php:1586
+#: public/widgets/elementor/pure-coupon.php:157
+#: public/widgets/elementor/sidebar-products-categories.php:100
+#: public/widgets/elementor/sidebar-products-categories.php:112
+#: public/widgets/elementor/sidebar-products-categories.php:124
+#: public/widgets/elementor/sidebar-products-categories.php:136
+#: public/widgets/elementor/sidebar-products-categories.php:148
+#: public/widgets/elementor/single-product-category.php:73
+#: public/widgets/elementor/sidebar-attribute-filter.php:132
+#: public/widgets/elementor/sidebar-top-rated.php:80
+msgid "Show"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-categories.php:110
+msgid "Show as dropdown"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-categories.php:122
+msgid "Show children only"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-categories.php:146
+msgid "Show hierarchical"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:100
+msgid "Show Items Number"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-categories.php:98
+msgid "Show product counts"
+msgstr ""
+
+#. %d: total results
+#: public/woocommerce/loop/result-count.php:35
+msgid "Showing all %d result"
+msgid_plural "Showing all %d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: public/woocommerce/loop/result-count.php:32
+msgid "Showing the single result"
+msgstr ""
+
+#: functions.php:265
+msgid "Sidebar Ajax Attributes"
+msgstr ""
+
+#: functions.php:256
+msgid "Sidebar Ajax Categories"
+msgstr ""
+
+#: functions.php:283
+msgid "Sidebar Ajax Ratings"
+msgstr ""
+
+#: functions.php:274
+msgid "Sidebar Ajax Stock"
+msgstr ""
+
+#: functions.php:224 public/widgets/elementor/sidebar-attribute-filter.php:51
+msgid "Sidebar Attribute Filter"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-price-filter.php:49
+msgid "Sidebar Price Filter"
+msgstr ""
+
+#: functions.php:216
+#: public/widgets/elementor/sidebar-products-categories.php:62
+msgid "Sidebar Products Categories"
+msgstr ""
+
+#: functions.php:208
+msgid "Sidebar Products Price Filter"
+msgstr ""
+
+#: functions.php:248 public/widgets/elementor/sidebar-products-recent.php:49
+msgid "Sidebar Products Recent"
+msgstr ""
+
+#: functions.php:200 public/widgets/elementor/sidebar-products-search.php:49
+msgid "Sidebar Products Search"
+msgstr ""
+
+#: functions.php:232 public/widgets/elementor/sidebar-products-tags.php:45
+msgid "Sidebar Products Tags"
+msgstr ""
+
+#: functions.php:240 public/widgets/elementor/sidebar-top-rated.php:44
+msgid "Sidebar Top Rated"
+msgstr ""
+
+#. $1 and $2 opening and closing emphasis tags respectively
+#: public/woocommerce/checkout/payment.php:42
+#: public/widgets/elementor/checkout-payment.php:235
+#, php-format
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the %1$sUpdate Totals%2$s button before placing your order. "
+"You may be charged more than the amount stated above if you fail to do so."
+msgstr ""
+
+#: functions.php:326 public/widgets/elementor/single-product-add-to-cart.php:50
+msgid "Single Add To Cart"
+msgstr ""
+
+#: public/widgets/elementor/single-product-buy-now.php:50
+msgid "Single Buy Now"
+msgstr ""
+
+#: functions.php:430 public/widgets/elementor/single-product-breadcrumb.php:49
+msgid "Single Product Breadcrumb"
+msgstr ""
+
+#: functions.php:374
+msgid "Single Product Buy Now"
+msgstr ""
+
+#: functions.php:358 public/widgets/elementor/single-product-category.php:49
+msgid "Single Product Category"
+msgstr ""
+
+#: functions.php:382 public/widgets/elementor/single-product-compare.php:49
+msgid "Single Product Compare"
+msgstr ""
+
+#: functions.php:318 public/widgets/elementor/single-product-price.php:49
+msgid "Single Product Price"
+msgstr ""
+
+#: functions.php:398 public/widgets/elementor/single-product-ratings.php:49
+msgid "Single Product Ratings"
+msgstr ""
+
+#: functions.php:406 public/widgets/elementor/single-product-related.php:51
+msgid "Single Product Related"
+msgstr ""
+
+#: functions.php:455
+msgid "Single Product Review Form"
+msgstr ""
+
+#: functions.php:464
+msgid "Single Product Review Overview"
+msgstr ""
+
+#: functions.php:414 public/widgets/elementor/single-product-reviews.php:49
+msgid "Single Product Reviews"
+msgstr ""
+
+#: functions.php:473
+msgid "Single Product Saletimer"
+msgstr ""
+
+#: functions.php:342
+#: public/widgets/elementor/single-product-short-description.php:49
+msgid "Single Product Short Description"
+msgstr ""
+
+#: functions.php:350 public/widgets/elementor/single-product-sku.php:49
+msgid "Single Product SKU"
+msgstr ""
+
+#: functions.php:446
+msgid "Single Product Social"
+msgstr ""
+
+#: functions.php:438 public/widgets/elementor/single-product-stock.php:49
+msgid "Single Product Stock"
+msgstr ""
+
+#: functions.php:422 public/widgets/elementor/single-product-tabs.php:50
+msgid "Single Product Tabs"
+msgstr ""
+
+#: functions.php:366 public/widgets/elementor/single-product-tags.php:45
+msgid "Single Product Tags"
+msgstr ""
+
+#: functions.php:334 public/widgets/elementor/single-product-thumbnail.php:48
+msgid "Single Product Thumbnail"
+msgstr ""
+
+#: functions.php:310 public/widgets/elementor/single-product-title.php:48
+msgid "Single Product Title"
+msgstr ""
+
+#: functions.php:390 public/widgets/elementor/single-product-wishlist.php:49
+msgid "Single Product Wishlist"
+msgstr ""
+
+#: public/widgets/elementor/single-product-sku.php:74
+msgid "SKU"
+msgstr ""
+
+#: public/widgets/elementor/single-product-sku.php:107
+msgid "SKU Text Color"
+msgstr ""
+
+#: public/woocommerce/single-product/meta.php:30
+msgid "SKU:"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:424
+msgid "Slider Button Position"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:276
+msgid "Slider Dot Style"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:207
+msgid "Slider Gap/Spacing"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:246
+msgid "Slides to Show"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:402
+msgid "Small Display Column"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:414
+msgid "Small Slides to Scroll"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:388
+msgid "Small Width"
+msgstr ""
+
+#: public/sb-product-hook.php:419
+msgid "Sold Out"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:833
+#: public/traits/shopbuild-styles.php:931
+#: public/traits/shopbuild-styles.php:1618
+msgid "Solid"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-sale-notification.php:195
+msgid "Someone purchaed a"
+msgstr ""
+
+#: public/woocommerce/checkout/payment.php:33
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+
+#: public/widgets/elementor/archive-products-ordering.php:141
+msgid "Sort by average rating"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-ordering.php:142
+msgid "Sort by latest"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-ordering.php:140
+msgid "Sort by popularity"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-ordering.php:144
+msgid "Sort by price: high to low"
+msgstr ""
+
+#: public/widgets/elementor/archive-products-ordering.php:143
+msgid "Sort by price: low to high"
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:87
+#: public/woocommerce/order/order-billing-address.php:69
+msgid "State/province/area:"
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:154
+msgid "State:"
+msgstr ""
+
+#: public/widgets/elementor/checkout-coupon.php:87
+msgid "Static"
+msgstr ""
+
+#: public/woocommerce/myaccount/my-orders.php:16
+msgid "Status"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:203
+msgid "Status Label"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:694
+msgid "Status Style"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-wishlist.php:186
+#: public/class-pure-wc-shopbuild-wishlist.php:294
+msgid "Stocks"
+msgstr ""
+
+#. Name of the plugin
+#: admin/class-pure-wc-shopbuild-admin.php:975
+#: admin/class-pure-wc-shopbuild-admin.php:976
+#: includes/class-pure-wc-shopbuild-widgets-manager.php:132
+msgid "StoreBuild"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-attribute-filter.php:97
+msgid "Style 1"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1396
+#: public/widgets/elementor/sidebar-attribute-filter.php:98
+#: public/widgets/elementor/checkout-order.php:75
+msgid "Style 2"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1397
+msgid "Style 3"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1398
+msgid "Style 4"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1399
+msgid "Style 5"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1400
+msgid "Style 6"
+msgstr ""
+
+#: public/woocommerce/single-product-reviews.php:85
+msgid "Submit"
+msgstr ""
+
+#: public/woocommerce/checkout/review-order.php:18
+#: public/woocommerce/checkout/review-order.php:102
+#: public/woocommerce/cart/cart.php:33 public/woocommerce/cart/cart.php:114
+#: public/woocommerce/cart/cart-totals.php:20
+#: public/woocommerce/cart/cart-totals.php:21
+msgid "Subtotal"
+msgstr ""
+
+#: functions.php:1712 functions.php:1783
+msgid "Successfully Added To Cart"
+msgstr ""
+
+#: functions.php:1598 functions.php:1646
+msgid "SVG Code"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:177
+msgid "Symbol Position"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:70
+msgid "Tab Style"
+msgstr ""
+
+#: public/widgets/elementor/cart-table.php:216
+#: public/widgets/elementor/checkout-order.php:141
+#: public/widgets/elementor/cart-subtotal.php:172
+msgid "Table Data Typography"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:794
+msgid "Table Head Background"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:773
+msgid "Table Heading Color"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:785
+#: public/widgets/elementor/cart-table.php:194
+#: public/widgets/elementor/cart-subtotal.php:150
+msgid "Table Heading Typography"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:258
+msgid "Table Info"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:269
+msgid "Table Info Padding"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:282
+msgid "Table Info Typography"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:762
+msgid "Table Row Border Color"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:224
+msgid "Table Title"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:235
+msgid "Table Title Padding"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:248
+msgid "Table Title Typo"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:326
+msgid "Tablet Display Column"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:338
+msgid "Tablet Slides to Scroll"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:312
+msgid "Tablet Width"
+msgstr ""
+
+#: public/widgets/elementor/single-product-related.php:88
+msgid "Tag"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tags.php:115
+msgid "Tag Hover Color"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tags.php:104
+msgid "Tag Text Color"
+msgstr ""
+
+#: public/woocommerce/single-product/meta.php:40
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: public/widgets/elementor/single-product-tags.php:70
+msgid "Tags"
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:160
+msgid "Tax Display:"
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:157
+msgid "Tax:"
+msgstr ""
+
+#: shopbuild.php:130
+msgid "Template"
+msgstr ""
+
+#: shopbuild.php:128 shopbuild.php:129
+#: admin/class-pure-wc-shopbuild-admin.php:986
+#: admin/class-pure-wc-shopbuild-admin.php:987
+msgid "Templates"
+msgstr ""
+
+#: invoice-templates/default.php:169
+msgid "Terms & Conditions"
+msgstr ""
+
+#: functions.php:114
+msgid "Testimonial"
+msgstr ""
+
+#: functions.php:1603 functions.php:1608
+#: public/widgets/elementor/pure-coupon.php:789
+#: public/widgets/elementor/pure-coupon.php:831
+msgid "Text"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:903
+#: public/traits/shopbuild-styles.php:797
+#: public/traits/shopbuild-styles.php:895
+#: public/traits/shopbuild-styles.php:1042
+#: public/widgets/elementor/single-product-sku.php:96
+#: public/widgets/elementor/sidebar-products-price-filter.php:174
+#: public/widgets/elementor/single-product-tabs.php:78
+#: public/widgets/elementor/pure-coupon.php:584
+#: public/widgets/elementor/sidebar-products-recent.php:165
+#: public/widgets/elementor/single-product-add-to-cart.php:85
+#: public/widgets/elementor/single-product-add-to-cart.php:160
+#: public/widgets/elementor/single-product-tags.php:93
+#: public/widgets/elementor/sidebar-attribute-filter.php:212
+#: public/widgets/elementor/sidebar-top-rated.php:175
+msgid "Text Color"
+msgstr ""
+
+#: public/controls/tpgradient.php:70
+msgctxt "Text Color Control"
+msgid "Gradient"
+msgstr ""
+
+#: public/controls/tpgradient.php:66
+msgctxt "Text Color Control"
+msgid "Solid"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:88
+#: public/widgets/elementor/sidebar-products-recent.php:176
+#: public/widgets/elementor/sidebar-attribute-filter.php:223
+#: public/widgets/elementor/sidebar-top-rated.php:186
+msgid "Text Hover Color"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:98
+msgid "Text Hover Line Color"
+msgstr ""
+
+#: public/widgets/elementor/single-product-add-to-cart.php:125
+msgid "Text Padding"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:801
+msgid "Text Typography"
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:118
+#: admin/class-pure-wc-shopbuild-admin.php:249
+msgid "Thank you for shopping with us."
+msgstr ""
+
+#: public/woocommerce/myaccount/my-address.php:44
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: functions.php:1860
+msgid "The selected template is not built with Elementor."
+msgstr ""
+
+#: includes/class-pure-wc-shopbuild-template-manager.php:151
+msgid "Theme Builder"
+msgstr ""
+
+#. Author of the plugin
+msgid "ThemePure"
+msgstr ""
+
+#: public/woocommerce/single-product-reviews.php:68
+msgid "There are no reviews yet."
+msgstr ""
+
+#: public/woocommerce/cart/cart-shipping.php:66
+msgid ""
+"There are no shipping options available. Please ensure that your address has "
+"been entered correctly, or contact us if you need any help."
+msgstr ""
+
+#: public/woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: public/woocommerce/myaccount/form-edit-account.php:38
+msgid ""
+"This will be how your name will be displayed in the account section and in "
+"reviews"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:271
+#: public/widgets/elementor/sidebar-products-recent.php:323
+#: public/widgets/elementor/sidebar-top-rated.php:333
+msgid "Thumbnail Style"
+msgstr ""
+
+#: public/widgets/elementor/single-product-thumbnail.php:64
+msgid "Thumbnails Layout"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:614
+msgid "Time Color"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:626
+msgid "Time Typography"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-price-filter.php:71
+#: public/widgets/elementor/sidebar-products-categories.php:87
+#: public/widgets/elementor/single-product-related.php:169
+#: public/widgets/elementor/checkout-payment.php:95
+#: public/widgets/elementor/sidebar-products-recent.php:71
+#: public/widgets/elementor/sidebar-attribute-filter.php:74
+#: public/widgets/elementor/sidebar-products-search.php:72
+#: public/widgets/elementor/checkout-billing.php:73
+#: public/widgets/elementor/sidebar-top-rated.php:67
+#: public/widgets/elementor/cart-subtotal.php:73
+msgid "Title"
+msgstr ""
+
+#: public/traits/woocommerce-cart.php:14
+#: public/traits/woocommerce-single.php:14
+msgid "Title HTML Tag"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:522
+msgid "Title Style"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:165
+#: public/widgets/elementor/single-product-tabs.php:185
+#: public/widgets/elementor/checkout-payment.php:107
+msgid "Title Typography"
+msgstr ""
+
+#: public/traits/shopbuild-query.php:108
+#: public/traits/shopbuild-styles.php:1597
+msgid "Title Word Count"
+msgstr ""
+
+#: public/widgets/elementor/cart-coupon.php:101
+msgid "Toggle"
+msgstr ""
+
+#: public/woocommerce/single-product/photoswipe.php:36
+msgid "Toggle fullscreen"
+msgstr ""
+
+#: public/widgets/elementor/cart-coupon.php:99
+#: public/widgets/elementor/checkout-coupon.php:85
+msgid "Toggle Inline"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:1506
+msgid "Tooltip Position"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:768
+msgid "Tooltip Style"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:443
+#: public/traits/shopbuild-styles.php:505
+#: public/traits/shopbuild-styles.php:532
+#: public/traits/shopbuild-styles.php:1496
+#: public/traits/shopbuild-styles.php:1511
+msgid "Top"
+msgstr ""
+
+#: public/widgets/elementor/pure-coupon.php:411
+msgid "Top Cut"
+msgstr ""
+
+#: public/widgets/elementor/single-product-thumbnail.php:78
+msgid "Top Sidebar"
+msgstr ""
+
+#: invoice-templates/default.php:162
+#: public/woocommerce/order/order-details.php:62
+#: public/woocommerce/myaccount/my-orders.php:17
+#: public/woocommerce/checkout/review-order.php:161
+#: public/woocommerce/cart/cart-totals.php:105
+#: public/woocommerce/cart/cart-totals.php:106
+msgid "Total"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-compare.php:193
+msgid "Total Added:"
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:163
+msgid "Total:"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:219
+msgid "Transition Speed"
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:876
+msgid "Type"
+msgstr ""
+
+#: public/widgets/elementor/cart-coupon.php:75
+#: public/widgets/elementor/cart-coupon.php:85
+#: public/widgets/elementor/single-product-related.php:81
+#: public/widgets/elementor/checkout-payment.php:75
+#: public/widgets/elementor/checkout-existing-login.php:74
+#: public/widgets/elementor/checkout-existing-login.php:84
+#: public/widgets/elementor/checkout-shipping.php:75
+#: public/widgets/elementor/checkout-coupon.php:74
+#: public/widgets/elementor/cart-subtotal.php:76
+#: public/widgets/elementor/cart-subtotal.php:86
+msgid "Type your title here"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:39
+#: public/traits/shopbuild-common-style.php:106
+#: public/traits/shopbuild-common-style.php:555
+#: public/traits/shopbuild-common-style.php:596
+#: public/traits/shopbuild-common-style.php:728
+#: public/traits/shopbuild-styles.php:161
+#: public/traits/shopbuild-styles.php:241
+#: public/traits/shopbuild-styles.php:612
+#: public/widgets/elementor/single-product-sku.php:119
+#: public/widgets/elementor/sidebar-products-price-filter.php:105
+#: public/widgets/elementor/single-product-price.php:100
+#: public/widgets/elementor/single-product-tabs.php:110
+#: public/widgets/elementor/pure-coupon.php:543
+#: public/widgets/elementor/pure-coupon.php:596
+#: public/widgets/elementor/pure-coupon.php:853
+#: public/widgets/elementor/sidebar-products-categories.php:236
+#: public/widgets/elementor/single-product-related.php:228
+#: public/widgets/elementor/single-product-related.php:295
+#: public/widgets/elementor/single-product-related.php:360
+#: public/widgets/elementor/single-product-related.php:446
+#: public/widgets/elementor/single-product-related.php:487
+#: public/widgets/elementor/sidebar-products-recent.php:117
+#: public/widgets/elementor/sidebar-products-recent.php:188
+#: public/widgets/elementor/sidebar-products-recent.php:231
+#: public/widgets/elementor/single-product-tags.php:127
+#: public/widgets/elementor/sidebar-attribute-filter.php:164
+#: public/widgets/elementor/sidebar-attribute-filter.php:235
+#: public/widgets/elementor/sidebar-products-search.php:104
+#: public/widgets/elementor/single-product-thumbnail.php:164
+#: public/widgets/elementor/product-card.php:102
+#: public/widgets/elementor/product-card.php:169
+#: public/widgets/elementor/product-card.php:618
+#: public/widgets/elementor/product-card.php:659
+#: public/widgets/elementor/product-card.php:788
+#: public/widgets/elementor/sidebar-top-rated.php:127
+#: public/widgets/elementor/sidebar-top-rated.php:198
+#: public/widgets/elementor/sidebar-top-rated.php:241
+msgid "Typography"
+msgstr ""
+
+#: public/widgets/elementor/checkout-existing-login.php:83
+msgid "Update Cart"
+msgstr ""
+
+#: public/woocommerce/cart/cart.php:162
+msgid "Update cart"
+msgstr ""
+
+#: public/widgets/elementor/checkout-existing-login.php:81
+msgid "Update Cart Button Title"
+msgstr ""
+
+#: public/woocommerce/checkout/payment.php:44
+#: public/widgets/elementor/checkout-payment.php:237
+#: public/widgets/elementor/checkout-payment.php:237
+msgid "Update totals"
+msgstr ""
+
+#: includes/class-pure-wc-shopbuild-woocomerce.php:40
+msgid "Upload/Add Image"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:395
+#: public/widgets/elementor/single-product-reviews.php:172
+msgid "Username Color"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-public.php:270
+msgid "Username is required."
+msgstr ""
+
+#: public/woocommerce/myaccount/form-lost-password.php:28
+#: public/woocommerce/global/form-login.php:34
+#: public/widgets/elementor/checkout-existing-login.php:221
+#: public/widgets/elementor/checkout-existing-login.php:264
+msgid "Username or email"
+msgstr ""
+
+#: public/woocommerce/myaccount/form-login.php:58
+msgid "Username or email address"
+msgstr ""
+
+#: public/widgets/elementor/single-product-tabs.php:407
+#: public/widgets/elementor/single-product-reviews.php:184
+msgid "Username Typography"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:243
+#: public/traits/shopbuild-common-style.php:284
+#: public/traits/shopbuild-common-style.php:324
+#: public/widgets/elementor/product-card.php:306
+#: public/widgets/elementor/product-card.php:347
+#: public/widgets/elementor/product-card.php:387
+msgid "Variation Background"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:264
+#: public/traits/shopbuild-common-style.php:305
+#: public/traits/shopbuild-common-style.php:345
+#: public/widgets/elementor/product-card.php:327
+#: public/widgets/elementor/product-card.php:368
+#: public/widgets/elementor/product-card.php:408
+msgid "Variation Border"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:373
+#: public/widgets/elementor/product-card.php:436
+msgid "Variation Single Margin"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:361
+#: public/widgets/elementor/product-card.php:424
+msgid "Variation Single Padding"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:252
+#: public/traits/shopbuild-common-style.php:293
+#: public/traits/shopbuild-common-style.php:333
+#: public/widgets/elementor/product-card.php:315
+#: public/widgets/elementor/product-card.php:356
+#: public/widgets/elementor/product-card.php:396
+msgid "Variation Text Color"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:223
+#: public/widgets/elementor/product-card.php:286
+msgid "Variation Typography"
+msgstr ""
+
+#: public/traits/shopbuild-common-style.php:413
+#: public/widgets/elementor/product-card.php:476
+msgid "Variation Wrapper"
+msgstr ""
+
+#: public/widgets/elementor/single-product-add-to-cart.php:77
+msgid "Variations Controls"
+msgstr ""
+
+#: public/woocommerce/single-product/review-meta.php:37
+msgid "verified owner"
+msgstr ""
+
+#: public/woocommerce/single-product-reviews.php:134
+msgid "Very poor"
+msgstr ""
+
+#. %s: placeholder
+#: includes/class-pure-wc-shopbuild-post-type.php:45
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: functions.php:1797
+msgid "View Product"
+msgstr ""
+
+#: public/sb-product-hook.php:839
+msgid "View Products"
+msgstr ""
+
+#: public/widgets/elementor/sidebar-products-price-filter.php:87
+#: public/widgets/elementor/sidebar-products-categories.php:218
+#: public/widgets/elementor/sidebar-products-recent.php:99
+#: public/widgets/elementor/sidebar-attribute-filter.php:146
+#: public/widgets/elementor/sidebar-products-search.php:86
+#: public/widgets/elementor/sidebar-top-rated.php:109
+msgid "Widget - Title"
+msgstr ""
+
+#: public/traits/shopbuild-styles.php:328
+#: public/widgets/elementor/single-product-tabs.php:314
+#: public/widgets/elementor/pure-coupon.php:279
+#: public/widgets/elementor/single-product-reviews.php:91
+#: public/widgets/elementor/sidebar-products-recent.php:343
+#: public/widgets/elementor/sidebar-top-rated.php:353
+msgid "Width"
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-wishlist.php:477
+msgid "Wishlist ("
+msgstr ""
+
+#: public/class-pure-wc-shopbuild-wishlist.php:259
+#: public/class-pure-wc-shopbuild-wishlist.php:374
+msgid "Wishlist is empty!"
+msgstr ""
+
+#. 1: first result 2: last result 3: total results
+#: public/woocommerce/loop/result-count.php:40
+#, php-format
+msgctxt "with first and last result"
+msgid "Showing %1$d&ndash;%2$d of %3$d result"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: public/widgets/elementor/sidebar-products-recent.php:82
+#: public/widgets/elementor/sidebar-top-rated.php:90
+msgid "Word Count"
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:118
+#: public/traits/shopbuild-slider.php:145
+#: public/traits/shopbuild-slider.php:160
+msgid "Yes"
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:1048
+msgid "You do not have permission to save settings."
+msgstr ""
+
+#: admin/class-pure-wc-shopbuild-admin.php:897
+msgid "You dont have enough permission!"
+msgstr ""
+
+#: public/woocommerce/myaccount/my-address.php:64
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: functions.php:1788
+msgid "You may also like"
+msgstr ""
+
+#: public/woocommerce/single-product/up-sells.php:26
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: public/widgets/elementor/cart-table.php:90
+#: public/widgets/elementor/cart-cross-sell.php:75
+msgid "You may be interested in..."
+msgstr ""
+
+#. %s opening and closing link tags respectively
+#: public/woocommerce/single-product-reviews.php:124
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr ""
+
+#: public/templates/checkout-fullwidth.php:43 public/templates/checkout.php:29
+#: public/templates/checkout-canvas.php:53
+#: public/woocommerce/checkout/form-checkout.php:26
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: public/traits/shopbuild-slider.php:35 public/traits/shopbuild-slider.php:49
+msgid "Your Icon"
+msgstr ""
+
+#: public/woocommerce/checkout/form-checkout.php:56
+msgid "Your order"
+msgstr ""
+
+#: public/widgets/elementor/checkout-payment.php:242
+msgid ""
+"Your personal data will be used to process your order, support your "
+"experience throughout this website, and for other purposes described in our"
+msgstr ""
+
+#: public/woocommerce/single-product-reviews.php:128
+msgid "Your rating"
+msgstr ""
+
+#: public/woocommerce/single-product-reviews.php:138
+msgid "Your review"
+msgstr ""
+
+#: public/woocommerce/single-product/review-meta.php:27
+msgid "Your review is awaiting approval"
+msgstr ""
+
+#: public/widgets/elementor/single-product-sku.php:75
+#: public/widgets/elementor/sidebar-products-price-filter.php:74
+#: public/widgets/elementor/cart-coupon.php:115
+#: public/widgets/elementor/pure-coupon.php:170
+#: public/widgets/elementor/pure-coupon.php:206
+#: public/widgets/elementor/pure-coupon.php:217
+#: public/widgets/elementor/pure-coupon.php:228
+#: public/widgets/elementor/sidebar-products-categories.php:90
+#: public/widgets/elementor/cart-table.php:91
+#: public/widgets/elementor/sidebar-products-recent.php:74
+#: public/widgets/elementor/single-product-tags.php:71
+#: public/widgets/elementor/sidebar-attribute-filter.php:77
+#: public/widgets/elementor/sidebar-products-search.php:75
+#: public/widgets/elementor/checkout-billing.php:76
+#: public/widgets/elementor/checkout-coupon.php:102
+#: public/widgets/elementor/checkout-coupon.php:115
+#: public/widgets/elementor/sidebar-top-rated.php:70
+#: public/widgets/elementor/cart-cross-sell.php:76
+msgid "Your Text"
+msgstr ""
+
+#: public/widgets/elementor/checkout-coupon.php:101
+msgid ""
+"Your text must contain anchor tag and class. Example: <a href=\"#\" "
+"class=\"showcoupon\">Click here to enter your code </a> ."
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:151
+msgid "Zip Code:"
+msgstr ""
+
+#: public/woocommerce/order/order-details-customer.php:91
+#: public/woocommerce/order/order-billing-address.php:73
+msgid "Zip code:"
+msgstr ""
+
+#: public/woocommerce/single-product/photoswipe.php:37
+msgid "Zoom in/out"
+msgstr ""

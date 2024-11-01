@@ -1,0 +1,130 @@
+@use '../utils/' as *;
+.#{$theme-prefix}-banner{
+    &-item{
+        overflow: hidden; 
+        height: 320px;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    &-thumb{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        @include tp-root('div'){
+            & img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    &-content{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+    &-title{
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 1.17;
+        margin-bottom: 15px;
+        @extend %ff-jost;
+    }
+    &-subtitle{
+        display: inline-block;
+        font-weight: 500;
+        font-size: 14px;
+        color: var(--sbp-common-black);
+        line-height: 1.3;
+        @extend %ff-jost;
+    }
+    &-btn{
+        @extend %ff-jost;
+        display: inline-block;
+        font-weight: 500;
+        font-size: 16px;
+        color: var(--sbp-common-black);
+        position: relative;
+
+        &::after{
+            position: absolute;
+            content: '';
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background-color: currentColor;
+        }
+        &:hover{
+            color: var(--sbp-common-black);
+        }
+    }
+    &-full{
+        $self: &;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+
+        &:hover{
+            #{$self}{
+                &-thumb{
+                    transform: scale(1.1);
+                }
+            }
+        }
+        &-thumb{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            @extend %transition;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        &-content{
+            position: absolute;
+            & > span{
+                font-size: 16px;
+                color: var(--sbp-common-white);
+                display: inline-block;
+                margin-bottom: 2px;
+                @extend %ff-jost;
+            }
+        }
+        &-title{
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 1.05;
+            margin-bottom: 30px;
+            color: var(--sbp-common-white);
+            @extend %ff-jost;
+            & a{
+                color: currentColor;
+                &:hover{
+                    color: var(--sbp-theme-primary)
+                }
+            }
+            
+        }
+        &-btn{
+            @extend %ff-jost;
+            display: inline-block;
+            font-weight: 400;
+            font-size: 16px;
+            padding: 4px 21px;
+            color: var(--sbp-common-white);
+            background-color: transparent;
+            border: 1.5px solid rgba($color: #fff, $alpha: 0.3);
+
+            &:hover{
+                background-color: var(--sbp-common-white);
+                border-color: var(--sbp-common-white);
+                color: var(--sbp-common-black);
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.storebuild-elementor-pro-hide {
+    display: none;
+ }
+ 
+ .elementor-button.go-pro.dialog-button.dialog-action.dialog-buttons-action.storebuild-elementor-pro-hide {
+    display: none !important;
+ }
+ 
+ .storebuild-pro-widget a.storebuild-pro-dialog-button-action {
+    display: inline-block !important;
+ }
+
+ .elementor-panel .elementor-element .icon i.sb-widget-icon::after {
+	width: 30px;
+	height: 30px;
+	content: "";
+	display: inline-block;
+	border-radius: 5px;
+	background: url("../img/sb-icon.png") no-repeat center center/cover;
+}

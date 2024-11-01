@@ -1,0 +1,282 @@
+@use '../utils/' as *;
+.#{$theme-prefix}-billing{
+    &-wrapper{
+        
+        & label{
+            position: static;
+            border: 0;
+            margin-bottom: 0;
+            display: inline-block;
+            width: auto;
+            color: #6B6C6C;
+            font-size: 14px;
+            & abbr{
+                &.required{
+                    color: red;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        & .woocommerce-input-wrapper{
+            & span{
+                display: block;
+            }
+        }
+
+        & input[class]{
+            &[type="text"],
+            &[type="email"],
+            &[type="tel"],
+            &[type="url"],
+            &[type="password"]{
+                outline: 0;
+                border-radius: 0;
+                height: 46px;
+                box-shadow: 0 1px 2px 0 rgba(25, 24, 34, 0.08), 0 0 1px 0 rgba(25, 24, 34, 0.24);
+                background: #f6f6f9;
+                font-size: 14px;
+                color: var(--sbp-common-black);
+                padding: 0 25px;
+                padding-right: 60px;
+                line-height: 46px;
+                margin-bottom: 0;
+                margin-right: 15px;
+                width: 100%;
+                border-radius: 6px;
+                border: 1px solid transparent;
+                @media #{$md, $sm, $xs}{
+                    width: 100%;
+                }
+                &:focus{
+                    outline: 0;
+                    border: 1px solid var(--sbp-theme-primary) !important;
+                }
+            }
+        }
+
+        select, .select2-container .select2-selection--single {
+            background-image: none;
+            padding: 0;
+            padding-left: 12px;
+        }
+        .select2-container--default .select2-selection--single .select2-selection__arrow {
+            transform: inherit;
+        }
+        
+        .select2-container .select2-selection--single b, 
+        select b, 
+        .woocommerce-page .select2-container .select2-selection--single b, 
+        .woocommerce-page select b {
+            display: inline-block;
+        }
+
+        .select2-container .select2-selection--single {
+            height: 46px;
+            margin-bottom: 0;
+        }
+
+        .select2-container--default .select2-selection--single {
+            background-color: #fff;
+            border: 0;
+            border-radius: 0;
+            box-shadow: 0 1px 2px 0 rgba(25, 24, 34, 0.08), 0 0 1px 0 rgba(25, 24, 34, 0.24);
+            background: #f6f6f9;
+            border-radius: 6px;
+            box-shadow: 0 1px 2px 0 rgba(25, 24, 34, 0.08), 0 0 1px 0 rgba(25, 24, 34, 0.24);
+        }
+        .select2-container .select2-selection--single .select2-selection__rendered {
+            padding-left: 12px;
+            padding-right: 35px;
+        }
+        .select2-container--default .select2-selection--single .select2-selection__arrow {
+            top: 0;
+            right: 17px;
+            height: 46px;
+        }
+        .select2-container--default .select2-selection--single .select2-selection__rendered {
+            color: var(--sbp-common-black);
+            line-height: 44px;
+        }
+
+        & button.button[name="save_address"],
+        & button.button[name="save_account_details"] {
+            border-radius: 0;
+            border: 0;
+            outline: 0;
+            font-size: 16px;
+            font-weight: 500;
+            color: var(--sbp-common-white);
+            padding: 11px 45px;
+            background-color: var(--sbp-theme-primary);
+            margin-bottom: 15px;
+            text-transform: capitalize;
+            line-height: 24px;
+            border-radius: 6px;
+            &:hover{
+                background-color: var(--sbp-common-black);
+                color: var(--sbp-common-white);
+            }
+        }
+
+        & button.button[name="save_account_details"] {
+            margin-top: 20px;
+        }
+        & .woocommerce-address-fields__field-wrapper {
+            margin-bottom: 20px;
+        }
+        & .woocommerce-address-fields > p {
+            margin-bottom: 0;
+        }
+        & .woocommerce-form-row{
+            margin-bottom: 0;
+        }
+        & .woocommerce-EditAccountForm legend {
+            font-size: 24px;
+            font-weight: 600;
+            letter-spacing: 0;
+        }
+
+
+        & button.woocommerce-form-login__submit[type="submit"],
+        & button.woocommerce-form-register__submit[name="register"],
+        & button.woocommerce-Button.woocommerce-button.button[type="submit"]{
+            border-radius: 0;
+            border: 0;
+            outline: 0;
+            font-size: 16px;
+            font-weight: 500;
+            color: var(--sbp-common-white);
+            padding: 10px 45px;
+            background-color: var(--sbp-theme-primary);
+            margin-bottom: 15px;
+            display: block;
+            &:hover{
+                background-color: var(--sbp-common-black);
+                color: var(--sbp-common-white);
+            }
+        }
+
+        & .woocommerce-privacy-policy-text{
+            & p{
+                & a{
+                    color: var(--sbp-theme-primary);
+
+                    &:hover{
+                        text-decoration: underline !important;
+                    }
+                }
+            }
+        }
+    }
+    &-address{
+        &-item{
+            @media #{$sm, $xs}{
+                margin-bottom: 40px;
+            }
+        }
+        &-title.woocommerce-column__title{
+
+            @include tp-root('h3'){
+                font-size: 22px;
+                margin-bottom: 20px;
+                @extend %ff-jost;
+                font-weight: 700;
+                border: 0;
+                background: transparent;
+                padding: 0;
+            }
+        }
+        &-icon{
+            flex:  0 0 auto;
+            & span{
+                display: inline-block;
+                min-width: 45px;
+                margin-right: 20px;
+                color: var(--sbp-theme-primary);
+                @media #{$xs}{
+                    margin-bottom: 20px;
+                }
+                & svg{
+                    width: 45px;
+                    @include transform(translateY(10px));
+                }
+            }
+        }
+        &-content{
+            width: 100%;
+            & p{
+                font-size: 14px;
+                margin-bottom: 10px;
+                @extend %ff-jost;
+                & > span{
+                    color: var(--sbp-common-black);
+                    font-weight: 500;
+                    margin-right: 7px;
+                    @extend %ff-jost;
+                }
+                & small{
+                    font-size: 100%;
+                }
+            }
+        }
+    }
+    
+}
+
+
+.sb-ship-address-label{
+    & input{
+        display: none;
+
+        &:checked{
+            & ~ span{
+                &::after{
+                    background-color: var(--sbp-theme-primary);
+                    border-color: var(--sbp-theme-primary);
+                }
+                &::before{
+                    visibility: visible;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    & span{
+        font-size: 14px;
+        color: var(--sbp-common-black);
+        padding-left: 26px;
+        position: relative;
+        &::after,
+        &::before{
+            position: absolute;
+            content: '';
+            top: 50%;
+            left: 0;
+            width: 18px;
+            height: 18px;
+            line-height: 16px;
+            transform: translateY(-50%);
+            @include transition(all, .2s);
+            text-align: center;
+            z-index: 1;
+        }
+
+        &::after{
+            border: 1px solid #C3C7C9;
+        }
+        &::before{
+            content: url('../icons/check.svg');
+            visibility: hidden;
+            opacity: 0;
+            color: var(--sbp-common-white);
+            z-index: 2;
+            
+        }
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}

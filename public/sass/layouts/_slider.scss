@@ -1,0 +1,126 @@
+@use '../utils/' as *;
+
+
+.#{$theme-prefix}-slider{
+    position: relative;
+    $self: &;
+    
+    & .slick-slide.slick-current.slick-active{
+        & #{$self}{
+            &-title,
+            &-subtitle,
+            &-content p,
+            &-btn{
+                @include animation-name();
+            }
+            &-thumb{
+                & img{
+                    @include animation-name(extendedFadeInRight);
+                }
+            }
+        }
+    }
+
+    & .slick-arrow[type="button"]{
+        position: absolute;
+        top: 50%;
+        z-index: 1;
+        background: var(--sbp-common-white);
+        text-align: center;
+        font-size: 16px;
+        color: var(--sbp-text-1);
+        cursor: pointer;
+        border-radius: 0;
+        border: 1px solid #E0E0E0;
+        @extend %transition;
+        @include transform(translateY(calc(-50% - 25px)));
+
+        &:hover{
+            background: var(--sbp-theme-primary);
+            border-color: var(--sbp-theme-primary);
+            color: var(--sbp-common-white);
+        }
+        &.slick-prev{
+            left: 0;
+        }
+        &.slick-next{
+            right: 0;
+        }
+    }
+
+    & ul.slick-dots{
+        position: absolute;
+        bottom: 15px;
+        left: 50%;
+        @include transform(translateX(-50%));
+    }
+
+    &-overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+    &-item{
+        position: relative;
+        z-index: 1;
+    }
+    &-subtitle{
+        font-size: 20px;
+        color: var(--sbp-common-black);
+        display: inline-block;
+        margin-bottom: 15px;
+        animation-delay: .1s;
+        animation-duration: 1s;
+        @extend %ff-jost;
+    }
+    &-title{
+        font-weight: 400;
+        font-size: 100px;
+        line-height: 1.06;
+        margin-bottom: 20px;
+        animation-delay: .3s;
+        animation-duration: 1s;
+        @extend %ff-jost;
+        color: var(--sbp-common-black);
+    }
+    &-content{
+        & p{
+            font-size: 16px;
+            color: var(--sbp-common-black);
+            margin-bottom: 40px;
+            animation-delay: .5s;
+            animation-duration: 1s;
+            @extend %ff-jost;
+        }
+    }
+    &-thumb{
+        & img{
+            animation-delay: .7s;
+            animation-duration: 1s;
+            position: absolute;
+        }
+    }
+    &-btn{
+        display: inline-block;
+        font-weight: 400;
+        font-size: 16px;
+        padding: 9px 26px;
+        text-align: center;
+        background-color: transparent;
+        border: 1.5px solid var(--sbp-common-black);
+        color: var(--sbp-common-black);
+        padding: 8px 29px;
+        @extend %ff-jost;
+        animation-delay: .7s;
+        animation-duration: 1s;
+
+        &:hover{
+            background-color: var(--sbp-theme-primary);
+            border-color: var(--sbp-theme-primary);
+            color: var(--sbp-common-white);
+        }
+    }
+}

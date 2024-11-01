@@ -1,0 +1,61 @@
+@use '../../utils/' as *;
+
+.#{$theme-prefix}-product{
+    $self: &;
+
+    &-countdown {
+        & ul {
+            @include flexbox();
+            margin: 0 !important;
+            padding: 0;
+            padding-left: 0;
+            & li {
+                list-style: none;
+                font-size: 12px;
+                color: var(--sbp-common-black);
+                display: inline-block;
+                padding: 0 10px;
+                position: relative;
+                text-transform: lowercase;
+                font-weight: 400;
+                @extend %ff-jost;
+                &:first-child {
+                    padding-left: 0;
+                }
+                &:last-child{
+                    padding-right: 0;
+                }
+                & span {
+                    line-height: 1;
+                    font-size: 14px;
+                    font-weight: 500;
+                    margin-right: 2px;
+                }
+
+        
+                &:not(:last-child) {
+                    &::before {
+                        position: absolute;
+                        right: 0;
+                        top: 3px;
+                        width: 3px;
+                        height: 3px;
+                        border-radius: 50%;
+                        content: ":";
+                        @extend %ff-jost;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+        &-time{
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            right: auto;
+            background: var(--sbp-common-white);
+            padding: 10px 12px;
+            @include transform(translateX(-50%));
+        }
+    }
+}

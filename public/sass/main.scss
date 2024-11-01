@@ -1,0 +1,11 @@
+@use './utils/' as *;
+
+@import url($font-url);
+
+@import './layouts/grid';
+.woocommerce-page,
+body[class*="elementor"]{
+    @import './layouts/index.scss';
+    @import './components/index.scss';
+}
+@import './layouts/notification';

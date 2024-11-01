@@ -1,0 +1,111 @@
+.pure-wc-comparison { overflow: hidden; position: relative; transition: 0.5s; }
+.pure-wc-comparison-container { background: none; position: absolute; left: 0; top: 0; width: 100%; height: 100%; z-index: 10; }
+.pure-wc-comparison-item { overflow: hidden; position: relative; }
+.pure-wc-comparison-item > div { height: 100%; position: absolute; }
+div.pure-wc-comparison-item img { position: absolute; left: 0; top: 0; width: auto; height: 100%; max-width: initial;}
+.pure-wc-comparison-item-before { z-index: 5; }
+div.pure-wc-comparison-item-before img{ height: inherit; max-width: initial; }
+.pure-wc-comparison-item-after { z-index: 10; }
+.pure-wc-comparison-seperator { width:4px; position: absolute; height: 100%; z-index: 15; left: 0; top: 0; background: black; cursor: ew-resize; }
+.pure-wc-comparison-seperator > div > span { 
+    transition: 0.25s; 
+    cursor: pointer; 
+    position: absolute; 
+    width: 50px; 
+    height: 50px; 
+    cursor: ew-resize; 
+    border: 0; 
+    background: white; 
+    top: 50%; 
+    left: 50%; 
+    border-radius: 30px; 
+    box-shadow: 0px 21px 24px rgba(0,0,0,.15);
+    transform: translate(-50%, -50%);
+    transform-origin: center center;
+} 
+.pure-wc-comparison-seperator > div > span .drag-icon{ 
+    position: absolute;
+    font-style: normal;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: .8;
+} 
+.pure-wc-comparison-seperator > div > span .drag-icon svg{ 
+    width: 12px;
+} 
+
+
+.pure-wc-comparison-seperator > div > span::before,
+.pure-wc-comparison-seperator > div > span::after { 
+    content: ""; 
+    display: inline-block; 
+    padding: 6px; 
+    top: 50%; 
+    position: absolute; 
+    margin-top: -10px; 
+    right: 0; 
+    margin-right: 10px; 
+}
+.pure-wc-comparison-seperator:hover > div > span, .pure-wc-comparison-seperator:active > div > span { background: black; }
+.pure-wc-comparison-seperator:active > div > span { transform: scale(0.8)  translate(-50%, -50%); }
+.pure-wc-comparison-seperator:hover { opacity:1 ; }
+
+.pure-wc-comparison-item-before-text, .pure-wc-comparison-item-after-text { 
+    position: absolute; 
+    z-index: 14; 
+    display: inline-block; 
+    background: rgba(0, 0, 0, 0.6); 
+    color:#fff; 
+    padding: 12px 20px; 
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    line-height: 1;
+    color: var(--sbp-common-black);
+    font-family: var(--sbp-ff-jost);
+}
+.pure-wc-comparison-top-left {  left: 20px; top: 20px; }
+.pure-wc-comparison-top-right {  right:20px; top: 20px; }
+.pure-wc-comparison-bottom-left {  left:20px; bottom: 20px; }
+.pure-wc-comparison-bottom-right {  right:20px; bottom: 20px; }
+.pure-wc-comparison-extra-small-text { padding: 5px ; font-size: 11px ; bottom: 0; }  
+.pure-wc-comparison-extra-small-text-before { left: 0; }
+.pure-wc-comparison-extra-small-text-after { right: 0; }
+.pure-wc-comparison-hover:hover { opacity: 0.95; box-shadow: 0 0 50px #ccc; }
+.pure-wc-comparison-drag-transition { transition: 0.5s; }
+.pure-wc-comparison-hover-transition { transition: 0s; }
+.pure-wc-comparison-animation { animation: pure-wc-comparison-startanimaton 1s ease-in-out ; }
+.pure-wc-comparison-animation-item-1 { animation: pure-wc-comparison-continuous-1 10s ease-in-out infinite; }
+.pure-wc-comparison-animation-item-2 { animation: pure-wc-comparison-continuous-2 10s ease-in-out infinite; }
+.pure-wc-comparison-animation-seperator { animation: pure-wc-comparison-continuous-3 10s ease-in-out infinite; }
+
+/* Animations */
+@keyframes pure-wc-comparison-startanimaton { from { opacity: 0; width:50%; transform: scale(0.85); } to { opacity: 1; width:100%; transform: scale(1); }  }
+@keyframes pure-wc-comparison-continuous-1 { 0% { width:10%; } 50% { width:90%; } 100% { width:10%; } }
+@keyframes pure-wc-comparison-continuous-2 { 0% { width:90%; } 50% { width:10%; } 100% { width:90%; } }
+@keyframes pure-wc-comparison-continuous-3 { 0% { left:10%; } 50% { left:90%; } 100% { left:10%; } }
+
+/* Theme Light */
+.pure-wc-comparison-theme-light .pure-wc-comparison-seperator  { background: white ; }
+.pure-wc-comparison-theme-light .pure-wc-comparison-seperator > div > span { 
+    border-color: white ; 
+    background: white ; 
+
+}
+.pure-wc-comparison-theme-light .pure-wc-comparison-seperator > span::after, .pure-wc-comparison-theme-light .pure-wc-comparison-seperator > span::before { border-color: white ; }
+.pure-wc-comparison-theme-light :hover > div > span, .pure-wc-comparison-theme-light :active > div > span { background: white ; }
+.pure-wc-comparison-theme-light .pure-wc-comparison-item-before-text, .pure-wc-comparison-theme-light .pure-wc-comparison-item-after-text { background: white ; color:black  }
+
+/* Theme Dark */
+.pure-wc-comparison-theme-dark .pure-wc-comparison-seperator  { background: black ; }
+.pure-wc-comparison-theme-dark .pure-wc-comparison-seperator > div > span { border-color: black ; background: black ; }
+.pure-wc-comparison-theme-dark .pure-wc-comparison-seperator > span::after, .pure-wc-comparison-theme-dark .pure-wc-comparison-seperator > span::before { border-color: black ; }
+.pure-wc-comparison-theme-dark :hover > div > span, .pure-wc-comparison-theme-dark :active > div > span { background: black ; }
+.pure-wc-comparison-theme-dark .pure-wc-comparison-item-before-text, .pure-wc-comparison-theme-dark .pure-wc-comparison-item-after-text { background: black ; color:white  }
+
+/* For Mobile Devices */
+@media only screen and (max-width: 600px) {
+    .pure-wc-comparison{ width: 100% ; }
+}
+  

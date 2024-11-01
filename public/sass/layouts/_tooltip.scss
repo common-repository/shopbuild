@@ -1,0 +1,53 @@
+@use '../utils/' as *;
+.#{$theme-prefix}-product{
+    &-tooltip{
+        @extend %ff-jost;
+        position: absolute;
+        top: 50%;
+        @include transform(translateY(-50%));
+        right: 100%;
+        font-weight: 600;
+        font-size: 12px;
+        color: var(--sbp-common-white);
+        background-color: var(--sbp-common-black);
+        display: inline-block;
+        width: max-content;
+        line-height: 1;
+        padding: 4px 6px;
+        border-radius: 4px;
+        visibility: hidden;
+        opacity: 0;
+        z-index: 1;
+        @include transition-mul((opacity .3s ease,visibility .3s ease,transform .3s cubic-bezier(.71,1.7,.77,1.24),-webkit-transform .3s cubic-bezier(.71,1.7,.77,1.24)));
+        @extend %transition;
+        
+
+        &::before{
+            position: absolute;
+            content: '';
+            right: -4px;
+            top: 50%;
+            @include transform(translateY(-50%));
+            width: 0;
+            height: 0;
+            border-top: 8px solid transparent;
+            border-left: 8px solid var(--sbp-common-black);
+            border-bottom: 8px solid transparent;                
+        }
+
+        &-right{
+            left: 100%;
+            right: auto;
+
+            &::before{
+                left: -4px;
+                right: auto;
+                border-left: 0;
+                border-right: 8px solid var(--sbp-common-black);
+            }
+        }
+        &-view-cart{
+            display: none;
+        }
+    }
+}

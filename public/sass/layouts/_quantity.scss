@@ -1,0 +1,110 @@
+@use '../utils/' as *;
+
+
+.#{$theme-prefix}-product-quantity{
+	width: 100px;
+	position: relative;
+    border-radius: 20px;
+}
+
+.#{$theme-prefix}-cart-plus,
+.#{$theme-prefix}-cart-minus{
+    display: inline-block;
+    text-align: center;
+    font-size: 16px;
+	color: var(--sbp-common-black);
+	@extend %transition;
+	position: absolute;
+	top: 50%;
+	left: 16px;
+	@include transform(translateY(-50%));
+    @include flexbox();
+    justify-content: center;
+    align-items: center;
+
+	& svg{
+		@include transform(translateY(0px));
+	}
+    &:hover{
+        cursor: pointer;
+        color: var(--sbp-theme-primary);
+    }
+
+    &.sb-cart-minus{
+        & svg{
+            @include transform(translateY(0px));
+        }
+    }
+
+	&.sb-cart-plus{
+		left: auto;
+		right: 16px;
+
+		&::after{
+			left: 0;
+			right: auto;
+		}
+
+        & svg{
+            @include transform(translateY(0px));
+        }
+	}
+}
+
+.#{$theme-prefix}-cart-input[type="text"]{
+    height:34px;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #DADCE0;
+	background-color: var(--sbp-common-white);
+	padding: 0 30px;
+    border-radius: 20px;
+    width: 100%;
+    &:focus{
+        outline: none;
+    }
+}
+
+.#{$theme-prefix}-product-quantity{
+    width: 122px;
+    border-radius: 0;
+
+    &.quantity{
+        margin: 0 !important;
+        float: none !important;
+    }
+
+    & .#{$theme-prefix}-cart{
+        &-plus,
+        &-minus{
+            width: 24px;
+            height: 24px;
+            line-height: 24px;
+            text-align: center;
+            border-radius: 50%;
+            left: 14px;
+            min-height: auto;
+            border: 0;
+            &:hover{
+                background-color: var(--sbp-common-white);
+                color: var(--sbp-theme-primary);
+            }
+        }
+        &-plus{
+            left: auto;
+            right: 14px;
+        }
+
+        &-input[type="text"]{
+            height: 46px;
+            line-height: 46px;
+            background-color: #F3F5F6;
+            border: 0;
+            border-radius: 0;
+            font-size: 16px;
+            color: var(--sbp-common-black);
+            width: 100%;
+        }
+    }
+}
+ 

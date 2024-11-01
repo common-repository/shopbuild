@@ -1,0 +1,38 @@
+@use '../utils/' as *;
+
+.currency-switcher__dropdown{
+    position: relative;
+    width: 100%;
+    border: 1px solid var(--sbp-border-primary);
+    &::after {
+        color: var(--sbp-common-black);
+        content: '';
+        pointer-events: none;
+        position: absolute;
+        right: 24px;
+        top: 50%;
+        font-size: 20px;
+        width: 8px;
+        height: 8px;
+        border-right: 1px solid var(--sbp-common-black);
+        border-bottom: 1px solid var(--sbp-common-black);
+        transform: translateY(-50%) rotate(45deg);
+    }
+    & .currency-switcher__dropdown__list{
+        -moz-appearance: none;
+        -webkit-appearance: none;
+        background: white;
+        border: none;
+        border-radius: 0;
+        cursor: pointer;
+        padding: 12px 24px;
+        width: 100%;
+        font-size: 14px;
+            &:focus {
+                color: black;
+            }
+        &::-ms-expand {
+          display: none;
+        }
+    }
+}
